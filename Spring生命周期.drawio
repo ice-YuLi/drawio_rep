@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T11:26:28.556Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="Qc9Av7aKXintMbeKmQ9c" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T11:35:22.255Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="gm8-f9ty6r8VoRemzzKo" version="16.1.0" type="github">
   <diagram id="fghGY0ya3qd3dH9HAjV5" name="第 1 页">
     <mxGraphModel dx="3335" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -224,17 +224,36 @@
         <mxCell id="0XE6-9rxxqehGDU4GbFl-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-37" target="0XE6-9rxxqehGDU4GbFl-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-37" target="0XE6-9rxxqehGDU4GbFl-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-66" value="解析@Autowire&lt;br&gt;等注解" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0XE6-9rxxqehGDU4GbFl-60">
+          <mxGeometry x="-0.5887" relative="1" as="geometry">
+            <mxPoint x="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0XE6-9rxxqehGDU4GbFl-37" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;AbstractAutowireCapableBeanFactory&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;.java&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;ibp.postProcessProperties(...)&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2290" y="2206.53" width="310" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="0XE6-9rxxqehGDU4GbFl-38" value="调用AutowiredAnnotationBeanPostProcessor.java的postProcessProperties处理@Autowire注解" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2650" y="2206.53" width="310" height="48" as="geometry" />
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-38" target="0XE6-9rxxqehGDU4GbFl-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-38" value="AutowiredAnnotationBeanPostProcessor.java&lt;br&gt;postProcessProperties()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2720" y="2206.53" width="310" height="48" as="geometry" />
         </mxCell>
         <mxCell id="0XE6-9rxxqehGDU4GbFl-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-41" target="0XE6-9rxxqehGDU4GbFl-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0XE6-9rxxqehGDU4GbFl-45" value="功能之一" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0XE6-9rxxqehGDU4GbFl-44">
           <mxGeometry x="0.093" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-41" target="0XE6-9rxxqehGDU4GbFl-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-55" value="功能之二" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0XE6-9rxxqehGDU4GbFl-54">
+          <mxGeometry x="0.002" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -247,8 +266,52 @@
         <mxCell id="0XE6-9rxxqehGDU4GbFl-43" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;调用AutowiredAnnotationBeanPostProcessor的postProcessMergedBeanDefinition方法&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2380" y="1350" width="280" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-46" target="0XE6-9rxxqehGDU4GbFl-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3620" y="2200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3625" y="1380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0XE6-9rxxqehGDU4GbFl-46" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;解析@Autowired，@&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;Value，@???，并放入cache中&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;findAutowiringMetadata(beanName, beanType, null);&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2800" y="1345" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-48" target="0XE6-9rxxqehGDU4GbFl-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-48" value="findAutowiringMetadata(beanName, bean.getClass(), pvs)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3090" y="2206.53" width="310" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-50" value="直接从cache中获取，因为在之前已经解析过了&lt;br&gt;this.injectionMetadataCache.get(cacheKey);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3470" y="2206.53" width="310" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-53" target="0XE6-9rxxqehGDU4GbFl-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-53" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;调用CommonAnnotationBeanPostProcessor的postProcessMergedBeanDefinition方法&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2380" y="1510" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-57" target="0XE6-9rxxqehGDU4GbFl-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-57" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;解析@A&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;Resource，并放入cache中&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;findResourceMetadata(beanName, beanType, null);&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2800" y="1505" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-59" target="0XE6-9rxxqehGDU4GbFl-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-59" value="CommonAnnotationBeanPostProcessor.java&lt;br&gt;postProcessProperties()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2720" y="2310" width="310" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-61" target="0XE6-9rxxqehGDU4GbFl-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-61" value="findResourceMetadata(beanName, bean.getClass(), pvs)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3090" y="2310" width="310" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-63" value="直接从cache中获取，因为在之前已经解析过了&lt;br&gt;this.injectionMetadataCache.get(cacheKey)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3470" y="2310" width="310" height="48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
