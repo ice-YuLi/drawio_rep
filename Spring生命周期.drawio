@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T11:50:10.129Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="RS2S4eDVeOuJUegUVZ0r" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T12:03:46.221Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="q6UxorVCBOlCv7XiwZdu" version="16.1.0" type="github">
   <diagram id="fghGY0ya3qd3dH9HAjV5" name="第 1 页">
     <mxGraphModel dx="3335" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -176,6 +176,9 @@
         <mxCell id="0XE6-9rxxqehGDU4GbFl-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-15" target="0XE6-9rxxqehGDU4GbFl-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-15" target="0XE6-9rxxqehGDU4GbFl-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0XE6-9rxxqehGDU4GbFl-15" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;AbstractAutowireCapableBeanFactory&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;.java&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;doCreateBean(beanName, mbdToUse, args)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1497" y="1370" width="283" height="50" as="geometry" />
         </mxCell>
@@ -334,7 +337,7 @@
         <mxCell id="0XE6-9rxxqehGDU4GbFl-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-69" target="0XE6-9rxxqehGDU4GbFl-92">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0XE6-9rxxqehGDU4GbFl-69" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;// 实例化&lt;br&gt;AbstractAutowireCapableBeanFactory&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;.java&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;initializeBean(beanName, exposedObject, mbd);&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-69" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;// 初始化bean&lt;br&gt;AbstractAutowireCapableBeanFactory&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;.java&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;initializeBean(beanName, exposedObject, mbd);&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1900" y="2740" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0XE6-9rxxqehGDU4GbFl-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-71" target="0XE6-9rxxqehGDU4GbFl-73">
@@ -400,6 +403,9 @@
         </mxCell>
         <mxCell id="0XE6-9rxxqehGDU4GbFl-93" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;调用初始化后的postProcessor&lt;br&gt;AbstractAutowireCapableBeanFactory&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;.java&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;processor.postProcessAfterInitialization(result, beanName);&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2700" y="3110" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-96" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;// 初始化bean&lt;br&gt;AbstractAutowireCapableBeanFactory&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;.java&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;initializeBean(beanName, exposedObject, mbd);&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="3340" width="280" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
