@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T11:35:22.255Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="gm8-f9ty6r8VoRemzzKo" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T11:50:10.129Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="RS2S4eDVeOuJUegUVZ0r" version="16.1.0" type="github">
   <diagram id="fghGY0ya3qd3dH9HAjV5" name="第 1 页">
     <mxGraphModel dx="3335" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -173,6 +173,9 @@
         <mxCell id="0XE6-9rxxqehGDU4GbFl-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-15" target="0XE6-9rxxqehGDU4GbFl-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-15" target="0XE6-9rxxqehGDU4GbFl-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0XE6-9rxxqehGDU4GbFl-15" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;AbstractAutowireCapableBeanFactory&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;.java&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;doCreateBean(beanName, mbdToUse, args)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1497" y="1370" width="283" height="50" as="geometry" />
         </mxCell>
@@ -210,6 +213,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0XE6-9rxxqehGDU4GbFl-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-29" target="0XE6-9rxxqehGDU4GbFl-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-29" target="0XE6-9rxxqehGDU4GbFl-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0XE6-9rxxqehGDU4GbFl-29" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;// 填充属性&lt;br&gt;AbstractAutowireCapableBeanFactory&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;.java&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;populateBean(beanName, mbd, instanceWrapper);&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -312,6 +318,88 @@
         </mxCell>
         <mxCell id="0XE6-9rxxqehGDU4GbFl-63" value="直接从cache中获取，因为在之前已经解析过了&lt;br&gt;this.injectionMetadataCache.get(cacheKey)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3470" y="2310" width="310" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-67" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;applyPropertyValues(beanName, mbd, bw, pvs);&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="2390" width="310" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-69" target="0XE6-9rxxqehGDU4GbFl-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-69" target="0XE6-9rxxqehGDU4GbFl-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-69" target="0XE6-9rxxqehGDU4GbFl-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-69" target="0XE6-9rxxqehGDU4GbFl-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-69" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;// 实例化&lt;br&gt;AbstractAutowireCapableBeanFactory&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;.java&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;initializeBean(beanName, exposedObject, mbd);&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="2740" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-71" target="0XE6-9rxxqehGDU4GbFl-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-75" value="处理aware" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0XE6-9rxxqehGDU4GbFl-74">
+          <mxGeometry x="-0.2924" relative="1" as="geometry">
+            <mxPoint x="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-71" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;AbstractAutowireCapableBeanFactory&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;.java&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;invokeAwareMethods(beanName, bean);&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="2530" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-73" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;if (bean instanceof BeanNameAware)&lt;br&gt;&lt;/span&gt;if (bean instanceof BeanClassLoaderAware)&lt;br&gt;if (bean instanceof BeanFactoryAware)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2660" y="2530" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-76" target="0XE6-9rxxqehGDU4GbFl-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-76" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;AbstractAutowireCapableBeanFactory&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;.java&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;applyBeanPostProcessorsBeforeInitialization(wrappedBean, beanName);&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="2670" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-78" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;调用初始化前的postProcessor&lt;br&gt;AbstractAutowireCapableBeanFactory&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;.java&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;processor.postProcessBeforeInitialization(result, beanName);&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2700" y="2670" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-80" target="0XE6-9rxxqehGDU4GbFl-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-80" target="0XE6-9rxxqehGDU4GbFl-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-80" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;调用初始化方法&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;AbstractAutowireCapableBeanFactory&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;.java&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;invokeInitMethods(beanName, wrappedBean, mbd);&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="2890" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-82" target="0XE6-9rxxqehGDU4GbFl-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-86" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0XE6-9rxxqehGDU4GbFl-85">
+          <mxGeometry x="-0.4539" y="-2" relative="1" as="geometry">
+            <mxPoint x="18" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-82" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;是否是实现&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;InitializingBean接口&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;bean instanceof InitializingBean&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2680" y="2790" width="360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-84" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;调用afterPropertiesSet()方法&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3110" y="2822.5" width="210" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-87" target="0XE6-9rxxqehGDU4GbFl-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-87" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;调用自定义初始化方法&lt;br&gt;invokeCustomInitMethod(beanName, bean, mbd);&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2680" y="2960" width="305" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-89" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;调用自定义初始化方法&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;methodToInvoke.invoke(bean);&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3110" y="2960" width="215" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="0XE6-9rxxqehGDU4GbFl-92" target="0XE6-9rxxqehGDU4GbFl-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-92" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;AbstractAutowireCapableBeanFactory&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;.java&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;applyBeanPostProcessorsAfterInitialization(wrappedBean, beanName);&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="3110" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0XE6-9rxxqehGDU4GbFl-93" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;调用初始化后的postProcessor&lt;br&gt;AbstractAutowireCapableBeanFactory&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;.java&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;processor.postProcessAfterInitialization(result, beanName);&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2700" y="3110" width="370" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
