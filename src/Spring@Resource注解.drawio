@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T08:29:57.686Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="zhEjJlNowbr_g4KhLIq6" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-29T08:35:20.953Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="ifOSinbCdkQZE_r8fskM" version="16.1.0" type="github">
   <diagram id="2rsU9yD35tYkbE_-SbJo" name="第 1 页">
     <mxGraphModel dx="3452" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -525,20 +525,20 @@
         <mxCell id="a_a16aSGv4rgpMYStxbP-7" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;return metadata&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4410" y="1432.5" width="130" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="a_a16aSGv4rgpMYStxbP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_a16aSGv4rgpMYStxbP-10">
+        <mxCell id="a_a16aSGv4rgpMYStxbP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_a16aSGv4rgpMYStxbP-10" target="a_a16aSGv4rgpMYStxbP-19">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="4460.000000000001" y="1590" as="targetPoint" />
             <Array as="points">
               <mxPoint x="4400" y="1670" />
-              <mxPoint x="4400" y="1590" />
+              <mxPoint x="4400" y="1595" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="a_a16aSGv4rgpMYStxbP-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_a16aSGv4rgpMYStxbP-10">
+        <mxCell id="a_a16aSGv4rgpMYStxbP-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_a16aSGv4rgpMYStxbP-10" target="a_a16aSGv4rgpMYStxbP-21">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="4400" y="1670" />
-              <mxPoint x="4400" y="1766" />
+              <mxPoint x="4400" y="1772" />
             </Array>
             <mxPoint x="4460.000000000001" y="1766.5299999999997" as="targetPoint" />
           </mxGeometry>
@@ -549,8 +549,84 @@
         <mxCell id="a_a16aSGv4rgpMYStxbP-10" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;CommonAnnotationBeanPostProcessor.java&lt;/span&gt;&lt;br style=&quot;font-size: 13.0667px&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;metadata = buildResourceMetadata(clazz);&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4000" y="1635" width="330" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="a_a16aSGv4rgpMYStxbP-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="a_a16aSGv4rgpMYStxbP-12" target="a_a16aSGv4rgpMYStxbP-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4165" y="1900" />
+              <mxPoint x="3980" y="1900" />
+              <mxPoint x="3980" y="1570" />
+              <mxPoint x="4082" y="1570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="a_a16aSGv4rgpMYStxbP-12" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;放入缓存中&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;CommonAnnotationBeanPostProcessor.java&lt;/span&gt;&lt;br style=&quot;font-size: 13.0667px&quot;&gt;this.injectionMetadataCache.put(cacheKey, metadata);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4000" y="1790" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a_a16aSGv4rgpMYStxbP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_a16aSGv4rgpMYStxbP-19" target="a_a16aSGv4rgpMYStxbP-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_a16aSGv4rgpMYStxbP-19" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;解析当前bean的field&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;CommonAnnotationBeanPostProcessor&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;.java&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;ReflectionUtils.doWithLocalFields&lt;/span&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%2013.0667px%26quot%3B%26gt%3BAutowiredAnnotationBeanPostProcessor.java%26lt%3B%2Fspan%26gt%3B%26lt%3Bbr%20style%3D%26quot%3Bfont-size%3A%2013.0667px%26quot%3B%26gt%3Bmetadata%20%3D%20buildAutowiringMetadata(clazz)%3B%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%224030%22%20y%3D%221540%22%20width%3D%22330%22%20height%3D%2270%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4470" y="1560" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a_a16aSGv4rgpMYStxbP-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_a16aSGv4rgpMYStxbP-21" target="a_a16aSGv4rgpMYStxbP-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_a16aSGv4rgpMYStxbP-21" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;解析当前bean的method&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;CommonAnnotationBeanPostProcessor&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;.java&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;ReflectionUtils.&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;doWithLocalMethods&lt;/span&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot; face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%2013.0667px%26quot%3B%26gt%3BAutowiredAnnotationBeanPostProcessor.java%26lt%3B%2Fspan%26gt%3B%26lt%3Bbr%20style%3D%26quot%3Bfont-size%3A%2013.0667px%26quot%3B%26gt%3Bmetadata%20%3D%20buildAutowiringMetadata(clazz)%3B%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%224030%22%20y%3D%221540%22%20width%3D%22330%22%20height%3D%2270%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4470" y="1736.53" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a_a16aSGv4rgpMYStxbP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_a16aSGv4rgpMYStxbP-24" target="a_a16aSGv4rgpMYStxbP-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_a16aSGv4rgpMYStxbP-23" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a_a16aSGv4rgpMYStxbP-22">
+          <mxGeometry x="-0.4605" y="1" relative="1" as="geometry">
+            <mxPoint x="17" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a_a16aSGv4rgpMYStxbP-24" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;判断field上是否有@Resource注解&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;CommonAnnotationBeanPostProcessor&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;.java&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;field.isAnnotationPresent(Resource.class)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4890" y="1560" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a_a16aSGv4rgpMYStxbP-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_a16aSGv4rgpMYStxbP-27" target="a_a16aSGv4rgpMYStxbP-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_a16aSGv4rgpMYStxbP-26" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a_a16aSGv4rgpMYStxbP-25">
+          <mxGeometry x="-0.2871" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a_a16aSGv4rgpMYStxbP-27" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;判断field上是否有@&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&amp;nbsp;Resource&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;注解&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;CommonAnnotationBeanPostProcessor&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;.java&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;field.isAnnotationPresent(Resource.class)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4900" y="1736.53" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a_a16aSGv4rgpMYStxbP-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_a16aSGv4rgpMYStxbP-29" target="a_a16aSGv4rgpMYStxbP-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_a16aSGv4rgpMYStxbP-29" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;获取@Autowire注解中的require的值&lt;br&gt;AutowiredAnnotationBeanPostProcessor.java&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;boolean required = determineRequiredStatus(ann);&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5340" y="1560" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a_a16aSGv4rgpMYStxbP-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_a16aSGv4rgpMYStxbP-31" target="a_a16aSGv4rgpMYStxbP-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_a16aSGv4rgpMYStxbP-31" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;获取@Autowire注解中的require的值&lt;br&gt;AutowiredAnnotationBeanPostProcessor.java&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;boolean required = determineRequiredStatus(ann);&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5340" y="1736.53" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a_a16aSGv4rgpMYStxbP-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_a16aSGv4rgpMYStxbP-33" target="a_a16aSGv4rgpMYStxbP-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_a16aSGv4rgpMYStxbP-33" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;封装成&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;AutowiredFieldElement放入集合中&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&lt;br&gt;AutowiredAnnotationBeanPostProcessor.java&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;currElements.add(new ResourceElement(field, field, null));&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5770" y="1560" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a_a16aSGv4rgpMYStxbP-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_a16aSGv4rgpMYStxbP-35" target="a_a16aSGv4rgpMYStxbP-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6210" y="1771.571428571429" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a_a16aSGv4rgpMYStxbP-35" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;封装成&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;AutowiredMethodElement&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;放入集合中&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&lt;br&gt;AutowiredAnnotationBeanPostProcessor.java&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;currElements.add(new EjbRefElement(method, bridgedMethod, pd));&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5770" y="1736.53" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a_a16aSGv4rgpMYStxbP-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="a_a16aSGv4rgpMYStxbP-36" target="a_a16aSGv4rgpMYStxbP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_a16aSGv4rgpMYStxbP-36" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;解析的出来的结果放入&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;injectionMetadataCache&lt;/span&gt;缓存中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6170" y="1660" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
