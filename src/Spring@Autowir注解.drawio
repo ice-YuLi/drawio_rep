@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T08:27:04.151Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="rBZaBrI4aSMqxf5bIEI5" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-29T08:35:36.134Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="q22k1e_prgOeHLkABVr7" version="16.1.0" type="github">
   <diagram id="KZ6Oh91IzT9d4bb2Npnq" name="第 1 页">
     <mxGraphModel dx="3690" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -1088,6 +1088,16 @@
         </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-331" value="&lt;b&gt;从父容器找&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="7015" y="2694" width="273" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="sZpg5xEDEVscKXtfFkVL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="sZpg5xEDEVscKXtfFkVL-1" target="WCMMu7L2FQIAezlBjaeM-143">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4195" y="1737" />
+              <mxPoint x="4010" y="1737" />
+              <mxPoint x="4010" y="1450" />
+              <mxPoint x="4113" y="1450" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="sZpg5xEDEVscKXtfFkVL-1" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;放入缓存中&lt;br&gt;AutowiredAnnotationBeanPostProcessor.java&lt;/span&gt;&lt;br style=&quot;font-size: 13.0667px&quot;&gt;this.injectionMetadataCache.put(cacheKey, metadata);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4030" y="1646.53" width="330" height="70" as="geometry" />
