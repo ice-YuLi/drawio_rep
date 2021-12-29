@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T05:40:53.507Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="0A28jmQ_3mgxyQFnq_Tz" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-29T06:01:23.928Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="x-CKDbkEn1Yz16vXDZOo" version="16.1.0" type="github">
   <diagram id="KZ6Oh91IzT9d4bb2Npnq" name="第 1 页">
     <mxGraphModel dx="3452" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -679,13 +679,13 @@
         <mxCell id="WCMMu7L2FQIAezlBjaeM-191" value="AutowiredFieldElement&lt;br&gt;value = beanFactory.resolveDependency(desc, beanName, autowiredBeanNames, typeConverter);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5330" y="2070" width="310" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="WCMMu7L2FQIAezlBjaeM-193" value="descriptor.initParameterNameDiscovery(&lt;br&gt;getParameterNameDiscoverer());" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-193" value="DefaultListableBeanFactory.java&lt;br&gt;descriptor.initParameterNameDiscovery(&lt;br&gt;getParameterNameDiscoverer());" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5740" y="1978.53" width="310" height="48" as="geometry" />
         </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-195" target="WCMMu7L2FQIAezlBjaeM-197">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WCMMu7L2FQIAezlBjaeM-195" value="&lt;div&gt;&lt;span&gt;Object result = getAutowireCandidateResolver().getLazyResolutionProxyIfNecessary(&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;					&lt;/span&gt;descriptor, requestingBeanName);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-195" value="DefaultListableBeanFactory.java&lt;br&gt;&lt;div&gt;&lt;span&gt;Object result = getAutowireCandidateResolver().getLazyResolutionProxyIfNecessary(&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;					&lt;/span&gt;descriptor, requestingBeanName);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5740" y="2060" width="330" height="68" as="geometry" />
         </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-200" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-197" target="WCMMu7L2FQIAezlBjaeM-199">
@@ -696,14 +696,28 @@
             <mxPoint x="14" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WCMMu7L2FQIAezlBjaeM-197" value="&lt;div&gt;判断field上是有加了@Lazy注解&lt;/div&gt;return (isLazy(descriptor) ? buildLazyResolutionProxy(descriptor, beanName) : null);" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-197" target="WCMMu7L2FQIAezlBjaeM-204">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-206" value="没有@Lazy注解" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WCMMu7L2FQIAezlBjaeM-205">
+          <mxGeometry x="-0.4485" relative="1" as="geometry">
+            <mxPoint x="-77" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-197" value="&lt;div&gt;判断field上是有加了@Lazy注解&lt;/div&gt;return (isLazy(descriptor) ? buildLazyResolutionProxy(descriptor, beanName) : null);" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="6150" y="2060" width="330" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-199" target="WCMMu7L2FQIAezlBjaeM-202">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-199" value="ContextAnnotationAutowireCandidateResolver.java&lt;br&gt;buildLazyResolutionProxy(descriptor, beanName)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="6600" y="2064" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WCMMu7L2FQIAezlBjaeM-202" value="ContextAnnotationAutowireCandidateResolver.java&lt;br&gt;buildLazyResolutionProxy(descriptor, beanName)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="6980" y="2064" width="290" height="60" as="geometry" />
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-202" value="返回一个代理对象&lt;br&gt;ContextAnnotationAutowireCandidateResolver.java&lt;br&gt;return pf.getProxy(dlbf.getBeanClassLoader());" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6990" y="2064" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-204" value="DefaultListableBeanFactory.java&lt;br&gt;result = doResolveDependency(descriptor, requestingBeanName, autowiredBeanNames, typeConverter);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5740" y="2242" width="330" height="68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
