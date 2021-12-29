@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T07:24:18.671Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="YdZa6NRJl08TXQAsd23O" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-29T07:44:19.971Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="fGL_JvcSjjJuPWmv45HE" version="16.1.0" type="github">
   <diagram id="KZ6Oh91IzT9d4bb2Npnq" name="第 1 页">
-    <mxGraphModel dx="3794" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="3690" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -676,8 +676,13 @@
         <mxCell id="WCMMu7L2FQIAezlBjaeM-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-191" target="WCMMu7L2FQIAezlBjaeM-195">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-275" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-215" target="WCMMu7L2FQIAezlBjaeM-276">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5850" y="2500" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-191" value="AutowiredFieldElement&lt;br&gt;value = beanFactory.resolveDependency(desc, beanName, autowiredBeanNames, typeConverter);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5330" y="2070" width="310" height="48" as="geometry" />
+          <mxGeometry x="5330" y="2026.53" width="310" height="48" as="geometry" />
         </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-193" value="DefaultListableBeanFactory.java&lt;br&gt;descriptor.initParameterNameDiscovery(&lt;br&gt;getParameterNameDiscoverer());" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5740" y="1978.53" width="310" height="48" as="geometry" />
@@ -755,7 +760,7 @@
         <mxCell id="WCMMu7L2FQIAezlBjaeM-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-215" target="WCMMu7L2FQIAezlBjaeM-231">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WCMMu7L2FQIAezlBjaeM-215" value="DefaultListableBeanFactory.java&lt;br&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;Map&amp;lt;String, Object&amp;gt; matchingBeans = findAutowireCandidates(beanName, type, descriptor);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-215" value="DefaultListableBeanFactory.java&lt;br&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;Map&amp;lt;String, Object&amp;gt; matchingBeans = findAutowireCandidates(beanName, type, descriptor);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="6165" y="2710" width="330" height="68" as="geometry" />
         </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-216" target="WCMMu7L2FQIAezlBjaeM-217">
@@ -809,6 +814,14 @@
         <mxCell id="WCMMu7L2FQIAezlBjaeM-238" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;isAutowireCandidate需要深度解析&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF6666;" vertex="1" connectable="0" parent="WCMMu7L2FQIAezlBjaeM-234">
           <mxGeometry x="-0.1106" y="-1" relative="1" as="geometry">
             <mxPoint x="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-258" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-231" target="WCMMu7L2FQIAezlBjaeM-257">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-259" value="&lt;font color=&quot;#000000&quot;&gt;true&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF6666;" vertex="1" connectable="0" parent="WCMMu7L2FQIAezlBjaeM-258">
+          <mxGeometry x="-0.0179" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-231" value="不是自己注入自己&amp;amp;&amp;amp;&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;是否有资格成为候选者&lt;/b&gt;&lt;/font&gt;&lt;br&gt;!isSelfReference(beanName, candidate) &amp;amp;&amp;amp;&amp;nbsp;&lt;b style=&quot;color: rgb(255 , 102 , 102)&quot;&gt;isAutowireCandidate&lt;/b&gt;(candidate, descriptor)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -867,6 +880,94 @@
         </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-250" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;dashed=1;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-245" target="WCMMu7L2FQIAezlBjaeM-249">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-261" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-257" target="WCMMu7L2FQIAezlBjaeM-260">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-257" value="&amp;nbsp;将候选者添加到 result 中&lt;br&gt;addCandidateEntry(result, candidate, descriptor, requiredType);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6615" y="3030" width="330" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-264" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-260" target="WCMMu7L2FQIAezlBjaeM-263">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-270" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="WCMMu7L2FQIAezlBjaeM-264">
+          <mxGeometry x="-0.2308" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-272" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-260" target="WCMMu7L2FQIAezlBjaeM-271">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-273" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="WCMMu7L2FQIAezlBjaeM-272">
+          <mxGeometry x="-0.1569" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-260" value="符合要求的候选者的集合&lt;br&gt;result.isEmpty()" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="6640" y="3200" width="280" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-266" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-263" target="WCMMu7L2FQIAezlBjaeM-265">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-263" value="使用降级匹配（跟正常匹配类似）&lt;br&gt;DependencyDescriptor fallbackDescriptor = descriptor.forFallbackMatch();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7050" y="3199" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-268" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-265" target="WCMMu7L2FQIAezlBjaeM-267">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-269" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="WCMMu7L2FQIAezlBjaeM-268">
+          <mxGeometry y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-265" value="result.isEmpty() &amp;amp;&amp;amp; !multiple" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="7400" y="3200" width="280" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-267" value="如果使用降级匹配结果还是空，则考虑自引用isSelfReference(beanName, candidate)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7770" y="3199" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-271" value="&lt;div&gt;返回符合条件的候选者&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;return result&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6615" y="3370" width="330" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-281" value="这里返回的候选者的集合" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fontColor=#000000;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-276" target="WCMMu7L2FQIAezlBjaeM-271">
+          <mxGeometry x="0.1229" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="6420" y="3510" />
+              <mxPoint x="6780" y="3510" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-284" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.028;entryY=0.504;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-276" target="WCMMu7L2FQIAezlBjaeM-283">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-276" value="&lt;div&gt;返回符合条件的候选者&lt;/div&gt;matchingBeans.isEmpty()" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="6150" y="3580" width="360" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-286" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-283" target="WCMMu7L2FQIAezlBjaeM-285">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-287" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="WCMMu7L2FQIAezlBjaeM-286">
+          <mxGeometry x="-0.2101" y="2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-290" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-283" target="WCMMu7L2FQIAezlBjaeM-289">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-291" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="WCMMu7L2FQIAezlBjaeM-290">
+          <mxGeometry x="-0.1809" y="2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-283" value="&lt;div&gt;&lt;/div&gt;@Autowire 的 require 属性是否为 true&lt;br&gt;isRequired(descriptor)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6615" y="3580" width="360" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-285" value="如果 @Autowire 的 require 属性为 true 而找到的匹配项却为空则只能抛出异常&lt;br&gt;raiseNoMatchingBeanFound(type, descriptor.getResolvableType(), descriptor);&lt;span&gt;	&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7060" y="3530" width="330" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-289" value="return null" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7060" y="3660" width="330" height="68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
