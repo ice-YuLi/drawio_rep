@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T08:02:06.567Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="u8RtBqFPs4vb1AyGAx6X" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-29T08:12:25.935Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="x6py_pLX8ieiY8CGYjvn" version="16.1.0" type="github">
   <diagram id="KZ6Oh91IzT9d4bb2Npnq" name="第 1 页">
-    <mxGraphModel dx="3794" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="3690" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -681,6 +681,11 @@
             <mxPoint x="5850" y="2500" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-327" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-191" target="WCMMu7L2FQIAezlBjaeM-326">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5510" y="2130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-191" value="AutowiredFieldElement&lt;br&gt;value = beanFactory.resolveDependency(desc, beanName, autowiredBeanNames, typeConverter);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5330" y="2026.53" width="310" height="48" as="geometry" />
         </mxCell>
@@ -722,6 +727,9 @@
           <mxGeometry x="6990" y="2064" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-204" target="WCMMu7L2FQIAezlBjaeM-207">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-323" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-204" target="WCMMu7L2FQIAezlBjaeM-322">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-204" value="DefaultListableBeanFactory.java&lt;br&gt;result = doResolveDependency(descriptor, requestingBeanName, autowiredBeanNames, typeConverter);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -800,7 +808,13 @@
         <mxCell id="WCMMu7L2FQIAezlBjaeM-225" value="return" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="7000" y="2458" width="330" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="WCMMu7L2FQIAezlBjaeM-227" value="&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;通过field类型从单利池中获取所有类型符合的bean的beanName&lt;br&gt;&lt;/b&gt;&lt;/font&gt;DefaultListableBeanFactory.java&lt;br&gt;&lt;div&gt;&lt;div&gt;String[] candidateNames = BeanFactoryUtils.beanNamesForTypeIncludingAncestors(&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;this, requiredType, true, descriptor.isEager());&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-332" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-227" target="WCMMu7L2FQIAezlBjaeM-330">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-333" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-227" target="WCMMu7L2FQIAezlBjaeM-331">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-227" value="&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;通过field类型从单例池和beanDefinitionMap中获取所有类型符合的bean的beanName&lt;br&gt;&lt;/b&gt;&lt;/font&gt;DefaultListableBeanFactory.java&lt;br&gt;&lt;div&gt;&lt;div&gt;String[] candidateNames = BeanFactoryUtils.beanNamesForTypeIncludingAncestors(&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;this, requiredType, true, descriptor.isEager());&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="6600" y="2640" width="350" height="100" as="geometry" />
         </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-234" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;dashed=1;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-231" target="WCMMu7L2FQIAezlBjaeM-233">
@@ -1037,6 +1051,14 @@
         <mxCell id="WCMMu7L2FQIAezlBjaeM-312" value="Object result = instanceCandidate;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="6202.5" y="4310" width="255" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-324" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;dashed=1;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-313" target="WCMMu7L2FQIAezlBjaeM-322">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-325" value="返回结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="WCMMu7L2FQIAezlBjaeM-324">
+          <mxGeometry x="0.9197" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-313" value="返回唯一的一个候选者&lt;br&gt;return result;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="6202.5" y="4390" width="255" height="40" as="geometry" />
         </mxCell>
@@ -1045,6 +1067,24 @@
         </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-318" value="autowiredBeanNames.add(autowiredBeanName);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="6202.5" y="4230" width="255" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-322" value="return result" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5740" y="2362" width="330" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-329" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-326" target="WCMMu7L2FQIAezlBjaeM-328">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-326" value="将结果将放入cache&lt;br&gt;AutowiredFieldElement&lt;br&gt;&lt;div&gt;this.cachedFieldValue = new ShortcutDependencyDescriptor(&lt;/div&gt;&lt;div&gt;&lt;span&gt;											&lt;/span&gt;desc, autowiredBeanName, field.getType());&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5360" y="2134" width="250" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-328" value="&lt;span&gt;通过反射为属性赋值，将解析出来的bean实例赋值给field&lt;/span&gt;&lt;br&gt;AutowiredFieldElement&lt;br&gt;&lt;div&gt;&lt;span&gt;&lt;/span&gt;field.set(bean, value)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5330" y="2320" width="310" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-330" value="&lt;b&gt;从当前容器找&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7015" y="2600" width="275" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-331" value="&lt;b&gt;从父容器找&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7015" y="2694" width="273" height="46" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
