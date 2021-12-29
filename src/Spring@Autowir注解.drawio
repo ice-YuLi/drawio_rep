@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T08:22:24.880Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="hrnPsQBIw1GiTMn6ZU2u" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-29T08:27:04.151Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="rBZaBrI4aSMqxf5bIEI5" version="16.1.0" type="github">
   <diagram id="KZ6Oh91IzT9d4bb2Npnq" name="第 1 页">
     <mxGraphModel dx="3690" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -541,6 +541,9 @@
               <mxPoint x="4430" y="1611" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="sZpg5xEDEVscKXtfFkVL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-151" target="sZpg5xEDEVscKXtfFkVL-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-151" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;AutowiredAnnotationBeanPostProcessor.java&lt;/span&gt;&lt;br style=&quot;font-size: 13.0667px&quot;&gt;metadata = buildAutowiringMetadata(clazz);" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4030" y="1480" width="330" height="70" as="geometry" />
@@ -1085,6 +1088,9 @@
         </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-331" value="&lt;b&gt;从父容器找&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="7015" y="2694" width="273" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="sZpg5xEDEVscKXtfFkVL-1" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;放入缓存中&lt;br&gt;AutowiredAnnotationBeanPostProcessor.java&lt;/span&gt;&lt;br style=&quot;font-size: 13.0667px&quot;&gt;this.injectionMetadataCache.put(cacheKey, metadata);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4030" y="1646.53" width="330" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
