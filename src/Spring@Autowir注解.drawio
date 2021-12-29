@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T07:19:59.136Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="saCHWsvQjFhxyGMIaetv" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-29T07:23:59.207Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="oNnNJoLHN9FHCsxh7E6Y" version="16.1.0" type="github">
   <diagram id="KZ6Oh91IzT9d4bb2Npnq" name="第 1 页">
-    <mxGraphModel dx="3522" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="3794" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -826,32 +826,8 @@
         <mxCell id="WCMMu7L2FQIAezlBjaeM-239" value="DefaultListableBeanFactory.java&lt;br&gt;&lt;div&gt;isAutowireCandidate(beanName, getMergedLocalBeanDefinition(bdName), descriptor, resolver);&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="7740" y="2830" width="330" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="WCMMu7L2FQIAezlBjaeM-244" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-241" target="WCMMu7L2FQIAezlBjaeM-243">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-241" value="这里用到了责任链的设计模式&lt;br&gt;DefaultListableBeanFactory.java&lt;br&gt;&lt;div&gt;&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;resolver.isAutowireCandidate&lt;/b&gt;&lt;/font&gt;(holder, descriptor);Name), descriptor, resolver);&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="8180" y="2830" width="330" height="68" as="geometry" />
-        </mxCell>
-        <mxCell id="WCMMu7L2FQIAezlBjaeM-246" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-243" target="WCMMu7L2FQIAezlBjaeM-245">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WCMMu7L2FQIAezlBjaeM-252" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-243" target="WCMMu7L2FQIAezlBjaeM-251">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WCMMu7L2FQIAezlBjaeM-243" value="先调用父类方法&lt;br&gt;QualifierAnnotationAutowireCandidateResolver.java&lt;br&gt;super.isAutowireCandidate(bdHolder, descriptor);" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="8630" y="2830" width="330" height="68" as="geometry" />
-        </mxCell>
-        <mxCell id="WCMMu7L2FQIAezlBjaeM-248" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-245" target="WCMMu7L2FQIAezlBjaeM-247">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WCMMu7L2FQIAezlBjaeM-250" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-245" target="WCMMu7L2FQIAezlBjaeM-249">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WCMMu7L2FQIAezlBjaeM-245" value="先调用父类方法&lt;br&gt;GenericTypeAwareAutowireCandidateResolver.java&lt;br&gt;super.isAutowireCandidate(bdHolder, descriptor)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="8630" y="2710" width="330" height="68" as="geometry" />
-        </mxCell>
-        <mxCell id="WCMMu7L2FQIAezlBjaeM-247" value="获取此 bean 是否可以自动注入到其他 bean（autowireCandidate属性），默认为 true，一般不修改，因此这边返回 trueSimpleAutowireCandidateResolver.java&lt;br&gt;bdHolder.getBeanDefinition().isAutowireCandidate()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="8625" y="2580" width="340" height="78" as="geometry" />
         </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-249" value="当field的类型是范型的时候，在此处进行解析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="9010" y="2710" width="330" height="68" as="geometry" />
@@ -864,6 +840,33 @@
         </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-253" value="判断 @Qualifier(name=&quot;xxx&quot;) 中的 name 的值是否和当前遍历到的属性的 @Qualifier 的 name 值是否一样&lt;br&gt;QualifierAnnotationAutowireCandidateResolver.java&lt;br&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;checkQualifier(bdHolder, annotation, typeConverter)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="9430" y="2824" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-256" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=#FF6666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="8606.5" y="2546" width="377" height="377" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-243" value="先调用父类方法&lt;br&gt;QualifierAnnotationAutowireCandidateResolver.java&lt;br&gt;super.isAutowireCandidate(bdHolder, descriptor);" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="8630" y="2830" width="330" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-245" value="先调用父类方法&lt;br&gt;GenericTypeAwareAutowireCandidateResolver.java&lt;br&gt;super.isAutowireCandidate(bdHolder, descriptor)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="8630" y="2710" width="330" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-247" value="获取此 bean 是否可以自动注入到其他 bean（autowireCandidate属性），默认为 true，一般不修改，因此这边返回 trueSimpleAutowireCandidateResolver.java&lt;br&gt;bdHolder.getBeanDefinition().isAutowireCandidate()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="8625" y="2580" width="340" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-246" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-243" target="WCMMu7L2FQIAezlBjaeM-245">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-248" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-245" target="WCMMu7L2FQIAezlBjaeM-247">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-244" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-241" target="WCMMu7L2FQIAezlBjaeM-243">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-252" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;dashed=1;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-243" target="WCMMu7L2FQIAezlBjaeM-251">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-250" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;dashed=1;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-245" target="WCMMu7L2FQIAezlBjaeM-249">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
