@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T08:56:13.743Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="wJBCU0aWSRAUau8JsMJ2" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-29T08:59:38.707Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="5T-7-Ixyxvt-SdVrF1Hi" version="16.1.0" type="github">
   <diagram id="2rsU9yD35tYkbE_-SbJo" name="第 1 页">
-    <mxGraphModel dx="4059" dy="1091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="6123" dy="2400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -643,7 +643,7 @@
         <mxCell id="a_a16aSGv4rgpMYStxbP-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="a_a16aSGv4rgpMYStxbP-41" target="a_a16aSGv4rgpMYStxbP-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a_a16aSGv4rgpMYStxbP-41" value="CommonAnnotationBeanPostProcessor.java&lt;br&gt;element.inject(target, beanName, pvs);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="a_a16aSGv4rgpMYStxbP-41" value="CommonAnnotationBeanPostProcessor.java&lt;br&gt;metadata.inject(bean, beanName, pvs);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3880" y="2368" width="310" height="48" as="geometry" />
         </mxCell>
         <mxCell id="a_a16aSGv4rgpMYStxbP-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="a_a16aSGv4rgpMYStxbP-43" target="a_a16aSGv4rgpMYStxbP-45">
@@ -720,7 +720,7 @@
             <mxPoint y="16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a_a16aSGv4rgpMYStxbP-60" value="this.fallbackToDefaultTypeMatch &amp;amp;&amp;amp; element.isDefaultName &amp;amp;&amp;amp; !factory.containsBean(name)&lt;div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="a_a16aSGv4rgpMYStxbP-60" value="this.fallbackToDefaultTypeMatch &amp;amp;&amp;amp; element.isDefaultName &amp;amp;&amp;amp; !factory.containsBean(name)&lt;div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="5900" y="2435" width="400" height="170" as="geometry" />
         </mxCell>
         <mxCell id="a_a16aSGv4rgpMYStxbP-62" value="通过类型查找&lt;br&gt;resource = beanFactory.resolveDependency(descriptor, requestingBeanName, autowiredBeanNames, null);" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
