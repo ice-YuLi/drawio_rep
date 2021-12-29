@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T06:01:23.928Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="x-CKDbkEn1Yz16vXDZOo" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-29T06:17:10.387Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="G5EVHwJkaCuMx4AQ2Dc-" version="16.1.0" type="github">
   <diagram id="KZ6Oh91IzT9d4bb2Npnq" name="第 1 页">
     <mxGraphModel dx="3452" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -704,7 +704,7 @@
             <mxPoint x="-77" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WCMMu7L2FQIAezlBjaeM-197" value="&lt;div&gt;判断field上是有加了@Lazy注解&lt;/div&gt;return (isLazy(descriptor) ? buildLazyResolutionProxy(descriptor, beanName) : null);" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-197" value="&lt;div&gt;判断field上是有加了&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;@Lazy&lt;/b&gt;&lt;/font&gt;注解&lt;/div&gt;return (isLazy(descriptor) ? buildLazyResolutionProxy(descriptor, beanName) : null);" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="6150" y="2060" width="330" height="68" as="geometry" />
         </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-199" target="WCMMu7L2FQIAezlBjaeM-202">
@@ -716,8 +716,55 @@
         <mxCell id="WCMMu7L2FQIAezlBjaeM-202" value="返回一个代理对象&lt;br&gt;ContextAnnotationAutowireCandidateResolver.java&lt;br&gt;return pf.getProxy(dlbf.getBeanClassLoader());" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="6990" y="2064" width="290" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-204" target="WCMMu7L2FQIAezlBjaeM-207">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-204" value="DefaultListableBeanFactory.java&lt;br&gt;result = doResolveDependency(descriptor, requestingBeanName, autowiredBeanNames, typeConverter);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5740" y="2242" width="330" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-210" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-207" target="WCMMu7L2FQIAezlBjaeM-209">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-211" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WCMMu7L2FQIAezlBjaeM-210">
+          <mxGeometry x="-0.1832" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-213" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-207" target="WCMMu7L2FQIAezlBjaeM-216">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6330.000000000002" y="2438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-214" value="没有@Value" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WCMMu7L2FQIAezlBjaeM-213">
+          <mxGeometry x="-0.0564" y="-4" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-207" value="field上是否有&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;@Value&lt;/b&gt;&lt;/font&gt;注解&lt;br&gt;DefaultListableBeanFactory.java&lt;br&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;Object value = getAutowireCandidateResolver().getSuggestedValue(descriptor);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="6150" y="2222" width="360" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-209" value="取出@Value中的值并返回&lt;br&gt;DefaultListableBeanFactory.java&lt;br&gt;return value = evaluateBeanDefinitionString(strVal, bd);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6600" y="2242" width="330" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-215" value="DefaultListableBeanFactory.java&lt;br&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;Map&amp;lt;String, Object&amp;gt; matchingBeans = findAutowireCandidates(beanName, type, descriptor);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6165" y="2710" width="330" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-216" target="WCMMu7L2FQIAezlBjaeM-217">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-220" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="WCMMu7L2FQIAezlBjaeM-218">
+          <mxGeometry x="-0.0771" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-219" value="&lt;font color=&quot;#000000&quot;&gt;不是&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-216" target="WCMMu7L2FQIAezlBjaeM-215">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-216" value="field的类型是&lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;数组、Collection、Map&lt;/font&gt;&lt;/b&gt;中一种&lt;br&gt;DefaultListableBeanFactory.java&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;Object multipleBeans = resolveMultipleBeans(descriptor, beanName, autowiredBeanNames, typeConverter);&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="6150" y="2438" width="360" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="WCMMu7L2FQIAezlBjaeM-217" value="插叙符合要求的实例bean并给数组或者集合赋值&lt;br&gt;DefaultListableBeanFactory.java&lt;br&gt;&lt;div&gt;Map&amp;lt;String, Object&amp;gt; matchingBeans = findAutowireCandidates(beanName, componentType,&lt;/div&gt;&lt;span&gt;					&lt;/span&gt;&lt;span&gt;new MultiElementDescriptor(descriptor))&lt;/span&gt;;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6600" y="2454" width="330" height="76" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
