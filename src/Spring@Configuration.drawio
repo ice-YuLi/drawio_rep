@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-30T05:15:32.297Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="JhxF7le677jUxFIAhOf2" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-30T05:17:36.836Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="3UCNBmOGVUyaTlpi1Yh5" version="16.1.0" type="github">
   <diagram id="u4_ytDEmEdd7WWuaxwHe" name="第 1 页">
     <mxGraphModel dx="1113" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -673,7 +673,7 @@
         <mxCell id="lpueotJn2MPEtCa1TwRq-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;dashed=1;" edge="1" parent="1" source="lpueotJn2MPEtCa1TwRq-31" target="lpueotJn2MPEtCa1TwRq-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lpueotJn2MPEtCa1TwRq-31" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;这两步可能会产生新的配置类&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="lpueotJn2MPEtCa1TwRq-31" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;这三步可能会产生新的配置类&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="3921" y="3100" width="220" height="130" as="geometry" />
         </mxCell>
         <mxCell id="lpueotJn2MPEtCa1TwRq-35" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontColor=#000000;exitX=0.997;exitY=0.361;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lpueotJn2MPEtCa1TwRq-31">
@@ -698,6 +698,17 @@
         </mxCell>
         <mxCell id="lpueotJn2MPEtCa1TwRq-37" value="重新给candidateNames复制，进行下次do while循环，再次解析配置类" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3364" y="3130" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lpueotJn2MPEtCa1TwRq-40" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontColor=#000000;exitX=0.92;exitY=0.234;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="lpueotJn2MPEtCa1TwRq-31" target="lpueotJn2MPEtCa1TwRq-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4140" y="3120" as="sourcePoint" />
+            <mxPoint x="4190" y="3070" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4200" y="3060" />
+              <mxPoint x="4160" y="3030" />
+              <mxPoint x="4110" y="2990" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
