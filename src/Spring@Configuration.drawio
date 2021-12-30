@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-30T05:17:36.836Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="3UCNBmOGVUyaTlpi1Yh5" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-30T05:39:18.954Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="kMYeazt0lUBNc_qKqwO4" version="16.1.0" type="github">
   <diagram id="u4_ytDEmEdd7WWuaxwHe" name="第 1 页">
     <mxGraphModel dx="1113" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -346,6 +346,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="lpueotJn2MPEtCa1TwRq-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-89" target="lpueotJn2MPEtCa1TwRq-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zVeQvamyp8Eo6jB1S1Q2-89" value="ConfigurationClassPostProcessor.java&lt;br&gt;parser.parse(candidates);" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3403" y="1400" width="211" height="60" as="geometry" />
         </mxCell>
@@ -500,13 +503,21 @@
           <mxGeometry x="5600" y="1765" width="390" height="130" as="geometry" />
         </mxCell>
         <mxCell id="zVeQvamyp8Eo6jB1S1Q2-124" value="抛出异常" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="6160" y="1807.5" width="110" height="45" as="geometry" />
+          <mxGeometry x="6060" y="1810" width="110" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="lpueotJn2MPEtCa1TwRq-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-127" target="lpueotJn2MPEtCa1TwRq-19">
+        <mxCell id="lpueotJn2MPEtCa1TwRq-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-127" target="lpueotJn2MPEtCa1TwRq-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="lpueotJn2MPEtCa1TwRq-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-127" target="lpueotJn2MPEtCa1TwRq-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="6180" y="1955" />
+              <mxPoint x="6180" y="1790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="zVeQvamyp8Eo6jB1S1Q2-127" value="实现了ImportSelector接口&lt;br&gt;candidate.isAssignable(ImportSelector.class)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5710" y="1930" width="290" height="50" as="geometry" />
+          <mxGeometry x="5755" y="1930" width="290" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zVeQvamyp8Eo6jB1S1Q2-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-129" target="zVeQvamyp8Eo6jB1S1Q2-132" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -555,7 +566,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zVeQvamyp8Eo6jB1S1Q2-138" value="检查配置类实现的接口中是否有 @Bean 注解&lt;br&gt;processInterfaces(configClass, sourceClass);" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5590" y="2320" width="360" height="60" as="geometry" />
+          <mxGeometry x="5590" y="2310" width="360" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zVeQvamyp8Eo6jB1S1Q2-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-142" target="zVeQvamyp8Eo6jB1S1Q2-144" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -644,25 +655,30 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="4690" y="2090" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="6350" y="2690" />
+              <mxPoint x="6470" y="2250" />
+              <mxPoint x="6420" y="2250" />
+              <mxPoint x="6420" y="2690" />
               <mxPoint x="4840" y="2690" />
               <mxPoint x="4840" y="3225" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="lpueotJn2MPEtCa1TwRq-17" value="放入configClass属性&lt;br&gt;configClass.addImportBeanDefinitionRegistrar(registrar, currentSourceClass.getMetadata());" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="6180" y="2000" width="340" height="50" as="geometry" />
+          <mxGeometry x="6300" y="2080" width="340" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lpueotJn2MPEtCa1TwRq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="lpueotJn2MPEtCa1TwRq-19" target="zVeQvamyp8Eo6jB1S1Q2-120">
+        <mxCell id="lpueotJn2MPEtCa1TwRq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="lpueotJn2MPEtCa1TwRq-19" target="zVeQvamyp8Eo6jB1S1Q2-120">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="6325" y="1740" />
+              <mxPoint x="6925" y="2005" />
+              <mxPoint x="6925" y="2010" />
+              <mxPoint x="7200" y="2010" />
+              <mxPoint x="7200" y="1740" />
               <mxPoint x="5295" y="1740" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="lpueotJn2MPEtCa1TwRq-19" value="递归调用&lt;br&gt;processImports(configClass, currentSourceClass, importSourceClasses, false);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="6180" y="1930" width="290" height="50" as="geometry" />
+          <mxGeometry x="6780" y="1980" width="290" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lpueotJn2MPEtCa1TwRq-23" value="&lt;div&gt;处理 @ImportResource(&quot;Spring.xml&quot;)中的&lt;/div&gt;Spring.xml&lt;div&gt;&lt;span&gt;loadBeanDefinitionsFromImportedResources(configClass.getImportedResources());&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4321" y="3075" width="450" height="70" as="geometry" />
@@ -709,6 +725,43 @@
               <mxPoint x="4110" y="2990" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lpueotJn2MPEtCa1TwRq-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="lpueotJn2MPEtCa1TwRq-41" target="lpueotJn2MPEtCa1TwRq-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lpueotJn2MPEtCa1TwRq-41" value="调用ImportSelector子类的selectImports方法&lt;br&gt;String[] importClassNames = selector.selectImports(currentSourceClass.getMetadata());" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6295" y="1980" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lpueotJn2MPEtCa1TwRq-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="lpueotJn2MPEtCa1TwRq-43" target="lpueotJn2MPEtCa1TwRq-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lpueotJn2MPEtCa1TwRq-49" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="lpueotJn2MPEtCa1TwRq-48">
+          <mxGeometry x="-0.0221" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lpueotJn2MPEtCa1TwRq-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="lpueotJn2MPEtCa1TwRq-43" target="lpueotJn2MPEtCa1TwRq-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lpueotJn2MPEtCa1TwRq-53" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="lpueotJn2MPEtCa1TwRq-52">
+          <mxGeometry x="-0.2412" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lpueotJn2MPEtCa1TwRq-43" value="&lt;div&gt;selector instanceof DeferredImportSelector&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6315" y="1840" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lpueotJn2MPEtCa1TwRq-45" value="实例化&lt;br&gt;ImportSelector selector = BeanUtils.instantiateClass(candidateClass, ImportSelector.class);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6320" y="1765" width="350" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="lpueotJn2MPEtCa1TwRq-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;dashed=1;" edge="1" parent="1" source="lpueotJn2MPEtCa1TwRq-47" target="lpueotJn2MPEtCa1TwRq-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lpueotJn2MPEtCa1TwRq-47" value="将对象放入this.&lt;font color=&quot;#ff66b3&quot;&gt;&lt;b&gt;deferredImportSelectorHandler&lt;/b&gt;&lt;/font&gt;属性&lt;br&gt;this.deferredImportSelectorHandler.handle(configClass, (DeferredImportSelector) selector);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6820" y="1865" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lpueotJn2MPEtCa1TwRq-55" value="DeferredImportSelectorHandler实现类的process方法&lt;br&gt;this.&lt;b&gt;&lt;font color=&quot;#ff66b3&quot;&gt;deferredImportSelectorHandler&lt;/font&gt;&lt;/b&gt;.process();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3820" y="1500" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
