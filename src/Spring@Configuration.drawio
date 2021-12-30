@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-30T07:29:22.957Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="ceeDLRkr2tXBxFkdDtBb" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-30T07:32:13.348Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="ODclhgA2NGePiNlPAeSY" version="16.1.0" type="github">
   <diagram id="u4_ytDEmEdd7WWuaxwHe" name="第 1 页">
-    <mxGraphModel dx="996" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1892" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -930,8 +930,20 @@
         <mxCell id="lpueotJn2MPEtCa1TwRq-107" value="&lt;span style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;因为是代理class，所以调用父类方法创建bean&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;cglibMethodProxy.invokeSuper(enhancedConfigInstance, beanMethodArgs)&lt;br&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="5212.5" y="3915" width="305" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="lpueotJn2MPEtCa1TwRq-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="lpueotJn2MPEtCa1TwRq-110" target="lpueotJn2MPEtCa1TwRq-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lpueotJn2MPEtCa1TwRq-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="lpueotJn2MPEtCa1TwRq-110" target="lpueotJn2MPEtCa1TwRq-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lpueotJn2MPEtCa1TwRq-110" value="&lt;span style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;通过getBean创建bean&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;resolveBeanReference(beanMethod, beanMethodArgs, beanFactory, beanName);&lt;br&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="5685" y="3690" width="305" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lpueotJn2MPEtCa1TwRq-113" value="&lt;span style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;通过getBean创建bean&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;div&gt;Object beanInstance = (useArgs ? beanFactory.getBean(beanName, beanMethodArgs) :&lt;/div&gt;&lt;div&gt;&lt;span&gt;						&lt;/span&gt;beanFactory.getBean(beanName));&lt;/div&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="6100" y="3600" width="305" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lpueotJn2MPEtCa1TwRq-115" value="&lt;span style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;注册bean依赖关系&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;beanFactory.registerDependentBean(beanName, outerBeanName);&lt;br&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="6100" y="3795" width="305" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
