@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-30T05:39:18.954Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="kMYeazt0lUBNc_qKqwO4" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-30T05:50:46.149Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="lZqXRpMIdk-PDBfEOeEq" version="16.1.0" type="github">
   <diagram id="u4_ytDEmEdd7WWuaxwHe" name="第 1 页">
     <mxGraphModel dx="1113" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -757,8 +757,8 @@
         <mxCell id="lpueotJn2MPEtCa1TwRq-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;dashed=1;" edge="1" parent="1" source="lpueotJn2MPEtCa1TwRq-47" target="lpueotJn2MPEtCa1TwRq-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lpueotJn2MPEtCa1TwRq-47" value="将对象放入this.&lt;font color=&quot;#ff66b3&quot;&gt;&lt;b&gt;deferredImportSelectorHandler&lt;/b&gt;&lt;/font&gt;属性&lt;br&gt;this.deferredImportSelectorHandler.handle(configClass, (DeferredImportSelector) selector);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="6820" y="1865" width="340" height="50" as="geometry" />
+        <mxCell id="lpueotJn2MPEtCa1TwRq-47" value="表示推迟执行的importSelect，将对象放入this.&lt;font color=&quot;#ff66b3&quot;&gt;&lt;b&gt;deferredImportSelectorHandler&lt;/b&gt;&lt;/font&gt;属性&lt;br&gt;this.deferredImportSelectorHandler.handle(configClass, (DeferredImportSelector) selector);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6820" y="1857.5" width="340" height="65" as="geometry" />
         </mxCell>
         <mxCell id="lpueotJn2MPEtCa1TwRq-55" value="DeferredImportSelectorHandler实现类的process方法&lt;br&gt;this.&lt;b&gt;&lt;font color=&quot;#ff66b3&quot;&gt;deferredImportSelectorHandler&lt;/font&gt;&lt;/b&gt;.process();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3820" y="1500" width="290" height="60" as="geometry" />
