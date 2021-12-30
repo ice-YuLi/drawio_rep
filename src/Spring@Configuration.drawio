@@ -1,1 +1,97 @@
-<mxfile host="app.diagrams.net" modified="2021-12-30T01:07:43.171Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" version="16.1.0" etag="131V107LVlwXmpNq9DVY" type="github"><diagram id="u4_ytDEmEdd7WWuaxwHe">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-30T01:16:27.705Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="sJ05buFsqyOAj4ZhYdRy" version="16.1.0" type="github">
+  <diagram id="u4_ytDEmEdd7WWuaxwHe" name="第 1 页">
+    <mxGraphModel dx="946" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-1" target="zVeQvamyp8Eo6jB1S1Q2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-1" target="zVeQvamyp8Eo6jB1S1Q2-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-1" target="zVeQvamyp8Eo6jB1S1Q2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-1" target="zVeQvamyp8Eo6jB1S1Q2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-1" target="zVeQvamyp8Eo6jB1S1Q2-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-1" target="zVeQvamyp8Eo6jB1S1Q2-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-1" target="zVeQvamyp8Eo6jB1S1Q2-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-1" target="zVeQvamyp8Eo6jB1S1Q2-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-1" target="zVeQvamyp8Eo6jB1S1Q2-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-1" target="zVeQvamyp8Eo6jB1S1Q2-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-1" target="zVeQvamyp8Eo6jB1S1Q2-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-1" target="zVeQvamyp8Eo6jB1S1Q2-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-1" value="AbstractApplicationContext.java&lt;br&gt;refresh()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="170" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-2" value="AbstractApplicationContext.java&lt;br&gt;prepareRefresh();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="110" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-3" value="AbstractApplicationContext.java&lt;br&gt;ConfigurableListableBeanFactory beanFactory = obtainFreshBeanFactory();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="220" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-4" value="AbstractApplicationContext.java&lt;br&gt;prepareBeanFactory(beanFactory);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="340" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-5" value="AbstractApplicationContext.java&lt;br&gt;postProcessBeanFactory(beanFactory);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="460" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-6" target="zVeQvamyp8Eo6jB1S1Q2-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-6" target="zVeQvamyp8Eo6jB1S1Q2-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-6" value="AbstractApplicationContext.java&lt;br&gt;invokeBeanFactoryPostProcessors(beanFactory);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="570" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-7" value="AbstractApplicationContext.java&lt;br&gt;registerBeanPostProcessors(beanFactory);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="690" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-8" value="AbstractApplicationContext.java&lt;br&gt;initMessageSource();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="810" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-9" value="AbstractApplicationContext.java&lt;br&gt;initApplicationEventMulticaster();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="930" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-10" value="AbstractApplicationContext.java&lt;br&gt;onRefresh();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1050" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-11" value="AbstractApplicationContext.java&lt;br&gt;registerListeners();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1170" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-12" value="AbstractApplicationContext.java&lt;br&gt;finishBeanFactoryInitialization(beanFactory);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1290" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-13" value="AbstractApplicationContext.java&lt;br&gt;finishRefresh();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1420" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-27" value="&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;postProcessBeanDefinitionRegistry方法会先执行&lt;br&gt;&lt;/b&gt;&lt;/font&gt;AbstractApplicationContext.java&lt;br&gt;registryProcessor.postProcessBeanDefinitionRegistry(registry);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="540" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-28" value="&lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;postProcessBeanFactory 方法会后执行&lt;br&gt;&lt;/font&gt;&lt;/b&gt;AbstractApplicationContext.java&lt;br&gt;invokeBeanFactoryPostProcessors(nonOrderedPostProcessors, beanFactory);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="630" width="340" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
