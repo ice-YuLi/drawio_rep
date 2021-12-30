@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-30T03:11:45.692Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="pnfShD2pLDTyxu9_Z6_R" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-30T04:23:05.834Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="8_HeLtrY_65-h8TPnCR4" version="16.1.0" type="github">
   <diagram id="u4_ytDEmEdd7WWuaxwHe" name="第 1 页">
-    <mxGraphModel dx="6307" dy="4000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="996" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -152,6 +152,14 @@
             <Array as="points">
               <mxPoint x="2670" y="510" />
               <mxPoint x="2670" y="1430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-37" target="zVeQvamyp8Eo6jB1S1Q2-158">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2670" y="510" />
+              <mxPoint x="2670" y="1610" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -309,9 +317,6 @@
         </mxCell>
         <mxCell id="zVeQvamyp8Eo6jB1S1Q2-85" value="根据order排序&lt;br&gt;ConfigurationClassPostProcessor.java&lt;br&gt;configCandidates.sort((bd1, bd2) -&amp;gt; {" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3359" y="1025" width="300" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-87" target="zVeQvamyp8Eo6jB1S1Q2-89">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zVeQvamyp8Eo6jB1S1Q2-87" value="&lt;div&gt;生成jConfiguration解析器&lt;/div&gt;&lt;div&gt;ConfigurationClassParser parser = new ConfigurationClassParser(&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;this.metadataReaderFactory, this.problemReporter, this.environment,&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;this.resourceLoader, this.componentScanBeanNameGenerator, registry);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3338" y="1210" width="341" height="100" as="geometry" />
@@ -523,6 +528,9 @@
         </mxCell>
         <mxCell id="zVeQvamyp8Eo6jB1S1Q2-145" value="return null;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5110" y="2600" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-158" value="&lt;div&gt;在 parser.parse(candidates); 执行结束后，所有的配置类都会存放在这个 configurationClasses 里面。&lt;/div&gt;&lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;加了@Component、&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;@Import注解的都会放到这个集合中&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;Set&amp;lt;ConfigurationClass&amp;gt; configClasses = new LinkedHashSet&amp;lt;&amp;gt;(parser.getConfigurationClasses());&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3320" y="1570" width="376.5" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
