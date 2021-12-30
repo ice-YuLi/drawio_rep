@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-30T02:37:26.748Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="1mElBLzVCLNkjzh4CCK4" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-30T03:00:45.865Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="Vr27HDdLRRS7ufC5b1sM" version="16.1.0" type="github">
   <diagram id="u4_ytDEmEdd7WWuaxwHe" name="第 1 页">
-    <mxGraphModel dx="996" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1351" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -319,13 +319,22 @@
         <mxCell id="zVeQvamyp8Eo6jB1S1Q2-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-98" target="zVeQvamyp8Eo6jB1S1Q2-107">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-98" target="zVeQvamyp8Eo6jB1S1Q2-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-98" target="zVeQvamyp8Eo6jB1S1Q2-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-98" target="zVeQvamyp8Eo6jB1S1Q2-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zVeQvamyp8Eo6jB1S1Q2-98" value="ConfigurationClassParser.java&lt;br&gt;sourceClass = doProcessConfigurationClass(configClass, sourceClass);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4630" y="1420" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zVeQvamyp8Eo6jB1S1Q2-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-100" target="zVeQvamyp8Eo6jB1S1Q2-101">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-100" value="如果包含@Component注解，处理其内部类，并递归调用parser方法进行解析&lt;br&gt;configClass.getMetadata().isAnnotated(Component.class.getName())" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-100" value="&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;如果包含@Component注解，处理其内部类，并递归调用parser方法进行解析&lt;br&gt;&lt;/b&gt;&lt;/font&gt;configClass.getMetadata().isAnnotated(Component.class.getName())" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5110" y="1340" width="420" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zVeQvamyp8Eo6jB1S1Q2-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-101" target="zVeQvamyp8Eo6jB1S1Q2-94">
@@ -338,6 +347,9 @@
         </mxCell>
         <mxCell id="zVeQvamyp8Eo6jB1S1Q2-101" value="递归处理&lt;br&gt;processConfigurationClass(candidate.asConfigClass(configClass))" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5640" y="1345" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-105" target="zVeQvamyp8Eo6jB1S1Q2-130">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zVeQvamyp8Eo6jB1S1Q2-105" value="&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;解析@PropertySources注解&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;AnnotationConfigUtils.attributesForRepeatable(&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;sourceClass.getMetadata(), PropertySources.class,&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;org.springframework.context.annotation.PropertySource.class)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5110" y="1490" width="360" height="60" as="geometry" />
@@ -359,8 +371,85 @@
         <mxCell id="zVeQvamyp8Eo6jB1S1Q2-109" value="&lt;span&gt;!componentScans.isEmpty() &amp;amp;&amp;amp;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;!this.conditionEvaluator.shouldSkip(sourceClass.getMetadata(), ConfigurationPhase.REGISTER_BEAN)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5610" y="1595" width="370" height="130" as="geometry" />
         </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-110" target="zVeQvamyp8Eo6jB1S1Q2-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-118" value="&lt;font color=&quot;#000000&quot;&gt;遍历处理解析出来的每一个beanDefinition&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF6666;" vertex="1" connectable="0" parent="zVeQvamyp8Eo6jB1S1Q2-115">
+          <mxGeometry x="-0.2463" y="1" relative="1" as="geometry">
+            <mxPoint x="27" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="zVeQvamyp8Eo6jB1S1Q2-110" value="&lt;div&gt;&lt;span&gt;扫描并解析@ComponentScan中value指定的路径，并生成beanDefinition&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Set&amp;lt;BeanDefinitionHolder&amp;gt; scannedBeanDefinitions =&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;						&lt;/span&gt;this.componentScanParser.parse(componentScan, sourceClass.getMetadata().getClassName());&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="6260" y="1610" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-114" target="zVeQvamyp8Eo6jB1S1Q2-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-114" value="&lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;是否为配置类？何为配置类？&lt;/font&gt;&lt;/b&gt;&lt;br&gt;ConfigurationClassPostProcessor.java&lt;br&gt;ConfigurationClassUtils.checkConfigurationClassCandidate(beanDef, this.metadataReaderFactory)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="7040" y="1580" width="430" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-116" target="zVeQvamyp8Eo6jB1S1Q2-94">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="7790" y="1220" />
+              <mxPoint x="4355" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-116" value="解析&lt;br&gt;parse(bdCand.getBeanClassName(), holder.getBeanName());" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7630" y="1620" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-120" target="zVeQvamyp8Eo6jB1S1Q2-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-120" target="zVeQvamyp8Eo6jB1S1Q2-127">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5540" y="1920" />
+              <mxPoint x="5540" y="1995" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-120" value="&lt;div&gt;&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;解析@Import注解&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;processImports(configClass, sourceClass, getImports(sourceClass), true);&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5110" y="1880" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-122" target="zVeQvamyp8Eo6jB1S1Q2-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-126" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="zVeQvamyp8Eo6jB1S1Q2-125">
+          <mxGeometry x="-0.1359" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-122" value="&lt;div&gt;是否存在循环导入&lt;/div&gt;&lt;div&gt;checkForCircularImports &amp;amp;&amp;amp; isChainedImportOnStack(configClass)&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5600" y="1765" width="390" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-124" value="抛出异常" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6160" y="1807.5" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-127" value="递归解析没有class" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5720" y="1970" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-129" target="zVeQvamyp8Eo6jB1S1Q2-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-129" value="&lt;div&gt;&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;解析@ImportSource注解&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;AnnotationAttributes importResource =&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;AnnotationConfigUtils.attributesFor(sourceClass.getMetadata(), ImportResource.class);&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5110" y="2140" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-130" value="加载到environment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5640" y="1490" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-132" value="加载到environment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5590" y="2150" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="zVeQvamyp8Eo6jB1S1Q2-136" target="zVeQvamyp8Eo6jB1S1Q2-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-136" value="&lt;div&gt;&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;解析@Bean注解&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;AnnotationAttributes importResource =&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;AnnotationConfigUtils.attributesFor(sourceClass.getMetadata(), ImportResource.class);&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5110" y="2310" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zVeQvamyp8Eo6jB1S1Q2-138" value="检查配置类实现的接口中是否有 @Bean 注解&lt;br&gt;processInterfaces(configClass, sourceClass);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5590" y="2320" width="360" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
