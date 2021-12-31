@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T16:36:30.213Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="eiVvoqgrT1iec6WNn7PJ" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-31T16:42:25.973Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="RP6xuoNVyxXwVsCjjJtc" version="16.1.0" type="github">
   <diagram id="ni5Xx00nVa8eM5TbOv3I" name="第 1 页">
-    <mxGraphModel dx="7069" dy="3000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="3690" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -834,8 +834,16 @@
         <mxCell id="hpwiOvs-CnEdbyn8o_mo-273" value="&lt;div&gt;finall方法&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2760" y="4890" width="330" height="52.5" as="geometry" />
         </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-330" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-275" target="hpwiOvs-CnEdbyn8o_mo-327">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3650.000000000001" y="4915.857142857143" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hpwiOvs-CnEdbyn8o_mo-275" value="&lt;div&gt;&lt;div&gt;提交事务前的事务信息清除&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;cleanupTransactionInfo(txInfo);&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3190" y="4890" width="330" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-329" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-277" target="hpwiOvs-CnEdbyn8o_mo-328">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hpwiOvs-CnEdbyn8o_mo-277" value="&lt;div&gt;&lt;div&gt;事务的执行并没有出现任何的异常，提交事务&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;commitTransactionAfterReturning(txInfo);&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2760" y="5020" width="330" height="52.5" as="geometry" />
@@ -972,8 +980,20 @@
         <mxCell id="hpwiOvs-CnEdbyn8o_mo-321" value="&lt;div&gt;finally&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5030" y="5450" width="350" height="51.25" as="geometry" />
         </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-326" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-323" target="hpwiOvs-CnEdbyn8o_mo-325">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hpwiOvs-CnEdbyn8o_mo-323" value="&lt;div&gt;清空记录的资源，并将挂起的资源恢复&lt;br&gt;&lt;/div&gt;&lt;div&gt;cleanupAfterCompletion(status);&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5450" y="5450" width="350" height="51.25" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-325" value="&lt;div&gt;未完待续&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5940" y="5451.25" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-327" value="&lt;div&gt;未完待续&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3660" y="4891.25" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-328" value="&lt;div&gt;未完待续&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3190" y="5022.5" width="350" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
