@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T14:12:23.097Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="iBQLz2WlrNu96w_bqVDq" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-31T14:37:33.964Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="W-eArdCGsX1EuucC9l9Y" version="16.1.0" type="github">
   <diagram id="ni5Xx00nVa8eM5TbOv3I" name="第 1 页">
-    <mxGraphModel dx="946" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1183" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -377,7 +377,7 @@
             <mxPoint y="-24" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hpwiOvs-CnEdbyn8o_mo-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-123" target="hpwiOvs-CnEdbyn8o_mo-128">
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-123" target="hpwiOvs-CnEdbyn8o_mo-151">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hpwiOvs-CnEdbyn8o_mo-130" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="hpwiOvs-CnEdbyn8o_mo-129">
@@ -394,14 +394,106 @@
         <mxCell id="hpwiOvs-CnEdbyn8o_mo-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-128" target="hpwiOvs-CnEdbyn8o_mo-131">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hpwiOvs-CnEdbyn8o_mo-128" value="执行逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4720" y="2510" width="210" height="40" as="geometry" />
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-128" target="hpwiOvs-CnEdbyn8o_mo-133">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hpwiOvs-CnEdbyn8o_mo-131" value="AbstractPlatformTransactionManager.java&lt;br&gt;List&amp;lt;TransactionSynchronization&amp;gt; suspendedSynchronizations = doSuspendSynchronization();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5020" y="2430" width="350" height="70" as="geometry" />
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-128" target="hpwiOvs-CnEdbyn8o_mo-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-128" value="List&amp;lt;TransactionSynchronization&amp;gt; suspendedSynchronizations = doSuspendSynchronization();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5320" y="2062.5" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-131" value="获取我们自己定义的同步器&lt;br&gt;AbstractPlatformTransactionManager.java&lt;br&gt;List&amp;lt;TransactionSynchronization&amp;gt; suspendedSynchronizations = doSuspendSynchronization();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5780" y="1960" width="350" height="70" as="geometry" />
         </mxCell>
         <mxCell id="hpwiOvs-CnEdbyn8o_mo-133" value="AbstractPlatformTransactionManager.java&lt;br&gt;synchronization.suspend();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5020" y="2530" width="340" height="40" as="geometry" />
+          <mxGeometry x="5780" y="2060" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-135" target="hpwiOvs-CnEdbyn8o_mo-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-135" value="DataSourceUtils.java&lt;br&gt;TransactionSynchronizationManager.unbindResource(this.dataSource);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6080" y="2240" width="400" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-137">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7050" y="2013.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-137">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7050" y="2115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-137">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7050" y="2203.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-137" value="TransactionSynchronizationManager.java&lt;br&gt;Object value = doUnbindResource(actualKey);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6680" y="2086.25" width="290" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-139" value="获取resource的ThreaLocal&lt;br&gt;TransactionSynchronizationManager.java&lt;br&gt;Map&amp;lt;Object, Object&amp;gt; map = resources.get();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6770" y="2435" width="290" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-140" value="通过DataSource移除conn&lt;br&gt;TransactionSynchronizationManager.java&lt;br&gt;Object value = map.remove(actualKey);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6770" y="2536.25" width="290" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-144" value="返回移除的conn&lt;br&gt;return value;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6770" y="2625" width="290" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-146" value="&lt;div style=&quot;text-align: center&quot;&gt;&amp;nbsp;这里就是我们自己定义的同步器，举例：&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;			&lt;/span&gt; TransactionSynchronizationManager.registerSynchronization(new &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;TransactionSynchronization(){&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;			&lt;/span&gt; &lt;span&gt;	&lt;/span&gt; &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;@Override&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;			&lt;/span&gt; &lt;span&gt;	&lt;/span&gt; &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;public void suspend() {&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;			&lt;/span&gt; &lt;span&gt;		&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;TransactionSynchronization.super.suspend();&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;			&lt;/span&gt; &lt;span&gt;	&lt;/span&gt; &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;}&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;});&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt; 调用我们自己定义的 suspend 方法&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="6270" y="2005" width="360" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-147" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-133" target="hpwiOvs-CnEdbyn8o_mo-146">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="6130" y="2120" as="sourcePoint" />
+            <mxPoint x="6230" y="2020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-148" value="说明" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="hpwiOvs-CnEdbyn8o_mo-147">
+          <mxGeometry x="0.04" y="3" relative="1" as="geometry">
+            <mxPoint y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-149" value="返回我们自己定义的同步器&lt;br&gt;AbstractPlatformTransactionManager.java&lt;br&gt;return suspendedSynchronizations;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5780" y="2140" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-151" target="hpwiOvs-CnEdbyn8o_mo-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-151" target="hpwiOvs-CnEdbyn8o_mo-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-151" target="hpwiOvs-CnEdbyn8o_mo-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-151" target="hpwiOvs-CnEdbyn8o_mo-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-151" target="hpwiOvs-CnEdbyn8o_mo-158">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1.929;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-151" target="hpwiOvs-CnEdbyn8o_mo-158">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-151" value="执行逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4720" y="2515" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-154" value="&lt;div&gt;获取事务的名字&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;String name = TransactionSynchronizationManager.getCurrentTransactionName();&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;TransactionSynchronizationManager.setCurrentTransactionName(null);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5320" y="2170" width="400" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-155" value="&lt;div&gt;获取事务的只读属性&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;boolean readOnly = TransactionSynchronizationManager.isCurrentTransactionReadOnly();&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;TransactionSynchronizationManager.setCurrentTransactionReadOnly(false);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5320" y="2290" width="400" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-156" value="&lt;div&gt;获取事务的隔离级别&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;Integer isolationLevel = TransactionSynchronizationManager.getCurrentTransactionIsolationLevel();&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;TransactionSynchronizationManager.setCurrentTransactionIsolationLevel(null);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5320" y="2400" width="400" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-158" value="&lt;div&gt;设置事务的活跃状态&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;boolean wasActive = TransactionSynchronizationManager.isActualTransactionActive();&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;TransactionSynchronizationManager.setActualTransactionActive(false);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5320" y="2520" width="400" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-163" value="&lt;div&gt;将获取的结果封装进&quot;资源挂起对象&quot;，以便在以后的某个时期进行现场恢复&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;return new SuspendedResourcesHolder(&lt;/div&gt;&lt;div&gt;&lt;span&gt;suspendedResources, suspendedSynchronizations, name, readOnly, isolationLevel, wasActive);&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5320" y="2640" width="400" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
