@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T12:54:09.926Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="YCdYxGfKuyO7XJTCCKEz" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-31T13:44:23.444Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="lQ1CBGh68ohPu1FV3aGm" version="16.1.0" type="github">
   <diagram id="ni5Xx00nVa8eM5TbOv3I" name="第 1 页">
     <mxGraphModel dx="901" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -77,6 +77,18 @@
         <mxCell id="hpwiOvs-CnEdbyn8o_mo-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-27" target="hpwiOvs-CnEdbyn8o_mo-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#3333FF;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-27" target="hpwiOvs-CnEdbyn8o_mo-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#3333FF;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-27" target="hpwiOvs-CnEdbyn8o_mo-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#3333FF;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-27" target="hpwiOvs-CnEdbyn8o_mo-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#3333FF;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-27" target="hpwiOvs-CnEdbyn8o_mo-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hpwiOvs-CnEdbyn8o_mo-27" value="TransactionInterceptor.java&lt;br&gt;invokeWithinTransaction(invocation.getMethod(), targetClass, invocation::proceed)&lt;br&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2160" y="640" width="290" height="65" as="geometry" />
         </mxCell>
@@ -111,7 +123,7 @@
         <mxCell id="hpwiOvs-CnEdbyn8o_mo-36" value="解析@Transaction的注解&lt;br&gt;TransactionAspectSupport.java&lt;br&gt;tas.getTransactionAttribute(method, targetClass)&lt;br&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2940" y="670" width="290" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="hpwiOvs-CnEdbyn8o_mo-39" value="判断是否有缓存，也就是之前是否已经解析过了" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-39" value="TransactionInfo txInfo = createTransactionIfNecessary(tm, txAttr, joinpointIdentification);" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3390" y="580" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="hpwiOvs-CnEdbyn8o_mo-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-42" target="hpwiOvs-CnEdbyn8o_mo-44">
@@ -163,6 +175,93 @@
         </mxCell>
         <mxCell id="hpwiOvs-CnEdbyn8o_mo-56" value="&lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;获取@Transaction注解的各种属性，并封装到&lt;/font&gt;&lt;font color=&quot;#3333ff&quot;&gt;RuleBasedTransactionAttribute&lt;/font&gt;&lt;font color=&quot;#ff6666&quot;&gt;对象中并&lt;/font&gt;&lt;font color=&quot;#3333ff&quot;&gt;返回&lt;/font&gt;&lt;/b&gt;&lt;br&gt;parseTransactionAnnotation(attributes)&lt;br&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5840" y="780" width="290" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-59" value="从 beanFactory 中获取配置文件中配置的 transactionManager&lt;br&gt;TransactionAspectSupport.java&lt;br&gt;final PlatformTransactionManager tm = determineTransactionManager(txAttr);&lt;br&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="790" width="420" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-61" value="方法的全路径限定名TransactionAspectSupport.java&lt;br&gt;final String joinpointIdentification = methodIdentification(method, targetClass, txAttr);&lt;br&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="900" width="420" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-63" value="方法的全路径限定名&lt;br&gt;TransactionAspectSupport.java&lt;br&gt;final String joinpointIdentification = methodIdentification(method, targetClass, txAttr);&lt;br&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="1010" width="420" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#3333FF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-65" target="hpwiOvs-CnEdbyn8o_mo-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3120" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#3333FF;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-65" target="hpwiOvs-CnEdbyn8o_mo-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-65" value="TransactionAspectSupport.java&lt;br&gt;TransactionInfo txInfo = createTransactionIfNecessary(tm, txAttr, joinpointIdentification);&lt;br&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="1120" width="420" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#3333FF;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-67" target="hpwiOvs-CnEdbyn8o_mo-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-67" value="txAttr != null &amp;amp;&amp;amp; txAttr.getName() == null" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3150" y="980" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontColor=#3333FF;dashed=1;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2970" y="1041" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3655" y="910" />
+              <mxPoint x="3030" y="910" />
+              <mxPoint x="3030" y="1041" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-69" value="&lt;div&gt;重新创建一个对象，并设置name属性&lt;/div&gt;&lt;div&gt;txAttr = new DelegatingTransactionAttribute(txAttr) {&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;				&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;@Override&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;				&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;/span&gt;public String getName() {&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;// 这个值就是前面获取到的name值&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;					&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;return joinpointIdentification;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;				&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;}&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;			&lt;/span&gt;};&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3500" y="930" width="310" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#3333FF;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-73" target="hpwiOvs-CnEdbyn8o_mo-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-73" value="TransactionAspectSupport.java&lt;br&gt;status = tm.getTransaction(txAttr);&lt;br&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3150" y="1126.25" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#3333FF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-75" target="hpwiOvs-CnEdbyn8o_mo-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#3333FF;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-75" target="hpwiOvs-CnEdbyn8o_mo-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#3333FF;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-75" target="hpwiOvs-CnEdbyn8o_mo-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-75" value="AbstractPlatformTransactionManager.java&lt;br&gt;Object transaction = doGetTransaction();&lt;br&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3470" y="1125" width="290" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-77" value="创建事务对象&lt;br&gt;DataSourceTransactionManager.java&lt;br&gt;DataSourceTransactionObject txObject = new DataSourceTransactionObject();&lt;br&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3880" y="1000" width="290" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#3333FF;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-81" target="hpwiOvs-CnEdbyn8o_mo-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-81" value="以DateSource为key，到类型为ThreadLocal的resource属性中去获取conn连接对象&lt;br&gt;DataSourceTransactionManager.java&lt;br&gt;&lt;div&gt;ConnectionHolder conHolder =&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;(ConnectionHolder) TransactionSynchronizationManager.getResource(obtainDataSource());&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="3880" y="1140" width="510" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#3333FF;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-82" target="hpwiOvs-CnEdbyn8o_mo-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#3333FF;" edge="1" parent="1" source="hpwiOvs-CnEdbyn8o_mo-82" target="hpwiOvs-CnEdbyn8o_mo-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-82" value="TransactionSynchronizationManager.java&lt;br&gt;Object value = doGetResource(actualKey);&lt;br&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4480" y="1146.88" width="240" height="56.25" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-83" value="获取ThreadLoca中的Map&lt;br&gt;TransactionSynchronizationManager.java&lt;br&gt;Map&amp;lt;Object, Object&amp;gt; map = resources.get();&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4810" y="1072.5" width="290" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-86" value="以DateSource为key，到类型为ThreadLocal的resource属性中去获取conn连接对象&lt;br&gt;TransactionSynchronizationManager.java&lt;br&gt;Object value = map.get(actualKey)&lt;br&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4810" y="1203.13" width="290" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-90" value="设置conn对象，conHolder存在为null的情况&lt;br&gt;DataSourceTransactionManager.java&lt;br&gt;txObject.setConnectionHolder(conHolder, false);&lt;br&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3880" y="1285.63" width="290" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwiOvs-CnEdbyn8o_mo-92" value="AbstractPlatformTransactionManager.java&lt;br&gt;Object transaction = doGetTransaction();&lt;br&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3480" y="1480" width="290" height="52.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
