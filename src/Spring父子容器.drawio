@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-01T09:27:15.095Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="-Fno8g2ZbaKjVT2nLuQN" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-01T09:39:54.746Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="zMcyitHHut62w-Li_Cy0" version="16.1.2" type="github">
   <diagram id="70LiV7wz0bi2Di8q39UR" name="第 1 页">
-    <mxGraphModel dx="1577" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1051" dy="3967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,11 +41,62 @@
         <mxCell id="CxRJg8WJ5stTx7T4FeH7-9" value="&lt;font color=&quot;#000000&quot;&gt;进行实例化，然后添加到 initializers 集合中&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;initializers.add((WebApplicationInitializer)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span&gt;								&lt;/span&gt;ReflectionUtils.accessibleConstructor(waiClass).newInstance());&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
           <mxGeometry x="1000" y="240" width="340" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;fontColor=#FF6666;dashed=1;" edge="1" parent="1" source="CxRJg8WJ5stTx7T4FeH7-12" target="CxRJg8WJ5stTx7T4FeH7-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CxRJg8WJ5stTx7T4FeH7-12" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;循环调用 onStartup 方法&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;			&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;initializer.&lt;/font&gt;&lt;b&gt;onStartup&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;(servletContext);&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
           <mxGeometry x="555" y="430" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CxRJg8WJ5stTx7T4FeH7-16" value="&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;注意&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;WebApplicationInitializer.class的子类都是抽象类，所以想要启动父子容器，需要我们自己去创一个一个子类实现，而且不是抽象的，这里就以实现&lt;/font&gt;&lt;b&gt;AbstractDispatcherServletInitializer&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;为例&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#FF6666;" vertex="1" parent="1">
           <mxGeometry x="1470" y="60" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;fontColor=#FF6666;" edge="1" parent="1" source="CxRJg8WJ5stTx7T4FeH7-17" target="CxRJg8WJ5stTx7T4FeH7-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;fontColor=#FF6666;" edge="1" parent="1" source="CxRJg8WJ5stTx7T4FeH7-17" target="CxRJg8WJ5stTx7T4FeH7-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-17" value="&lt;font color=&quot;#000000&quot;&gt;假如我们实现了该接口，会调用&lt;br&gt;AbstractAnnotationConfigDispatcherServletInitializer.java&lt;br&gt;的&lt;/font&gt;&lt;b&gt;onStartup&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;方法，因为他自己没有重新这个方法，所以会调用父类AbstractDispatcherServletInitializer的&lt;/font&gt;&lt;b&gt;onStartup&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;方法&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="310" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;fontColor=#FF6666;" edge="1" parent="1" source="CxRJg8WJ5stTx7T4FeH7-19" target="CxRJg8WJ5stTx7T4FeH7-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-19" value="&lt;font color=&quot;#000000&quot;&gt;&lt;div&gt;AbstractDispatcherServletInitializer.java&lt;br&gt;&lt;/div&gt;&lt;div&gt;创建父容器 rootAppContext&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;super.onStartup(servletContext);&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="110" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;fontColor=#FF6666;" edge="1" parent="1" source="CxRJg8WJ5stTx7T4FeH7-20" target="CxRJg8WJ5stTx7T4FeH7-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-20" value="&lt;font color=&quot;#000000&quot;&gt;&lt;div&gt;AbstractDispatcherServletInitializer.java&lt;/div&gt;&lt;div&gt;创建子容器servletAppContext&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;registerDispatcherServlet(servletContext);&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="450" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;fontColor=#FF6666;" edge="1" parent="1" source="CxRJg8WJ5stTx7T4FeH7-23" target="CxRJg8WJ5stTx7T4FeH7-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;fontColor=#FF6666;" edge="1" parent="1" source="CxRJg8WJ5stTx7T4FeH7-23" target="CxRJg8WJ5stTx7T4FeH7-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;fontColor=#FF6666;" edge="1" parent="1" source="CxRJg8WJ5stTx7T4FeH7-23" target="CxRJg8WJ5stTx7T4FeH7-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-23" value="&lt;font color=&quot;#000000&quot;&gt;&lt;div&gt;AbstractContextLoaderInitializer.java&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;registerContextLoaderListener(servletContext);&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="2410" y="110" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-25" value="&lt;font color=&quot;#000000&quot;&gt;&lt;div&gt;创建父容器&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;WebApplicationContext rootAppContext = createRootApplicationContext();&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="2890" y="-40" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-27" value="&lt;font color=&quot;#000000&quot;&gt;&lt;div&gt;&lt;span&gt;创建 ContextLoaderListener 对象，并给其内的 context 赋值&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;ContextLoaderListener listener = new ContextLoaderListener(rootAppContext);&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="2890" y="70" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-29" value="&lt;font color=&quot;#000000&quot;&gt;将监听器设置进&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;servletContext对象中&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;servletContext&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;.addListener(listener);&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="2890" y="200" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-31" value="&lt;div style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;创建子容器&lt;/div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;div&gt;AbstractDispatcherServletInitializer.java&lt;/div&gt;&lt;div&gt;&lt;span&gt;WebApplicationContext servletAppContext = createServletApplicationContext();&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="360" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-33" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;FrameworkServlet dispatcherServlet = createDispatcherServlet(servletAppContext);&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="480" width="340" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
