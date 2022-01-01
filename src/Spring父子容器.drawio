@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-01T09:26:52.486Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="cK2W5nNRBuhNr-RB94H7" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-01T09:27:15.095Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="-Fno8g2ZbaKjVT2nLuQN" version="16.1.2" type="github">
   <diagram id="70LiV7wz0bi2Di8q39UR" name="第 1 页">
     <mxGraphModel dx="1577" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -13,8 +13,8 @@
         <mxCell id="CxRJg8WJ5stTx7T4FeH7-1" value="onStartup(@Nullable Set&amp;lt;Class&amp;lt;?&amp;gt;&amp;gt; &lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;webAppInitializerClasses&lt;/font&gt;&lt;/b&gt;, ServletContext servletContext)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="80" width="310" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CxRJg8WJ5stTx7T4FeH7-3" value="父子容器通过SPI机制实现，入口在Spring-Framework 的spring-web中的webapp/MATE-INF/service/javax.servlet.ServletContainerInitializer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="40" width="380" height="90" as="geometry" />
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;父子容器通过SPI机制实现，入口在Spring-Framework 的spring-web中的webapp/MATE-INF/service/javax.servlet.ServletContainerInitializer&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="480" height="250" as="geometry" />
         </mxCell>
         <mxCell id="CxRJg8WJ5stTx7T4FeH7-4" value="&lt;font color=&quot;#000000&quot;&gt;webAppInitializerClasses 中参数是通过 @HandlesTypes(WebApplicationInitializer.class) 获取到的所有 WebApplicationInitializer.class 的实现类&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
           <mxGeometry x="1000" y="90" width="340" height="60" as="geometry" />
