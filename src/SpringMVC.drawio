@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-01T05:28:51.355Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="G3zOUI3QwRfSo_jkunOO" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-01T05:55:35.764Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="R5h44alBfL5dybv1G84e" version="16.1.2" type="github">
   <diagram id="awkxMe9VgpwPjlktksfE" name="第 1 页">
-    <mxGraphModel dx="996" dy="3856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1261" dy="4004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,6 +14,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VWh1zfDzu2o1qfI7YsTY-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-2" target="VWh1zfDzu2o1qfI7YsTY-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-2" target="VWh1zfDzu2o1qfI7YsTY-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-2" target="VWh1zfDzu2o1qfI7YsTY-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VWh1zfDzu2o1qfI7YsTY-2" value="&lt;span&gt;DispatcherServlet.java&lt;br&gt;doDispatch(...)&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
@@ -141,20 +147,93 @@
         <mxCell id="VWh1zfDzu2o1qfI7YsTY-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-48" target="VWh1zfDzu2o1qfI7YsTY-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-2" target="VWh1zfDzu2o1qfI7YsTY-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="423.1578947368421" y="560" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-81" value="&lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;如果mv为null下面的逻辑就不会走了，什么时候为null呢，也是在方法上设置了@ResponseBody 注解&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VWh1zfDzu2o1qfI7YsTY-55">
+          <mxGeometry x="0.5558" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="VWh1zfDzu2o1qfI7YsTY-48" value="AbstractHandlerMethodAdapter.java&lt;br&gt;handleInternal(request, response, (HandlerMethod) handler);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1090" y="600" width="330" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VWh1zfDzu2o1qfI7YsTY-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-50" target="VWh1zfDzu2o1qfI7YsTY-52">
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-50" target="VWh1zfDzu2o1qfI7YsTY-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VWh1zfDzu2o1qfI7YsTY-50" value="调用handler方法，返回一个modelAndView&lt;br&gt;RequestMappingHandlerAdapter.java&lt;br&gt;mav = invokeHandlerMethod(request, response, handlerMethod);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1500" y="500" width="330" height="60" as="geometry" />
+          <mxGeometry x="1500" y="600" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VWh1zfDzu2o1qfI7YsTY-52" value="调用handler方法&lt;br&gt;RequestMappingHandlerAdapter.java&lt;br&gt;invocableMethod.invokeAndHandle(webRequest, mavContainer);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1930" y="500" width="330" height="60" as="geometry" />
+          <mxGeometry x="1930" y="600" width="330" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VWh1zfDzu2o1qfI7YsTY-54" value="调用handler方法，返回一个modelAndView&lt;br&gt;RequestMappingHandlerAdapter.java&lt;br&gt;mav = invokeHandlerMethod(request, response, handlerMethod);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="630" width="330" height="60" as="geometry" />
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-54" value="&lt;div&gt;视图名称转换,对需要添加前缀后缀的情况&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;applyDefaultViewName(processedRequest, mv);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="770" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-56" value="&lt;div&gt;应用所有拦截器的 postHandle 方法&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;mappedHandler.applyPostHandle(processedRequest, response, mv);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="930" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-58" target="VWh1zfDzu2o1qfI7YsTY-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-58" value="processDispatchResult(processedRequest, response, mappedHandler, mv, dispatchException);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1070" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-60" target="VWh1zfDzu2o1qfI7YsTY-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-60" target="VWh1zfDzu2o1qfI7YsTY-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-60" value="render(mv, request, response);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="1070" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-62" target="VWh1zfDzu2o1qfI7YsTY-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-62" value="通过 ViewResolver 寻找真正的视图&lt;br&gt;view = resolveViewName(viewName, mv.getModelInternal(), locale, request);" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="960" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-65" value="View view = viewResolver.resolveViewName(viewName, locale);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="970" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-68" target="VWh1zfDzu2o1qfI7YsTY-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-68" value="view.render(mv.getModelInternal(), request, response);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="1190" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-70" target="VWh1zfDzu2o1qfI7YsTY-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-70" value="view.render(mv.getModelInternal(), request, response);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="1190" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-72" target="VWh1zfDzu2o1qfI7YsTY-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-72" target="VWh1zfDzu2o1qfI7YsTY-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-72" target="VWh1zfDzu2o1qfI7YsTY-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-72" value="AbstractView.java&lt;br&gt;renderMergedOutputModel(mergedModel, getRequestToExpose(request), response);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="1190" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-74" value="InternalResourceView.java&lt;br&gt;&lt;div&gt;将 model 中的数据以属性的方式设置到 request 中&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;exposeModelAsRequestAttributes(model, request);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="1020" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-76" value="&lt;div&gt;防止死循环&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;String dispatcherPath = prepareForRendering(request, response);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="1130" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-79" value="&lt;div&gt;跳转到相应的视图&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;RequestDispatcher rd = getRequestDispatcher(request, dispatcherPath);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="1250" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-83" value="调用handler方法&lt;br&gt;RequestMappingHandlerAdapter.java&lt;br&gt;invocableMethod.invokeAndHandle(webRequest, mavContainer);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="600" width="330" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
