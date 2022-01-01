@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-01T10:43:15.850Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="HCKcWu2cAxZ7oaaxatBJ" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-01T10:59:36.415Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="xB-q8uwBrM3aQO7de4U4" version="16.1.2" type="github">
   <diagram id="70LiV7wz0bi2Di8q39UR" name="第 1 页">
-    <mxGraphModel dx="1051" dy="3967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1577" dy="4300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -373,6 +373,12 @@
         <mxCell id="Ng5JVmeW-zNZZsK0bWua-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ng5JVmeW-zNZZsK0bWua-70" target="Ng5JVmeW-zNZZsK0bWua-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Ng5JVmeW-zNZZsK0bWua-70" target="Ng5JVmeW-zNZZsK0bWua-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Ng5JVmeW-zNZZsK0bWua-70" target="Ng5JVmeW-zNZZsK0bWua-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ng5JVmeW-zNZZsK0bWua-70" value="&lt;font color=&quot;#000000&quot;&gt;this.handlerMappings = getDefaultStrategies(context, HandlerMapping.class);&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
           <mxGeometry x="9310" y="610" width="310" height="60" as="geometry" />
         </mxCell>
@@ -384,6 +390,81 @@
         </mxCell>
         <mxCell id="Ng5JVmeW-zNZZsK0bWua-74" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;static {&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span&gt;		&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;// Load default strategy implementations from properties file.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span&gt;		&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;// This is currently strictly internal and not meant to be customized&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span&gt;		&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;// by application developers.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span&gt;		&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;try {&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;// 装在配置文件 dispatcherservlet.properties 中配置的属性值&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span&gt;			&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;ClassPathResource resource = new ClassPathResource(DEFAULT_STRATEGIES_PATH, &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;DispatcherServlet.class);&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span&gt;			&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;defaultStrategies = PropertiesLoaderUtils.loadProperties(resource);&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span&gt;		&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;}&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span&gt;		&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;catch (IOException ex) {&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span&gt;			&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;throw new IllegalStateException(&quot;Could not load &#39;&quot; + DEFAULT_STRATEGIES_PATH + &quot;&#39;: &quot; + &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;ex.getMessage());&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span&gt;		&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;}&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span&gt;	&lt;/span&gt;}&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;align=left;" vertex="1" parent="1">
           <mxGeometry x="9720" y="320" width="550" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-76" value="&lt;font color=&quot;#000000&quot;&gt;加载类&lt;br&gt;Class&amp;lt;?&amp;gt; clazz = ClassUtils.forName(className, DispatcherServlet.class.getClassLoader());&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="9720" y="740" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Ng5JVmeW-zNZZsK0bWua-77" target="Ng5JVmeW-zNZZsK0bWua-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-77" value="&lt;font color=&quot;#000000&quot;&gt;创建bean&lt;br&gt;Object strategy = createDefaultStrategy(context, clazz);&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="9720" y="860" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-78" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;创建bean&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;O&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;context.getAutowireCapableBeanFactory().createBean(clazz);&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="10120" y="860" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-82" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9870" y="960" as="sourcePoint" />
+            <mxPoint x="9870" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="Ng5JVmeW-zNZZsK0bWua-83" target="Ng5JVmeW-zNZZsK0bWua-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-83" value="&lt;font color=&quot;#000000&quot;&gt;假设 key 为&amp;nbsp;org.springframework.web.servlet.HandlerMapping 就会获取到org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping 类，之后就回去加载类，创建bean&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="9610" y="1120" width="530" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Ng5JVmeW-zNZZsK0bWua-84" target="Ng5JVmeW-zNZZsK0bWua-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-84" value="&lt;font color=&quot;#000000&quot;&gt;因为 RequestMappingHandlerMapping 实现了 InitializingBean 接口，所以在该 bean 初始化的时候，会调用该 bean 的 afterPropertiesSet 方法&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="10310" y="1120" width="530" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="Ng5JVmeW-zNZZsK0bWua-86" target="Ng5JVmeW-zNZZsK0bWua-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-86" value="&lt;font color=&quot;#000000&quot;&gt;RequestMappingHandlerMapping.java&lt;br&gt;afterPropertiesSet()&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="10930" y="1130" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Ng5JVmeW-zNZZsK0bWua-88" target="Ng5JVmeW-zNZZsK0bWua-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-88" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;RequestMappingHandlerMapping.java&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;super.afterPropertiesSet()&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="11280" y="1130" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Ng5JVmeW-zNZZsK0bWua-90" target="Ng5JVmeW-zNZZsK0bWua-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-90" value="&lt;font color=&quot;#000000&quot;&gt;AbstractHandlerMethodMapping.java&lt;br&gt;initHandlerMethods()&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="11650" y="1130" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="Ng5JVmeW-zNZZsK0bWua-92" target="Ng5JVmeW-zNZZsK0bWua-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-92" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div&gt;&lt;b&gt;获取当前容器，也就是子容器中的所有 bean，遍历查找，类或方法上是否加了 @Controller 或者 @RequestMapping 注解&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;for (String beanName : getCandidateBeanNames()) {&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span&gt;			&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;if(!beanName.startsWith(SCOPED_TARGET_NAME_PREFIX))&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;{&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span&gt;				&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;processCandidateBean(beanName);&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span&gt;			&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;}&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span&gt;		&lt;/span&gt;}&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="12050" y="1040" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="Ng5JVmeW-zNZZsK0bWua-94" target="Ng5JVmeW-zNZZsK0bWua-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;dashed=1;" edge="1" parent="1" source="Ng5JVmeW-zNZZsK0bWua-94" target="Ng5JVmeW-zNZZsK0bWua-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-94" value="&lt;font color=&quot;#000000&quot;&gt;beanType != null &amp;amp;&amp;amp; &lt;/font&gt;&lt;b&gt;isHandler&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;(beanType)&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="12550" y="1062.5" width="320" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-96" value="&lt;font color=&quot;#000000&quot;&gt;注册到handlerMapping集合中&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="12940" y="1075" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="Ng5JVmeW-zNZZsK0bWua-99" target="Ng5JVmeW-zNZZsK0bWua-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-99" value="&lt;font color=&quot;#000000&quot;&gt;isHandler(beanType)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="12940" y="830" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng5JVmeW-zNZZsK0bWua-101" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;(AnnotatedElementUtils.hasAnnotation(beanType, &lt;/span&gt;&lt;b&gt;Controller.class&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;) ||&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;				&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;AnnotatedElementUtils.hasAnnotation(beanType, &lt;/font&gt;&lt;b&gt;RequestMapping.class&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;))&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="13220" y="802.5" width="300" height="105" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
