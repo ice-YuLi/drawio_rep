@@ -1,1 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2022-01-01T08:55:27.647Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" version="16.1.2" etag="MPFtsxZOnD1Z615-P-ZT" type="github"><diagram id="70LiV7wz0bi2Di8q39UR">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-01T09:26:52.486Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="cK2W5nNRBuhNr-RB94H7" version="16.1.2" type="github">
+  <diagram id="70LiV7wz0bi2Di8q39UR" name="第 1 页">
+    <mxGraphModel dx="1577" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;dashed=1;" edge="1" parent="1" source="CxRJg8WJ5stTx7T4FeH7-1" target="CxRJg8WJ5stTx7T4FeH7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="CxRJg8WJ5stTx7T4FeH7-1" target="CxRJg8WJ5stTx7T4FeH7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-1" value="onStartup(@Nullable Set&amp;lt;Class&amp;lt;?&amp;gt;&amp;gt; &lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;webAppInitializerClasses&lt;/font&gt;&lt;/b&gt;, ServletContext servletContext)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="80" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-3" value="父子容器通过SPI机制实现，入口在Spring-Framework 的spring-web中的webapp/MATE-INF/service/javax.servlet.ServletContainerInitializer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="380" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-4" value="&lt;font color=&quot;#000000&quot;&gt;webAppInitializerClasses 中参数是通过 @HandlesTypes(WebApplicationInitializer.class) 获取到的所有 WebApplicationInitializer.class 的实现类&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="90" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="CxRJg8WJ5stTx7T4FeH7-6" target="CxRJg8WJ5stTx7T4FeH7-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-11" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="CxRJg8WJ5stTx7T4FeH7-10">
+          <mxGeometry x="-0.2324" y="-2" relative="1" as="geometry">
+            <mxPoint x="7" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="CxRJg8WJ5stTx7T4FeH7-6" target="CxRJg8WJ5stTx7T4FeH7-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-14" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="CxRJg8WJ5stTx7T4FeH7-13">
+          <mxGeometry x="-0.0909" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-6" value="&lt;b&gt;!waiClass.isInterface() &lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;amp;&amp;amp; !Modifier.isAbstract(waiClass.getModifiers()) &amp;amp;&amp;amp;&lt;/font&gt;&lt;br&gt;&lt;b&gt;WebApplicationInitializer.class.isAssignableFrom(waiClass)&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="542.5" y="220" width="365" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-9" value="&lt;font color=&quot;#000000&quot;&gt;进行实例化，然后添加到 initializers 集合中&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;initializers.add((WebApplicationInitializer)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span&gt;								&lt;/span&gt;ReflectionUtils.accessibleConstructor(waiClass).newInstance());&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="240" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-12" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;循环调用 onStartup 方法&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;			&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;initializer.&lt;/font&gt;&lt;b&gt;onStartup&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;(servletContext);&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="555" y="430" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CxRJg8WJ5stTx7T4FeH7-16" value="&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;注意&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;WebApplicationInitializer.class的子类都是抽象类，所以想要启动父子容器，需要我们自己去创一个一个子类实现，而且不是抽象的，这里就以实现&lt;/font&gt;&lt;b&gt;AbstractDispatcherServletInitializer&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;为例&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="60" width="270" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
