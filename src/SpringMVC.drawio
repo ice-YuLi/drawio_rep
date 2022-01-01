@@ -1,10 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2022-01-01T04:59:00.105Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="msSFonD3-0k9LpryyTQM" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-01T05:28:51.355Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="G3zOUI3QwRfSo_jkunOO" version="16.1.2" type="github">
   <diagram id="awkxMe9VgpwPjlktksfE" name="第 1 页">
-    <mxGraphModel dx="1351" dy="4054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="996" dy="3856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VWh1zfDzu2o1qfI7YsTY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-2" target="VWh1zfDzu2o1qfI7YsTY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-2" target="VWh1zfDzu2o1qfI7YsTY-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-2" target="VWh1zfDzu2o1qfI7YsTY-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-2" target="VWh1zfDzu2o1qfI7YsTY-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VWh1zfDzu2o1qfI7YsTY-2" value="&lt;span&gt;DispatcherServlet.java&lt;br&gt;doDispatch(...)&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
@@ -17,6 +26,9 @@
           <mxGeometry x="660" y="70" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VWh1zfDzu2o1qfI7YsTY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-5" target="VWh1zfDzu2o1qfI7YsTY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-5" target="VWh1zfDzu2o1qfI7YsTY-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VWh1zfDzu2o1qfI7YsTY-5" value="for循环找到合适的handler&lt;br&gt;HandlerExecutionChain handler = mapping.getHandler(request);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -104,6 +116,45 @@
         </mxCell>
         <mxCell id="VWh1zfDzu2o1qfI7YsTY-35" value="获取最匹配的那一个，并返回" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2920" y="310" width="170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-38" value="判断是否存在拦截器，并封装成 chain 链 &lt;br&gt;AbstractHandlerMapping.java&lt;br&gt;HandlerExecutionChain executionChain = getHandlerExecutionChain(handler, request);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="140" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-40" target="VWh1zfDzu2o1qfI7YsTY-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-40" value="&lt;div&gt;根据当前的 handler 寻找对应的 HandlerAdapter&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;HandlerAdapter ha = getHandlerAdapter(mappedHandler.getHandler());&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="290" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-42" value="开启for循环判断你的handler 是什么类型的，来寻找合适的adapter，这里就以&amp;nbsp;HttpRequestHandler 为例" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="290" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-44" value="调用拦截器的preHandle方法&lt;br&gt;mappedHandler.applyPreHandle(processedRequest, response)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="430" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-46" target="VWh1zfDzu2o1qfI7YsTY-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-46" value="通过寻找到的 adapter 处理 handler，并返回 modelAndView&lt;br&gt;mv = ha.handle(processedRequest, response, mappedHandler.getHandler());" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="600" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-48" target="VWh1zfDzu2o1qfI7YsTY-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-48" value="AbstractHandlerMethodAdapter.java&lt;br&gt;handleInternal(request, response, (HandlerMethod) handler);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="600" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-50" target="VWh1zfDzu2o1qfI7YsTY-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-50" value="调用handler方法，返回一个modelAndView&lt;br&gt;RequestMappingHandlerAdapter.java&lt;br&gt;mav = invokeHandlerMethod(request, response, handlerMethod);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="500" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-52" value="调用handler方法&lt;br&gt;RequestMappingHandlerAdapter.java&lt;br&gt;invocableMethod.invokeAndHandle(webRequest, mavContainer);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="500" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-54" value="调用handler方法，返回一个modelAndView&lt;br&gt;RequestMappingHandlerAdapter.java&lt;br&gt;mav = invokeHandlerMethod(request, response, handlerMethod);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="630" width="330" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
