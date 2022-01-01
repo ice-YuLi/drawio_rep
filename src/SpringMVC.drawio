@@ -1,1 +1,111 @@
-<mxfile host="app.diagrams.net" modified="2022-01-01T04:38:52.469Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" version="16.1.2" etag="WxBFH7dbJvUgXlBIpHOA" type="github"><diagram id="awkxMe9VgpwPjlktksfE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-01T04:59:00.105Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="msSFonD3-0k9LpryyTQM" version="16.1.2" type="github">
+  <diagram id="awkxMe9VgpwPjlktksfE" name="第 1 页">
+    <mxGraphModel dx="1351" dy="4054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-2" target="VWh1zfDzu2o1qfI7YsTY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-2" value="&lt;span&gt;DispatcherServlet.java&lt;br&gt;doDispatch(...)&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="110" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-3" target="VWh1zfDzu2o1qfI7YsTY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-3" value="通过 URL 获取具体的 handler&lt;br&gt;mappedHandler = getHandler(processedRequest);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="70" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-5" target="VWh1zfDzu2o1qfI7YsTY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-5" value="for循环找到合适的handler&lt;br&gt;HandlerExecutionChain handler = mapping.getHandler(request);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="70" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-7" target="VWh1zfDzu2o1qfI7YsTY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-7" value="AbstractHandlerMapping.java&lt;br&gt;Object handler = getHandlerInternal(request);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="30" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-9" target="VWh1zfDzu2o1qfI7YsTY-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-9" target="VWh1zfDzu2o1qfI7YsTY-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-9" target="VWh1zfDzu2o1qfI7YsTY-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-9" value="AbstractHandlerMethodMapping.java&lt;br&gt;HandlerMethod handlerMethod = lookupHandlerMethod(lookupPath, request);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="30" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-11" value="先通过 url 作为 key 去获取并发达matchs中&lt;br&gt;List&amp;lt;T&amp;gt; directPathMatches = this.mappingRegistry.getMappingsByUrl(lookupPath);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="-40" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-13" value="如果直接通过 url 获取不到，可能 url 中可能存在通配符的情况[&lt;br&gt;addMatchingMappings(this.mappingRegistry.getMappings().keySet(), matches, request);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="60" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-15" target="VWh1zfDzu2o1qfI7YsTY-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-15" target="VWh1zfDzu2o1qfI7YsTY-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-15" value="执行逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2640" y="260" width="170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-17" target="VWh1zfDzu2o1qfI7YsTY-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-22" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VWh1zfDzu2o1qfI7YsTY-20">
+          <mxGeometry x="-0.2821" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-17" value="matches.isEmpty()" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="50" width="175" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-18" target="VWh1zfDzu2o1qfI7YsTY-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-24" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VWh1zfDzu2o1qfI7YsTY-23">
+          <mxGeometry x="-0.0933" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-18" value="!matches.isEmpty()" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="180" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-27" target="VWh1zfDzu2o1qfI7YsTY-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-30" value="false，也就是只有一个" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VWh1zfDzu2o1qfI7YsTY-29">
+          <mxGeometry x="0.0966" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWh1zfDzu2o1qfI7YsTY-27" target="VWh1zfDzu2o1qfI7YsTY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-32" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VWh1zfDzu2o1qfI7YsTY-31">
+          <mxGeometry x="0.0189" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-27" value="matches.size() &amp;gt; 1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="180" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-28" value="Match bestMatch = matches.get(0);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2640" y="140" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-33" value="进行排序：? &amp;gt; * &amp;gt; {} &amp;gt; **&lt;br&gt;matches.sort(comparator);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2920" y="205" width="170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VWh1zfDzu2o1qfI7YsTY-35" value="获取最匹配的那一个，并返回" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2920" y="310" width="170" height="45" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
