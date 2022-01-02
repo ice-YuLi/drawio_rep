@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-02T07:07:21.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="7S1Pql_wAxlgr9uoZ5gx" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-02T07:10:54.584Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="s74Rge6xYt0kKm1j77jZ" version="16.1.2" type="github">
   <diagram id="K0FFkgu-WFEWxHrFu3Ff" name="第 1 页">
     <mxGraphModel dx="1185" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -422,11 +422,32 @@
         <mxCell id="90hx1iQso0jcdHaIgK8K-135" value="判断当前线程和evenLoop中的thread的属性值是否&lt;br&gt;相同，thread一般都是null&lt;br&gt;eventLoop.inEventLoop()" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3360" y="1600" width="400" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="90hx1iQso0jcdHaIgK8K-137" value="promise.channel().unsafe().register(this, promise);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="90hx1iQso0jcdHaIgK8K-137" value="register0(promise);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3842.5" y="1540" width="285" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="90hx1iQso0jcdHaIgK8K-139" value="promise.channel().unsafe().register(this, promise);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3842.5" y="1690" width="285" height="50" as="geometry" />
+        <mxCell id="90hx1iQso0jcdHaIgK8K-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;dashed=1;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-139" target="90hx1iQso0jcdHaIgK8K-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-139" value="&lt;div&gt;eventLoop.execute(new Runnable() {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;@Override&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;public void run() {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;register0(promise);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;});&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="3842.5" y="1690" width="267.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-144" target="90hx1iQso0jcdHaIgK8K-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-144" value="&lt;span style=&quot;text-align: left&quot;&gt;eventLoop.execute(...)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4210" y="1620" width="285" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-146" target="90hx1iQso0jcdHaIgK8K-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-146" value="&lt;div&gt;&lt;span&gt;execute(task, !(task instanceof LazyRunnable) &amp;amp;&amp;amp; wakesUpForTask(task));&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="4557.5" y="1620" width="285" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-148" value="&lt;font color=&quot;rgba(0, 0, 0, 0)&quot; face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 0px&quot;&gt;boolean inEventLoop = inEventLoop();&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="4910" y="1620" width="285" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-150" value="&lt;div&gt;&lt;span&gt;execute(task, !(task instanceof LazyRunnable) &amp;amp;&amp;amp; wakesUpForTask(task));&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="5260" y="1550" width="285" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
