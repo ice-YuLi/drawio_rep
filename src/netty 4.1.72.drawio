@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-02T04:48:43.559Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="CRpulUqwd0g5o4MHi6_E" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-02T05:13:45.575Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="5V5Xe5mStGUvYZ_7v8bs" version="16.1.2" type="github">
   <diagram id="K0FFkgu-WFEWxHrFu3Ff" name="第 1 页">
-    <mxGraphModel dx="1673" dy="987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,10 +8,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-2" value="&amp;nbsp;EventLoopGroup bossGroup = new NioEventLoopGroup(2);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="180" width="210" height="60" as="geometry" />
+          <mxGeometry x="600" y="400" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-3" value="&lt;span style=&quot;font-family: &amp;#34;courier new&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;创建&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt; NioEventLoop &lt;/span&gt;&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;数组&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;MultithreadEventExecutorGroup.java&lt;/span&gt;&lt;/font&gt;&lt;br&gt;children = new EventExecutor[nThreads];" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="40" width="300" height="80" as="geometry" />
+          <mxGeometry x="1180" y="260" width="300" height="80" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-4" target="90hx1iQso0jcdHaIgK8K-3">
           <mxGeometry relative="1" as="geometry" />
@@ -20,13 +20,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-4" value="执行构造方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="414" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="894" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-7" target="90hx1iQso0jcdHaIgK8K-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-7" value="&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&amp;nbsp;for (int i = 0; i &amp;lt; nThreads; i ++) {&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;// 通过 NioEventLoopGroup 创建 NioEventLoop 对象，每个 NioEventLoop 对象其实就是一个线程池&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;children[i] = newChild(executor, args);&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="700" y="190" width="410" height="90" as="geometry" />
+          <mxGeometry x="1180" y="410" width="410" height="90" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-10" target="90hx1iQso0jcdHaIgK8K-12">
           <mxGeometry relative="1" as="geometry" />
@@ -38,28 +38,187 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-10" value="&lt;span style=&quot;font-family: &amp;#34;courier new&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;创建&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt; NioEventLoop &lt;/span&gt;&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;数组&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;NioEventLoopGroup.java&lt;/span&gt;&lt;/font&gt;&lt;br&gt;new NioEventLoop(...)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="207.5" width="230" height="55" as="geometry" />
+          <mxGeometry x="1700" y="427.5" width="230" height="55" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-12" target="90hx1iQso0jcdHaIgK8K-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-12" value="&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;NioEventLoop.java&lt;/span&gt;&lt;/font&gt;&lt;br&gt;super(...)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="130" width="190" height="50" as="geometry" />
+          <mxGeometry x="2040" y="350" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-15" target="90hx1iQso0jcdHaIgK8K-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-15" value="&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;final SelectorTuple selectorTuple = openSelector();&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="220" width="300" height="50" as="geometry" />
+          <mxGeometry x="2040" y="440" width="300" height="50" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-17" value="&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;创建一个nio选择器selector&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;provider.openSelector();&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1940" y="220" width="230" height="50" as="geometry" />
+          <mxGeometry x="2420" y="440" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-19" value="&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;获取selector选择器&lt;br&gt;this.selector = selectorTuple.selector;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="320" width="300" height="50" as="geometry" />
+          <mxGeometry x="2040" y="540" width="300" height="50" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-21" value="&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;创建一个队列，默认大小为 16&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;SingleThreadEventExecutor.java&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;this.taskQueue = ObjectUtil.checkNotNull(taskQueue, &quot;taskQueue&quot;);&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="2260" y="115" width="390" height="80" as="geometry" />
+          <mxGeometry x="2740" y="335" width="390" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-23" target="90hx1iQso0jcdHaIgK8K-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-23" value="EventLoopGroup workerGroup = new NioEventLoopGroup();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="535" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-24" value="执行构造方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="894" y="535" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-26" target="90hx1iQso0jcdHaIgK8K-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-26" value="ServerBootstrap bootstrap = new ServerBootstrap();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="660" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-27" value="执行构造方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="894" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-29" target="90hx1iQso0jcdHaIgK8K-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="804" />
+              <mxPoint x="1050" y="715" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-29" target="90hx1iQso0jcdHaIgK8K-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-37" value="设置子线程池组" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="90hx1iQso0jcdHaIgK8K-33">
+          <mxGeometry x="0.5526" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-29" value="bootstrap.group(bossGroup, workerGroup)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="774" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-35" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;设置父线程池组&lt;/span&gt;&#xa;&#xa;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-30" target="90hx1iQso0jcdHaIgK8K-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-30" value="ServerBootstrap.java&lt;br&gt;super.group(parentGroup);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="690" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-32" value="this.childGroup = ObjectUtil.checkNotNull(childGroup, &quot;childGroup&quot;);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="779" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-34" value="AbstractBootstrap.java&lt;br&gt;this.group = group;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="690" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-38" target="90hx1iQso0jcdHaIgK8K-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-38" value="bootstrap.channel(NioServerSocketChannel.class)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="890" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-39" target="90hx1iQso0jcdHaIgK8K-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-39" target="90hx1iQso0jcdHaIgK8K-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-39" value="&lt;div&gt;AbstractBootstrap.java&lt;/div&gt;&lt;div&gt;channelFactory(new ReflectiveChannelFactory&amp;lt;C&amp;gt;(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ObjectUtil.checkNotNull(channelClass, &quot;channelClass&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ))&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="883.75" width="320" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;dashed=1;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-42" target="90hx1iQso0jcdHaIgK8K-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-51" value="赋值给他" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="90hx1iQso0jcdHaIgK8K-50">
+          <mxGeometry x="0.0168" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-42" value="clazz 类型为 &lt;font color=&quot;#ff9999&quot;&gt;&lt;b&gt;NioServerSocketChannel.class&lt;/b&gt;&lt;/font&gt;，是前面传进来的&lt;br&gt;ReflectiveChannelFactory.java&lt;br&gt;this.constructor = clazz.getConstructor();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="830" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-46" target="90hx1iQso0jcdHaIgK8K-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-46" value="channelFactory((ChannelFactory&amp;lt;C&amp;gt;) channelFactory)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="920" width="230" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-48" value="this.channelFactory = channelFactory;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="920" width="230" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-52" value="bootstrap..option(ChannelOption.SO_BACKLOG, 1024)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1010" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF9999;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-53" target="90hx1iQso0jcdHaIgK8K-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-53" value="bootstrap.&lt;span&gt;childHandler(new ChannelInitializer&amp;lt;SocketChannel&amp;gt;(){&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; @Override&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; protected void initChannel(SocketChannel ch) throws Exception {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ch.pipeline().addLast(new NettyServerHandler());&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;});&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1130" width="350" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-54" value="&amp;nbsp;ServerBootstrap.java&lt;br&gt;this.childHandler = ObjectUtil.checkNotNull(childHandler, &quot;childHandler&quot;);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1167.5" width="410" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF9999;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-56" target="90hx1iQso0jcdHaIgK8K-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-56" value="ChannelFuture cf = bootstrap.bind(9000).sync();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1360" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF9999;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-57" target="90hx1iQso0jcdHaIgK8K-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-57" value="bind(new InetSocketAddress(inetPort));" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1360" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF9999;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-60" target="90hx1iQso0jcdHaIgK8K-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-60" value="doBind(ObjectUtil.checkNotNull(localAddress, &quot;localAddress&quot;));" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1360" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF9999;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-62" target="90hx1iQso0jcdHaIgK8K-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-62" value="final ChannelFuture regFuture = initAndRegister();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="1060" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF9999;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-64" target="90hx1iQso0jcdHaIgK8K-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-64" value="channel = channelFactory.newChannel();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="1010" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF9999;dashed=1;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-66" target="90hx1iQso0jcdHaIgK8K-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF9999;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-66" target="90hx1iQso0jcdHaIgK8K-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-66" value="channel = channelFactory.newChannel();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2390" y="1010" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontColor=#FF9999;dashed=1;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-70" target="90hx1iQso0jcdHaIgK8K-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF9999;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-70" target="90hx1iQso0jcdHaIgK8K-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-70" value="constructor.newInstance()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2710" y="1010" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF9999;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-73" target="90hx1iQso0jcdHaIgK8K-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF9999;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-73" target="90hx1iQso0jcdHaIgK8K-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-73" value="调用NioServerSocketChannel.java的无参构造方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3050" y="1010" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-75" value="newSocket(DEFAULT_SELECTOR_PROVIDER)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3430" y="940" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-77" value="this(newSocket(DEFAULT_SELECTOR_PROVIDER))" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3430" y="1070" width="300" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
