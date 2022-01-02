@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-02T05:13:45.575Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="5V5Xe5mStGUvYZ_7v8bs" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-02T05:40:45.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="Dqc5fI7coRC-F0HPlQNr" version="16.1.2" type="github">
   <diagram id="K0FFkgu-WFEWxHrFu3Ff" name="第 1 页">
     <mxGraphModel dx="1185" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -214,11 +214,50 @@
         <mxCell id="90hx1iQso0jcdHaIgK8K-73" value="调用NioServerSocketChannel.java的无参构造方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3050" y="1010" width="280" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF9999;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-75" target="90hx1iQso0jcdHaIgK8K-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-75" value="newSocket(DEFAULT_SELECTOR_PROVIDER)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3430" y="940" width="280" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF9999;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-77" target="90hx1iQso0jcdHaIgK8K-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-77" value="this(newSocket(DEFAULT_SELECTOR_PROVIDER))" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3430" y="1070" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF9999;dashed=1;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-79" target="90hx1iQso0jcdHaIgK8K-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-79" value="provider.openServerSocketChannel()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="3780" y="940" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF9999;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-81" target="90hx1iQso0jcdHaIgK8K-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-81" value="NioServerSocketChannel.java&lt;br&gt;super(null, &lt;font color=&quot;#ff9999&quot;&gt;&lt;b&gt;channel&lt;/b&gt;&lt;/font&gt;, &lt;font color=&quot;#ff9999&quot;&gt;&lt;b&gt;SelectionKey.OP_ACCEPT&lt;/b&gt;&lt;/font&gt;);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3810" y="1070" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF9999;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-82" target="90hx1iQso0jcdHaIgK8K-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF9999;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-82" target="90hx1iQso0jcdHaIgK8K-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF9999;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-82" target="90hx1iQso0jcdHaIgK8K-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-82" value="NioServerSocketChannel.java&lt;br&gt;super(null, channel, SelectionKey.OP_ACCEPT);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4210" y="1070" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-85" value="this.ch = ch; // ServerSocketChannel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4550" y="990" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-86" value="this.readInterestOp = readInterestOp; // SelectionKey.OP_ACCEPT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4549" y="1070" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-89" value="ch.configureBlocking(false); // 将NIO设置为非阻塞" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4549" y="1150" width="460" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
