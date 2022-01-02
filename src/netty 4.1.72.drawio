@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-02T10:20:23.089Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="9TFF1ywAQUlwNoqR4FFE" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-02T10:38:05.613Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="f08-jk60YICBcIZ370nU" version="16.1.2" type="github">
   <diagram id="K0FFkgu-WFEWxHrFu3Ff" name="第 1 页">
-    <mxGraphModel dx="2188" dy="1291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1497" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -569,6 +569,9 @@
         <mxCell id="90hx1iQso0jcdHaIgK8K-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-189" target="90hx1iQso0jcdHaIgK8K-230">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-288" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;strokeColor=default;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-189" target="90hx1iQso0jcdHaIgK8K-287">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-189" value="SingleThreadEventExecutor.java&lt;br&gt;&lt;font color=&quot;#ff0080&quot;&gt;SingleThreadEventExecutor.this.run()&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="7630" y="1817.5" width="240" height="45" as="geometry" />
         </mxCell>
@@ -782,6 +785,21 @@
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-278" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;font color=&quot;#ff0080&quot;&gt;调用这里&lt;/font&gt;&lt;/div&gt;&lt;div&gt;p.addLast(new ChannelInitializer&amp;lt;Channel&amp;gt;() {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; @Override&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; public void initChannel(final Channel ch) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; final ChannelPipeline pipeline = ch.pipeline();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ChannelHandler handler = config.handler();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (handler != null) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; pipeline.addLast(handler);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ch.eventLoop().execute(new Runnable() {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; @Override&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; public void run() {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; pipeline.addLast(new ServerBootstrapAcceptor(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ch, currentChildGroup, currentChildHandler, currentChildOptions, currentChildAttrs));&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; });&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; });&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="5230" y="2350" width="550" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-290" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;strokeColor=default;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-287" target="90hx1iQso0jcdHaIgK8K-289">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-287" value="SelectStrategy.SELECT" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="7980" y="1815" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-292" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;strokeColor=default;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-289" target="90hx1iQso0jcdHaIgK8K-291">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-289" value="strategy = select(curDeadlineNanos);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="8240" y="1825" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-291" value="return selector.select();" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="8500" y="1827.5" width="160" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
