@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-02T07:30:58.408Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="WD6ppQOVu6-MJMSg5KvD" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-02T07:43:10.375Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="a-wYtL7LPvgV21rkwK5M" version="16.1.2" type="github">
   <diagram id="K0FFkgu-WFEWxHrFu3Ff" name="第 1 页">
     <mxGraphModel dx="1185" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -393,37 +393,19 @@
         <mxCell id="90hx1iQso0jcdHaIgK8K-133" value="promise.channel().unsafe().register(this, promise);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3023" y="1620" width="285" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="90hx1iQso0jcdHaIgK8K-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#FF0080;" edge="1" parent="1" target="90hx1iQso0jcdHaIgK8K-137">
+        <mxCell id="90hx1iQso0jcdHaIgK8K-195" value="true" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-135" target="90hx1iQso0jcdHaIgK8K-137">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3792.5" y="1640" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="3800" y="1640" />
-              <mxPoint x="3800" y="1565" />
-              <mxPoint x="3843" y="1565" />
+              <mxPoint x="3791" y="1645" />
+              <mxPoint x="3791" y="1565" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="90hx1iQso0jcdHaIgK8K-141" value="&lt;font color=&quot;#000000&quot;&gt;true&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#FF0080;" vertex="1" connectable="0" parent="90hx1iQso0jcdHaIgK8K-138">
-          <mxGeometry x="0.1273" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="90hx1iQso0jcdHaIgK8K-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#FF0080;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-135" target="90hx1iQso0jcdHaIgK8K-139">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3792.5" y="1640" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="3800" y="1640" />
-              <mxPoint x="3800" y="1715" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="90hx1iQso0jcdHaIgK8K-142" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="90hx1iQso0jcdHaIgK8K-140">
-          <mxGeometry x="-0.1233" y="2" relative="1" as="geometry">
-            <mxPoint y="13" as="offset" />
-          </mxGeometry>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-196" value="false" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-135" target="90hx1iQso0jcdHaIgK8K-139">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-135" value="判断当前线程和evenLoop中的thread的属性值是否&lt;br&gt;相同，thread一般都是null&lt;br&gt;eventLoop.inEventLoop()" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3360" y="1600" width="400" height="80" as="geometry" />
+          <mxGeometry x="3340" y="1605" width="400" height="80" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-137" value="register0(promise);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3842.5" y="1540" width="285" height="50" as="geometry" />
@@ -564,8 +546,8 @@
         <mxCell id="90hx1iQso0jcdHaIgK8K-185" value="执行逻辑" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="6730" y="1827.5" width="110" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="90hx1iQso0jcdHaIgK8K-189" value="执行逻辑" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="7230" y="1830" width="110" height="35" as="geometry" />
+        <mxCell id="90hx1iQso0jcdHaIgK8K-189" value="SingleThreadEventExecutor.this.run()" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="7200" y="1822.5" width="240" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
