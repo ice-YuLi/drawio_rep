@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2022-01-02T04:24:38.220Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" version="16.1.0" etag="botUCehS1y070T9rXhCs" type="github"><diagram id="K0FFkgu-WFEWxHrFu3Ff">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-02T04:48:43.559Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="CRpulUqwd0g5o4MHi6_E" version="16.1.2" type="github">
+  <diagram id="K0FFkgu-WFEWxHrFu3Ff" name="第 1 页">
+    <mxGraphModel dx="1673" dy="987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="90hx1iQso0jcdHaIgK8K-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-2" target="90hx1iQso0jcdHaIgK8K-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-2" value="&amp;nbsp;EventLoopGroup bossGroup = new NioEventLoopGroup(2);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="180" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-3" value="&lt;span style=&quot;font-family: &amp;#34;courier new&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;创建&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt; NioEventLoop &lt;/span&gt;&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;数组&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;MultithreadEventExecutorGroup.java&lt;/span&gt;&lt;/font&gt;&lt;br&gt;children = new EventExecutor[nThreads];" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="40" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-4" target="90hx1iQso0jcdHaIgK8K-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-4" target="90hx1iQso0jcdHaIgK8K-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-4" value="执行构造方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-7" target="90hx1iQso0jcdHaIgK8K-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-7" value="&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&amp;nbsp;for (int i = 0; i &amp;lt; nThreads; i ++) {&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;// 通过 NioEventLoopGroup 创建 NioEventLoop 对象，每个 NioEventLoop 对象其实就是一个线程池&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;children[i] = newChild(executor, args);&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="700" y="190" width="410" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-10" target="90hx1iQso0jcdHaIgK8K-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-10" target="90hx1iQso0jcdHaIgK8K-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-10" target="90hx1iQso0jcdHaIgK8K-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-10" value="&lt;span style=&quot;font-family: &amp;#34;courier new&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;创建&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt; NioEventLoop &lt;/span&gt;&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;数组&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;NioEventLoopGroup.java&lt;/span&gt;&lt;/font&gt;&lt;br&gt;new NioEventLoop(...)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="207.5" width="230" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-12" target="90hx1iQso0jcdHaIgK8K-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-12" value="&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;NioEventLoop.java&lt;/span&gt;&lt;/font&gt;&lt;br&gt;super(...)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="130" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-15" target="90hx1iQso0jcdHaIgK8K-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-15" value="&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;final SelectorTuple selectorTuple = openSelector();&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="220" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-17" value="&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;创建一个nio选择器selector&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;provider.openSelector();&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="220" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-19" value="&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;获取selector选择器&lt;br&gt;this.selector = selectorTuple.selector;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="320" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-21" value="&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;创建一个队列，默认大小为 16&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;SingleThreadEventExecutor.java&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;this.taskQueue = ObjectUtil.checkNotNull(taskQueue, &quot;taskQueue&quot;);&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2260" y="115" width="390" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
