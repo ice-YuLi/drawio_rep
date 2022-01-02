@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-02T07:43:10.375Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="a-wYtL7LPvgV21rkwK5M" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-02T08:34:02.976Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="ovarsOmsr16RV2v4oZjN" version="16.1.2" type="github">
   <diagram id="K0FFkgu-WFEWxHrFu3Ff" name="第 1 页">
     <mxGraphModel dx="1185" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,7 +43,7 @@
         <mxCell id="90hx1iQso0jcdHaIgK8K-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-10" target="90hx1iQso0jcdHaIgK8K-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="90hx1iQso0jcdHaIgK8K-10" value="&lt;span style=&quot;font-family: &amp;#34;courier new&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;创建&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt; NioEventLoop &lt;/span&gt;&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;数组&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;NioEventLoopGroup.java&lt;/span&gt;&lt;/font&gt;&lt;br&gt;new NioEventLoop(...)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="90hx1iQso0jcdHaIgK8K-10" value="&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;NioEventLoopGroup.java&lt;/span&gt;&lt;/font&gt;&lt;br&gt;new NioEventLoop(...)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1700" y="427.5" width="230" height="55" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-12" target="90hx1iQso0jcdHaIgK8K-21">
@@ -52,20 +52,23 @@
         <mxCell id="90hx1iQso0jcdHaIgK8K-12" value="&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;NioEventLoop.java&lt;/span&gt;&lt;/font&gt;&lt;br&gt;super(...)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2040" y="280" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="90hx1iQso0jcdHaIgK8K-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-15" target="90hx1iQso0jcdHaIgK8K-17">
+        <mxCell id="90hx1iQso0jcdHaIgK8K-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-15" target="90hx1iQso0jcdHaIgK8K-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-15" target="90hx1iQso0jcdHaIgK8K-202">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-15" value="&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;final SelectorTuple selectorTuple = openSelector();&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2040" y="370" width="300" height="50" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-17" value="&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;创建一个nio选择器selector&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;provider.openSelector();&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="2420" y="370" width="230" height="50" as="geometry" />
+          <mxGeometry x="2419" y="310" width="230" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="90hx1iQso0jcdHaIgK8K-19" value="&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;获取selector选择器&lt;br&gt;this.selector = selectorTuple.selector;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="2040" y="470" width="300" height="50" as="geometry" />
+        <mxCell id="90hx1iQso0jcdHaIgK8K-19" value="&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;获取封装成&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;#34;courier new&amp;#34; , monospace ; font-size: 13.0667px&quot;&gt;&lt;font color=&quot;#ff6666&quot;&gt;SelectedSelectionKeySetSelector&lt;/font&gt;&lt;/span&gt;&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&lt;br&gt;的selector选择器&lt;br&gt;this.selector = selectorTuple.selector;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="460" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-21" value="&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;创建一个队列，默认大小为 16&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;SingleThreadEventExecutor.java&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;this.taskQueue = ObjectUtil.checkNotNull(taskQueue, &quot;taskQueue&quot;);&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="2730" y="265" width="390" height="80" as="geometry" />
+          <mxGeometry x="2530" y="160" width="390" height="80" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-23" target="90hx1iQso0jcdHaIgK8K-24">
           <mxGeometry relative="1" as="geometry" />
@@ -178,13 +181,13 @@
         <mxCell id="90hx1iQso0jcdHaIgK8K-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF9999;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-60" target="90hx1iQso0jcdHaIgK8K-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="90hx1iQso0jcdHaIgK8K-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF9999;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-60" target="90hx1iQso0jcdHaIgK8K-96">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-60" value="doBind(ObjectUtil.checkNotNull(localAddress, &quot;localAddress&quot;));" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1170" y="1360" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF9999;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-62" target="90hx1iQso0jcdHaIgK8K-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#FF0080;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-62" target="90hx1iQso0jcdHaIgK8K-96">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-62" value="final ChannelFuture regFuture = initAndRegister();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -194,7 +197,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-64" value="channel = channelFactory.newChannel();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2050" y="1010" width="280" height="40" as="geometry" />
+          <mxGeometry x="2060" y="1010" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF9999;dashed=1;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-66" target="90hx1iQso0jcdHaIgK8K-48">
           <mxGeometry relative="1" as="geometry" />
@@ -220,7 +223,7 @@
         <mxCell id="90hx1iQso0jcdHaIgK8K-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF9999;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-73" target="90hx1iQso0jcdHaIgK8K-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="90hx1iQso0jcdHaIgK8K-73" value="调用NioServerSocketChannel.java的无参构造方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="90hx1iQso0jcdHaIgK8K-73" value="调用NioServerSocketChannel.java的无参构造方法" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="3050" y="1010" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF9999;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-75" target="90hx1iQso0jcdHaIgK8K-79">
@@ -289,11 +292,16 @@
         <mxCell id="90hx1iQso0jcdHaIgK8K-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0080;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-96" target="90hx1iQso0jcdHaIgK8K-111">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="90hx1iQso0jcdHaIgK8K-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#FF0080;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-96" target="90hx1iQso0jcdHaIgK8K-114">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="90hx1iQso0jcdHaIgK8K-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#FF0080;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-62" target="90hx1iQso0jcdHaIgK8K-114">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1980" y="1080" />
+              <mxPoint x="1980" y="1720" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="90hx1iQso0jcdHaIgK8K-96" value="init(channel);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1620" y="1160" width="160" height="30" as="geometry" />
+        <mxCell id="90hx1iQso0jcdHaIgK8K-96" value="AbstractBootstrap.java&lt;br&gt;init(channel);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="1147.5" width="160" height="45" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF9999;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-98" target="90hx1iQso0jcdHaIgK8K-100">
           <mxGeometry relative="1" as="geometry" />
@@ -326,10 +334,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-108" value="获取之前初始化的双端链表&lt;br&gt;ChannelPipeline p = channel.pipeline();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1870" y="1155" width="270" height="40" as="geometry" />
+          <mxGeometry x="2300" y="1150" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-111" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;font color=&quot;#ff0080&quot;&gt;将其插入到链表中&lt;/font&gt;&lt;/div&gt;&lt;div&gt;p.addLast(new ChannelInitializer&amp;lt;Channel&amp;gt;() {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; @Override&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; public void initChannel(final Channel ch) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; final ChannelPipeline pipeline = ch.pipeline();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ChannelHandler handler = config.handler();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (handler != null) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; pipeline.addLast(handler);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ch.eventLoop().execute(new Runnable() {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; @Override&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; public void run() {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; pipeline.addLast(new ServerBootstrapAcceptor(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ch, currentChildGroup, currentChildHandler, currentChildOptions, currentChildAttrs));&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; });&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; });&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1869" y="1240" width="550" height="310" as="geometry" />
+          <mxGeometry x="2299" y="1235" width="550" height="310" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#FF0080;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-114" target="90hx1iQso0jcdHaIgK8K-34">
           <mxGeometry relative="1" as="geometry" />
@@ -338,7 +346,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-114" value="config().group()获取的就是我们设置的 bossGroup 线程池组&lt;br&gt;ChannelFuture regFuture = config().group().register(channel)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1869" y="1680" width="341" height="90" as="geometry" />
+          <mxGeometry x="2067" y="1670" width="341" height="90" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#FF0080;dashed=1;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-117" target="90hx1iQso0jcdHaIgK8K-119">
           <mxGeometry relative="1" as="geometry" />
@@ -346,25 +354,25 @@
         <mxCell id="90hx1iQso0jcdHaIgK8K-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#FF0080;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-117" target="90hx1iQso0jcdHaIgK8K-131">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="90hx1iQso0jcdHaIgK8K-117" value="MultithreadEventLoopGroup.java&lt;br&gt;next().register(channel)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2410" y="1620" width="210" height="50" as="geometry" />
+        <mxCell id="90hx1iQso0jcdHaIgK8K-117" value="获取一个 EvenLoop&lt;br&gt;MultithreadEventLoopGroup.java&lt;br&gt;next().register(channel)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2780" y="1605" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#FF0080;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-119" target="90hx1iQso0jcdHaIgK8K-121">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-119" value="MultithreadEventLoopGroup.java&lt;br&gt;next()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2580" y="1402.5" width="220" height="40" as="geometry" />
+          <mxGeometry x="3010" y="1397.5" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;fontColor=#FF0080;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-121" target="90hx1iQso0jcdHaIgK8K-123">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="3025" y="670" />
+              <mxPoint x="3455" y="670" />
               <mxPoint x="1390" y="670" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-121" value="MultithreadEventExecutorGroup.java&lt;br&gt;&lt;font color=&quot;#ff0080&quot;&gt;chooser&lt;/font&gt;.next()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2910" y="1400" width="230" height="45" as="geometry" />
+          <mxGeometry x="3340" y="1395" width="230" height="45" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#FF0080;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-123" target="90hx1iQso0jcdHaIgK8K-126">
           <mxGeometry relative="1" as="geometry" />
@@ -385,30 +393,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-131" value="register(new DefaultChannelPromise(channel, this))" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2685" y="1620" width="285" height="50" as="geometry" />
+          <mxGeometry x="3115" y="1615" width="285" height="50" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#FF0080;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-133" target="90hx1iQso0jcdHaIgK8K-135">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-133" value="promise.channel().unsafe().register(this, promise);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3023" y="1620" width="285" height="50" as="geometry" />
+          <mxGeometry x="3453" y="1615" width="285" height="50" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-195" value="true" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-135" target="90hx1iQso0jcdHaIgK8K-137">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="3791" y="1645" />
-              <mxPoint x="3791" y="1565" />
+              <mxPoint x="4221" y="1640" />
+              <mxPoint x="4221" y="1560" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-196" value="false" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-135" target="90hx1iQso0jcdHaIgK8K-139">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="90hx1iQso0jcdHaIgK8K-135" value="判断当前线程和evenLoop中的thread的属性值是否&lt;br&gt;相同，thread一般都是null&lt;br&gt;eventLoop.inEventLoop()" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3340" y="1605" width="400" height="80" as="geometry" />
+        <mxCell id="90hx1iQso0jcdHaIgK8K-135" value="判断当前线程和evenLoop中的thread的属性值是否&lt;br&gt;相同，第一次执行thread就是null&lt;br&gt;eventLoop.inEventLoop()" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3770" y="1600" width="400" height="80" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-137" value="register0(promise);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3842.5" y="1540" width="285" height="50" as="geometry" />
+          <mxGeometry x="4272.5" y="1535" width="285" height="50" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;dashed=1;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-139" target="90hx1iQso0jcdHaIgK8K-144">
           <mxGeometry relative="1" as="geometry" />
@@ -422,36 +430,36 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-139" value="&lt;div&gt;eventLoop.execute(new Runnable() {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;@Override&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;public void run() {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;register0(promise);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;});&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="3842.5" y="1690" width="267.5" height="90" as="geometry" />
+          <mxGeometry x="4272.5" y="1685" width="267.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-144" target="90hx1iQso0jcdHaIgK8K-146">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-144" value="&lt;span style=&quot;text-align: left&quot;&gt;eventLoop.execute(...)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4210" y="1620" width="285" height="50" as="geometry" />
+          <mxGeometry x="4640" y="1615" width="285" height="50" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-146" target="90hx1iQso0jcdHaIgK8K-150">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="4910" y="1645" as="targetPoint" />
+            <mxPoint x="5340" y="1640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-146" target="90hx1iQso0jcdHaIgK8K-151">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-146" value="&lt;div&gt;&lt;span&gt;execute(task, !(task instanceof LazyRunnable) &amp;amp;&amp;amp; wakesUpForTask(task));&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="4557.5" y="1620" width="285" height="50" as="geometry" />
+          <mxGeometry x="4987.5" y="1615" width="285" height="50" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-150" target="90hx1iQso0jcdHaIgK8K-162">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-150" value="boolean inEventLoop = inEventLoop();" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="4900" y="1810" width="260" height="70" as="geometry" />
+          <mxGeometry x="5330" y="1805" width="260" height="70" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-151" target="90hx1iQso0jcdHaIgK8K-154">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-151" value="addTask(task);" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="4910" y="1630" width="250" height="30" as="geometry" />
+          <mxGeometry x="5340" y="1625" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-151" target="90hx1iQso0jcdHaIgK8K-151">
           <mxGeometry relative="1" as="geometry" />
@@ -460,7 +468,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-154" value="offerTask(task)" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="5251" y="1630" width="250" height="30" as="geometry" />
+          <mxGeometry x="5681" y="1625" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-156" target="90hx1iQso0jcdHaIgK8K-21">
           <mxGeometry relative="1" as="geometry">
@@ -472,13 +480,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-156" value="taskQueue.offer(task)" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="5580" y="1630" width="250" height="30" as="geometry" />
+          <mxGeometry x="6010" y="1625" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-162" target="90hx1iQso0jcdHaIgK8K-165">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-162" value="SingleThreadEventExecutor.java&lt;br&gt;startThread();" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="5251" y="1830" width="250" height="30" as="geometry" />
+          <mxGeometry x="5681" y="1825" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-165" target="90hx1iQso0jcdHaIgK8K-167">
           <mxGeometry relative="1" as="geometry" />
@@ -489,7 +497,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-165" value="状态：未开始&lt;br&gt;state == ST_NOT_STARTED" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="5580" y="1810" width="220" height="70" as="geometry" />
+          <mxGeometry x="6010" y="1805" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-167" target="90hx1iQso0jcdHaIgK8K-173">
           <mxGeometry relative="1" as="geometry" />
@@ -497,8 +505,8 @@
         <mxCell id="90hx1iQso0jcdHaIgK8K-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-167" target="90hx1iQso0jcdHaIgK8K-176">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="6025" y="1845" />
-              <mxPoint x="6025" y="1935" />
+              <mxPoint x="6455" y="1840" />
+              <mxPoint x="6455" y="1930" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -506,19 +514,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-167" value="执行逻辑" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="5890" y="1830" width="90" height="30" as="geometry" />
+          <mxGeometry x="6320" y="1825" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-173" value="将状态从未开始状态，改成开始状态&lt;br&gt;STATE_UPDATER.compareAndSet(this, ST_NOT_STARTED, ST_STARTED)" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="6070" y="1720" width="320" height="50" as="geometry" />
+          <mxGeometry x="6500" y="1715" width="320" height="50" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-175" target="90hx1iQso0jcdHaIgK8K-184">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-175" value="SingleThreadEventExecutor.java&lt;br&gt;doStartThread();" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="6135" y="1825" width="200" height="40" as="geometry" />
+          <mxGeometry x="6565" y="1820" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-176" value="如果执行过程出现异常，将状态从开始状态，改成未开始状态&lt;br&gt;STATE_UPDATER.compareAndSet(this, ST_STARTED, ST_NOT_STARTED);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="6070" y="1910" width="330" height="50" as="geometry" />
+          <mxGeometry x="6500" y="1905" width="330" height="50" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-179" target="90hx1iQso0jcdHaIgK8K-182">
           <mxGeometry relative="1" as="geometry">
@@ -528,8 +536,8 @@
         <mxCell id="90hx1iQso0jcdHaIgK8K-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#7EA6E0;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-179" target="90hx1iQso0jcdHaIgK8K-189">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="90hx1iQso0jcdHaIgK8K-179" value="&lt;font color=&quot;#7ea6e0&quot;&gt;executor&lt;/font&gt;.execute(new Runnable() {" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="6910" y="1825" width="200" height="40" as="geometry" />
+        <mxCell id="90hx1iQso0jcdHaIgK8K-179" value="通过线程池执行，为了提升效率&lt;br&gt;&lt;font color=&quot;#7ea6e0&quot;&gt;executor&lt;/font&gt;.execute(new Runnable() {" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="7340" y="1820" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-182" value="&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;所有NioEvenLoop公用一个线程池&lt;br&gt;executor = new ThreadPerTaskExecutor(newDefaultThreadFactory());&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1180" y="110" width="410" height="80" as="geometry" />
@@ -538,16 +546,61 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-184" value="thread == null" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="6450" y="1810" width="220" height="70" as="geometry" />
+          <mxGeometry x="6880" y="1805" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#7EA6E0;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-185" target="90hx1iQso0jcdHaIgK8K-179">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="90hx1iQso0jcdHaIgK8K-185" value="执行逻辑" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="6730" y="1827.5" width="110" height="35" as="geometry" />
+          <mxGeometry x="7160" y="1822.5" width="110" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="90hx1iQso0jcdHaIgK8K-189" value="SingleThreadEventExecutor.this.run()" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="7200" y="1822.5" width="240" height="45" as="geometry" />
+        <mxCell id="90hx1iQso0jcdHaIgK8K-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#FF0080;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-189" target="90hx1iQso0jcdHaIgK8K-197">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-189" value="SingleThreadEventExecutor.java&lt;br&gt;&lt;font color=&quot;#ff0080&quot;&gt;SingleThreadEventExecutor.this.run()&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="7630" y="1817.5" width="240" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-209" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#FF6666;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-197" target="90hx1iQso0jcdHaIgK8K-208">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-197" value="NioEventLoop.java&lt;br&gt;strategy = selectStrategy.calculateStrategy(selectNowSupplier, hasTasks());" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="7970" y="1665" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-202" target="90hx1iQso0jcdHaIgK8K-205">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-202" value="&lt;div&gt;&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;return new SelectorTuple(unwrappedSelector,&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 13.0667px ; font-family: &amp;#34;courier new&amp;#34; , monospace&quot;&gt;new SelectedSelectionKeySetSelector(unwrappedSelector, selectedKeySet))&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2419" y="390" width="540" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;dashed=1;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-205" target="90hx1iQso0jcdHaIgK8K-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-205" value="&lt;div&gt;&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;// 未包装的 selector&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px ; font-family: &amp;#34;courier new&amp;#34; , monospace&quot;&gt;this.unwrappedSelector = unwrappedSelector;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px ; font-family: &amp;#34;courier new&amp;#34; , monospace&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px ; font-family: &amp;#34;courier new&amp;#34; , monospace&quot;&gt;/ 包装了的 selector&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;this.selector = selector;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3023" y="387.5" width="377" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#FF6666;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-208" target="90hx1iQso0jcdHaIgK8K-210">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-208" value="NioEventLoop.java&lt;br&gt;strategy = selectStrategy.calculateStrategy(selectNowSupplier, hasTasks());" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="8360" y="1665" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-213" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#FF6666;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-210" target="90hx1iQso0jcdHaIgK8K-212">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-210" value="NioEventLoop.java&lt;br&gt;selectNow()" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="8760" y="1675" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-216" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#FF0080;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-212" target="90hx1iQso0jcdHaIgK8K-214">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-212" value="selector.selectNow()" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="9000" y="1675" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-215" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1.002;entryY=0.642;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;fontColor=#FF0080;" edge="1" parent="1" source="90hx1iQso0jcdHaIgK8K-214" target="90hx1iQso0jcdHaIgK8K-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hx1iQso0jcdHaIgK8K-214" value="调用NIO的非阻塞方法&lt;br&gt;SelectedSelectionKeySetSelector.java&lt;br&gt;delegate.&lt;font color=&quot;#ff0080&quot;&gt;&lt;b&gt;selectNow&lt;/b&gt;&lt;/font&gt;()" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="9230" y="1670" width="250" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
