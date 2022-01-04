@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T08:35:36.134Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="q22k1e_prgOeHLkABVr7" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-04T09:47:39.737Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="5uQy4WSMc4PHH93hEBBC" version="16.1.2" type="github">
   <diagram id="KZ6Oh91IzT9d4bb2Npnq" name="第 1 页">
-    <mxGraphModel dx="3690" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="3285" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,12 +31,6 @@
         </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-8" value="&lt;div&gt;AbstractBeanFactory.java&lt;/div&gt;&lt;div&gt;getSingleton(beanName);&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="565" y="390" width="280" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="WCMMu7L2FQIAezlBjaeM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="820" y="440" as="sourcePoint" />
-            <mxPoint x="820" y="460" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WCMMu7L2FQIAezlBjaeM-11" target="WCMMu7L2FQIAezlBjaeM-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -542,7 +536,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sZpg5xEDEVscKXtfFkVL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WCMMu7L2FQIAezlBjaeM-151" target="sZpg5xEDEVscKXtfFkVL-1">
+        <mxCell id="sZpg5xEDEVscKXtfFkVL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WCMMu7L2FQIAezlBjaeM-151" target="sZpg5xEDEVscKXtfFkVL-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WCMMu7L2FQIAezlBjaeM-151" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;AutowiredAnnotationBeanPostProcessor.java&lt;/span&gt;&lt;br style=&quot;font-size: 13.0667px&quot;&gt;metadata = buildAutowiringMetadata(clazz);" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1089,7 +1083,7 @@
         <mxCell id="WCMMu7L2FQIAezlBjaeM-331" value="&lt;b&gt;从父容器找&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="7015" y="2694" width="273" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="sZpg5xEDEVscKXtfFkVL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="sZpg5xEDEVscKXtfFkVL-1" target="WCMMu7L2FQIAezlBjaeM-143">
+        <mxCell id="sZpg5xEDEVscKXtfFkVL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;" parent="1" source="sZpg5xEDEVscKXtfFkVL-1" target="WCMMu7L2FQIAezlBjaeM-143" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="4195" y="1737" />
@@ -1099,7 +1093,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sZpg5xEDEVscKXtfFkVL-1" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;放入缓存中&lt;br&gt;AutowiredAnnotationBeanPostProcessor.java&lt;/span&gt;&lt;br style=&quot;font-size: 13.0667px&quot;&gt;this.injectionMetadataCache.put(cacheKey, metadata);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sZpg5xEDEVscKXtfFkVL-1" value="&lt;span style=&quot;font-size: 13.0667px&quot;&gt;放入缓存中&lt;br&gt;AutowiredAnnotationBeanPostProcessor.java&lt;/span&gt;&lt;br style=&quot;font-size: 13.0667px&quot;&gt;this.injectionMetadataCache.put(cacheKey, metadata);" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4030" y="1646.53" width="330" height="70" as="geometry" />
         </mxCell>
       </root>
