@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-06T02:32:50.831Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="ZL5kGVXkdKcr-DkvBQlV" version="16.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-06T02:38:20.641Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="acACfSXdIFJ3F4U_bvTG" version="16.2.1" type="github">
   <diagram id="f2AcYuHpSOX_95SIe8nD" name="第 1 页">
     <mxGraphModel dx="946" dy="3900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -344,6 +344,12 @@
         <mxCell id="IzW3qe-JI3EkygCX9i8u-103" value="&lt;div&gt;需要在调用时动态匹配&lt;/div&gt;&lt;div&gt;&lt;span&gt;								&lt;/span&gt;interceptorList.add(new &lt;font color=&quot;#ff6666&quot;&gt;InterceptorAndDynamicMethodMatcher&lt;/font&gt;(interceptor, mm))&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="7630" y="665" width="350" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-104" target="IzW3qe-JI3EkygCX9i8u-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-104" target="IzW3qe-JI3EkygCX9i8u-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IzW3qe-JI3EkygCX9i8u-104" value="&lt;div&gt;将 advisor 转化成 MethodInterceptor&lt;/div&gt;&lt;div&gt;&lt;span&gt;						&lt;/span&gt;MethodInterceptor[] interceptors = registry.getInterceptors(advisor);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="7030" y="550" width="400" height="40" as="geometry" />
         </mxCell>
@@ -367,8 +373,44 @@
         <mxCell id="IzW3qe-JI3EkygCX9i8u-112" value="&lt;font color=&quot;#000000&quot;&gt;chain.isEmpty()&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="3480" y="1025" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="IzW3qe-JI3EkygCX9i8u-116" value="&lt;div&gt;将拦截器封装在 ReflectiveMethodInvocation 以便于使用其 proceed 进行链接表用拦截器&lt;/div&gt;&lt;div&gt;MethodInvocation invocation =&lt;/div&gt;&lt;div&gt;&lt;span&gt;						&lt;/span&gt;new ReflectiveMethodInvocation(proxy, target, method, args, targetClass, chain);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-116" value="&lt;div&gt;将拦截器封装在 ReflectiveMethodInvocation 以便于使用其 proceed 进行链接表用拦截器&lt;/div&gt;&lt;div&gt;MethodInvocation invocation =&lt;/div&gt;&lt;div&gt;&lt;span&gt;						&lt;/span&gt;new ReflectiveMethodInvocation(proxy, target, method, args, targetClass, &lt;font color=&quot;#ff6666&quot;&gt;chain&lt;/font&gt;);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3480" y="1170" width="560" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-121" target="IzW3qe-JI3EkygCX9i8u-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-121" value="advice instanceof MethodInterceptor" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="7570" y="318.44" width="240" height="63.12" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-123" target="IzW3qe-JI3EkygCX9i8u-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;dashed=1;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-123" target="IzW3qe-JI3EkygCX9i8u-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-123" value="adapter.supportsAdvice(advice)" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="7930" y="438.44" width="240" height="63.12" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-125" target="IzW3qe-JI3EkygCX9i8u-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-125" value="for (AdvisorAdapter adapter : this.adapters) {" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7570" y="450" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-128" value="interceptors.add((MethodInterceptor) advice);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7880" y="330" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-131" value="interceptors.add(adapter.getInterceptor(advisor));" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8240" y="450" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-133" target="IzW3qe-JI3EkygCX9i8u-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-133" value="&amp;nbsp;this.adapters" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8240" y="360" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-135" value="&lt;div&gt;一共需要适配三种类型，分别对应除了 MethodInterceptor 的，另外其他三个&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;registerAdvisorAdapter(new MethodBeforeAdviceAdapter());&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;registerAdvisorAdapter(new AfterReturningAdviceAdapter());&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;registerAdvisorAdapter(new ThrowsAdviceAdapter());&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8560" y="335" width="350" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
