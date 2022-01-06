@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-06T01:53:03.358Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="2jXOXy70OGzIYfVO-SsF" version="16.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-06T01:54:59.463Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="-9VtdKa06u5JARnxmZOg" version="16.2.1" type="github">
   <diagram id="f2AcYuHpSOX_95SIe8nD" name="第 1 页">
-    <mxGraphModel dx="946" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1455" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,6 +120,12 @@
         <mxCell id="IzW3qe-JI3EkygCX9i8u-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-33" target="IzW3qe-JI3EkygCX9i8u-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-33" target="IzW3qe-JI3EkygCX9i8u-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-33" target="IzW3qe-JI3EkygCX9i8u-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IzW3qe-JI3EkygCX9i8u-33" value="CglibAopProxy.java&lt;br&gt;getProxy(null)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1940" y="1030" width="200" height="40" as="geometry" />
         </mxCell>
@@ -183,6 +189,23 @@
         </mxCell>
         <mxCell id="IzW3qe-JI3EkygCX9i8u-57" value="&lt;div&gt;&lt;div&gt;将aop拦截器添加到mainCallbacks中&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;Callback[] mainCallbacks = new Callback[] {&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;// 将拦截器链加入 Callback 中&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;aopInterceptor,&amp;nbsp; // for normal advice&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;targetInterceptor,&amp;nbsp; // invoke target without considering advice, if optimized&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;new SerializableNoOp(),&amp;nbsp; // no override for methods mapped to this&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;/span&gt;targetDispatcher, this.advisedDispatcher,&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;new EqualsInterceptor(this.advised),&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;new HashCodeInterceptor(this.advised)&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;};&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="2790" y="1650" width="430" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-60" target="IzW3qe-JI3EkygCX9i8u-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-60" target="IzW3qe-JI3EkygCX9i8u-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2680" y="2040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-60" value="&lt;div&gt;&lt;div&gt;生成代理类并创建代理实例，返回代理实例&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;return createProxyClassAndInstance(enhancer, callbacks)&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="1850" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-61" value="enhancer.setCallbacks(callbacks);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2790" y="1850" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-64" value="enhancer.create()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2790" y="1960" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
