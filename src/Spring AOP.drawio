@@ -1,1 +1,190 @@
-<mxfile host="app.diagrams.net" modified="2022-01-06T01:12:15.700Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" version="16.2.1" etag="eFW0Bm1Quvbfo7QfOS5L" type="github"><diagram id="f2AcYuHpSOX_95SIe8nD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-06T01:53:03.358Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="2jXOXy70OGzIYfVO-SsF" version="16.2.1" type="github">
+  <diagram id="f2AcYuHpSOX_95SIe8nD" name="第 1 页">
+    <mxGraphModel dx="946" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-1" target="IzW3qe-JI3EkygCX9i8u-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-1" value="proxyFactory.getProxy()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="460" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-2" target="IzW3qe-JI3EkygCX9i8u-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-2" target="IzW3qe-JI3EkygCX9i8u-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-2" value="ProxyFactory.java&lt;br&gt;createAopProxy().getProxy()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="460" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-4" target="IzW3qe-JI3EkygCX9i8u-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-4" value="ProxyCreatorSupport.java&lt;br&gt;createAopProxy()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="350" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-5" target="IzW3qe-JI3EkygCX9i8u-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-29" value="子类" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IzW3qe-JI3EkygCX9i8u-27">
+          <mxGeometry x="0.4298" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-5" target="IzW3qe-JI3EkygCX9i8u-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-30" value="子类" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IzW3qe-JI3EkygCX9i8u-28">
+          <mxGeometry x="0.0557" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-5" value="ProxyFactory.java&lt;br&gt;createAopProxy().getProxy()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="840" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-9" target="IzW3qe-JI3EkygCX9i8u-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-9" value="ProxyCreatorSupport.java&lt;br&gt;getAopProxyFactory().createAopProxy(this);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="240" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-11" target="IzW3qe-JI3EkygCX9i8u-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-19" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IzW3qe-JI3EkygCX9i8u-14">
+          <mxGeometry x="-0.08" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-11" target="IzW3qe-JI3EkygCX9i8u-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-22" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IzW3qe-JI3EkygCX9i8u-21">
+          <mxGeometry x="0.1619" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-11" value="config.isOptimize() || config.isProxyTargetClass() || hasNoUserSuppliedProxyInterfaces(config)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="205" width="350" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-13" target="IzW3qe-JI3EkygCX9i8u-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-13" target="IzW3qe-JI3EkygCX9i8u-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-13" value="执行逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2450" y="245" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-15" value="Class&amp;lt;?&amp;gt; targetClass = config.getTargetClass();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2660" y="170" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-17" value="使用CGLIB代理&lt;br&gt;return new ObjenesisCglibAopProxy(config)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2660" y="330" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-20" value="使用JDK代理&lt;br&gt;return new ObjenesisCglibAopProxy(config)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2660" y="460" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-25" target="IzW3qe-JI3EkygCX9i8u-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-25" value="JdkDynamicAopProxy.java&lt;br&gt;getProxy(ClassUtils.getDefaultClassLoader())" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="780" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-26" target="IzW3qe-JI3EkygCX9i8u-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-26" value="CglibAopProxy.java&lt;br&gt;getProxy(null)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1030" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-31" value="JdkDynamicAopProxy.java&lt;br&gt;return &lt;b&gt;Proxy.newProxyInstance(classLoader, proxiedInterfaces, this)&lt;/b&gt;;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="785" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-33" target="IzW3qe-JI3EkygCX9i8u-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-33" target="IzW3qe-JI3EkygCX9i8u-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-33" target="IzW3qe-JI3EkygCX9i8u-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-33" target="IzW3qe-JI3EkygCX9i8u-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-33" target="IzW3qe-JI3EkygCX9i8u-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-33" target="IzW3qe-JI3EkygCX9i8u-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-33" value="CglibAopProxy.java&lt;br&gt;getProxy(null)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="1030" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-35" value="&lt;div&gt;拿到要代理目标类&lt;/div&gt;CglibAopProxy.java&lt;br&gt;&lt;div&gt;&lt;span&gt;Class&amp;lt;?&amp;gt; rootClass = this.advised.getTargetClass();&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="940" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-37" target="IzW3qe-JI3EkygCX9i8u-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-37" value="判断rootClass是否被Cglib代理过的&lt;br&gt;ClassUtils.isCglibProxyClass(rootClass)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="1150" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-38" value="&lt;div&gt;Class&amp;lt;?&amp;gt; proxySuperClass = rootClass;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="1040" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-41" target="IzW3qe-JI3EkygCX9i8u-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-41" value="&lt;div&gt;获取rootClass的父类作为proxySuperClass&lt;/div&gt;&lt;div&gt;proxySuperClass = rootClass.getSuperclass();&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="1180" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-43" target="IzW3qe-JI3EkygCX9i8u-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-43" value="&lt;div&gt;Class&amp;lt;?&amp;gt;[] additionalInterfaces = rootClass.getInterfaces();&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3040" y="1180" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-45" value="&lt;div&gt;&lt;div&gt;将父类的接口也添加到advised的interfaces属性&lt;/div&gt;&lt;div&gt;&lt;span&gt;					&lt;/span&gt;this.advised.addInterface(additionalInterface);&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3400" y="1180" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-47" value="&lt;div&gt;Enhancer enhancer = createEnhancer();&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="1320" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-50" value="&lt;div&gt;enhancer.setSuperclass(proxySuperClass);&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="1430" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-51" value="&lt;div&gt;创建好的代理类会实现设置的这些接口&lt;/div&gt;&lt;div&gt;enhancer.setInterfaces(AopProxyUtils.completeProxiedInterfaces(this.advised));&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="1520" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-54" target="IzW3qe-JI3EkygCX9i8u-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2750" y="1660" />
+              <mxPoint x="2750" y="1530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IzW3qe-JI3EkygCX9i8u-54" target="IzW3qe-JI3EkygCX9i8u-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2750" y="1660" />
+              <mxPoint x="2750" y="1730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-54" value="&lt;div&gt;Callback[] callbacks = getCallbacks(rootClass);&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="1640" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-55" value="&lt;div&gt;创建拦截器&lt;/div&gt;&lt;div&gt;Callback aopInterceptor = new DynamicAdvisedInterceptor(this.advised);&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2790" y="1510" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IzW3qe-JI3EkygCX9i8u-57" value="&lt;div&gt;&lt;div&gt;将aop拦截器添加到mainCallbacks中&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;Callback[] mainCallbacks = new Callback[] {&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;// 将拦截器链加入 Callback 中&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;aopInterceptor,&amp;nbsp; // for normal advice&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;targetInterceptor,&amp;nbsp; // invoke target without considering advice, if optimized&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;new SerializableNoOp(),&amp;nbsp; // no override for methods mapped to this&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;/span&gt;targetDispatcher, this.advisedDispatcher,&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;new EqualsInterceptor(this.advised),&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;new HashCodeInterceptor(this.advised)&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;};&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2790" y="1650" width="430" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
