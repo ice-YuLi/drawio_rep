@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-12T02:12:33.346Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="2B9qxJPl5LQ_B3BaA27n" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-12T02:38:23.336Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="x1_K_rVVhT7KrpSiwhhn" version="16.2.2" type="github">
   <diagram id="3BT-AjpINTrtdqSdUJcH" name="第 1 页">
-    <mxGraphModel dx="946" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="3390" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,11 +42,11 @@
         <mxCell id="WJADcjosmOGT2jdmS7W--13" value="parseConfiguration(parser.evalNode(&quot;/configuration&quot;));" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1320" y="2060" width="320" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="WJADcjosmOGT2jdmS7W--18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--16" target="WJADcjosmOGT2jdmS7W--17">
+        <mxCell id="WJADcjosmOGT2jdmS7W--18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--16" target="WJADcjosmOGT2jdmS7W--17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WJADcjosmOGT2jdmS7W--16" value="SqlSession session = sqlSessionFactory.openSession()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="550" width="280" height="60" as="geometry" />
+          <mxGeometry x="-180" y="720" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WJADcjosmOGT2jdmS7W--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--17" target="WJADcjosmOGT2jdmS7W--19">
           <mxGeometry relative="1" as="geometry" />
@@ -85,6 +85,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1380" y="1060" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--25" target="WJADcjosmOGT2jdmS7W--64">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WJADcjosmOGT2jdmS7W--25" value="创建执行器&lt;br&gt;final Executor executor = configuration.newExecutor(tx, execType);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="760" width="380" height="50" as="geometry" />
@@ -127,8 +130,102 @@
         <mxCell id="WJADcjosmOGT2jdmS7W--39" value="用到了装饰器模式，&lt;span&gt;把当前的简单的执行器包装成一个CachingExecutor&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; executor = new CachingExecutor(executor);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1662" y="837.5" width="299" height="55" as="geometry" />
         </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--45" target="WJADcjosmOGT2jdmS7W--46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WJADcjosmOGT2jdmS7W--45" value="executor = (Executor) interceptorChain.pluginAll(executor);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1250" y="1000" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--46" target="WJADcjosmOGT2jdmS7W--48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--46" value="&lt;div&gt;如果有拦截器就返回一个代理对象&lt;/div&gt;&lt;div&gt;for (Interceptor interceptor : interceptors) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; target = interceptor.plugin(target);&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="975" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--48" target="WJADcjosmOGT2jdmS7W--50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--48" target="WJADcjosmOGT2jdmS7W--51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--48" target="WJADcjosmOGT2jdmS7W--53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--48" target="WJADcjosmOGT2jdmS7W--52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--48" value="Interceptor.java&lt;br&gt;Plugin.wrap(target, this);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="995" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--50" value="&lt;div&gt;获得interceptor配置的@Signature的type&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Map&amp;lt;Class&amp;lt;?&amp;gt;, Set&amp;lt;Method&amp;gt;&amp;gt; signatureMap = getSignatureMap(interceptor);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="910" width="330" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--51" value="&lt;div&gt;当前代理类型&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Class&amp;lt;?&amp;gt; type = target.getClass();&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="1010" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--52" target="WJADcjosmOGT2jdmS7W--58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--60" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WJADcjosmOGT2jdmS7W--59">
+          <mxGeometry x="0.5088" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--52" target="WJADcjosmOGT2jdmS7W--61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--63" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WJADcjosmOGT2jdmS7W--62">
+          <mxGeometry x="0.5667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--52" value="interfaces.length &amp;gt; 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="1190" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--53" value="获取type实现的所有接口与 signatureMap 进行匹配&lt;br&gt;Class&amp;lt;?&amp;gt;[] interfaces = getAllInterfaces(type, signatureMap);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="1100" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--58" value="&lt;div&gt;返回代理对象&lt;/div&gt;&lt;div&gt;return Proxy.newProxyInstance(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; type.getClassLoader(),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; interfaces,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; new Plugin(target, interceptor, signatureMap));&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2810" y="1120" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--61" value="返回原始对象&lt;br&gt;return target;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2810" y="1270" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--64" value="这里返回的可能是原始对象，也可能是代理对象，具体需要看有没有加插件&lt;br&gt;return executor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1120" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--67" target="WJADcjosmOGT2jdmS7W--68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--67" value="User user =&amp;nbsp; session.selectOne(&quot;com.tuling.mapper.UserMapper.selectById&quot;, 1);" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="1410" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--68" target="WJADcjosmOGT2jdmS7W--70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--68" value="DefaultSqlSession.java&lt;br&gt;List&amp;lt;T&amp;gt; list = this.selectList(statement, parameter);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1410" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--70" target="WJADcjosmOGT2jdmS7W--72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--70" target="WJADcjosmOGT2jdmS7W--74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--70" value="this.selectList(statement, parameter, RowBounds.DEFAULT);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1410" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--72" value="通过我们的statement去我们的全局配置类（configuration）中获取MappedStatement&lt;br&gt;MappedStatement ms = configuration.getMappedStatement(statement);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1350" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--74" target="WJADcjosmOGT2jdmS7W--76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--74" value="return executor.query(ms, wrapCollection(parameter), rowBounds, Executor.NO_RESULT_HANDLER);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1480" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--76" value="CachingExecutor.java&lt;br&gt;BoundSql boundSql = ms.getBoundSql(parameterObject);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="1420" width="359" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
