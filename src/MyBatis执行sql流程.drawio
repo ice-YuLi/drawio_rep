@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-12T04:19:49.564Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="TZNWtUaDv8F3Yu9k5wKN" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-12T04:27:00.213Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="0tfxkwXE57jZczcTCpj9" version="16.2.2" type="github">
   <diagram id="3BT-AjpINTrtdqSdUJcH" name="第 1 页">
-    <mxGraphModel dx="3390" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="3452" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -439,8 +439,11 @@
         <mxCell id="WJADcjosmOGT2jdmS7W--141" value="查询数据库&lt;br&gt;list = delegate.query(ms, parameterObject, rowBounds, resultHandler, key, boundSql);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3480" y="1772.5" width="340" height="58.13" as="geometry" />
         </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--200" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;dashed=1;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--142" target="WJADcjosmOGT2jdmS7W--199">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WJADcjosmOGT2jdmS7W--142" value="将查询结果放入缓存&lt;br&gt;tcm.putObject(cache, key, list);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3480" y="1869.38" width="220" height="50.63" as="geometry" />
+          <mxGeometry x="3480" y="2030" width="220" height="50.63" as="geometry" />
         </mxCell>
         <mxCell id="WJADcjosmOGT2jdmS7W--146" value="&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;从一级缓存中获取&lt;br&gt;&lt;/b&gt;&lt;/font&gt;list = resultHandler == null ? (List&amp;lt;E&amp;gt;) localCache.getObject(key) : null;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3930" y="1772.5" width="420" height="50.63" as="geometry" />
@@ -577,6 +580,9 @@
         </mxCell>
         <mxCell id="WJADcjosmOGT2jdmS7W--194" value="&lt;div&gt;String sql = boundSql.getSql();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; statement.execute(sql);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return resultSetHandler.handleResultSets(statement);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5780" y="2495" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--199" value="这里有个需要注意的地方&lt;br&gt;这里并不是将查询结果直接放入二级缓存，而是存到了TransactionalCacheManager tcm = new TransactionalCacheManager()这对象的缓存中，只有在真正提交的时候，才会将tcm缓存中的结果刷入真正的二级缓存中。如果回滚了，直接清苦tcm中缓存的结果就可以了" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="3780" y="2150" width="440" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
