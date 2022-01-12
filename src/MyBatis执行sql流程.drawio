@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-12T04:15:47.821Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="7Xn5cC0DpE2pvqRzhKXS" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-12T04:19:49.564Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="TZNWtUaDv8F3Yu9k5wKN" version="16.2.2" type="github">
   <diagram id="3BT-AjpINTrtdqSdUJcH" name="第 1 页">
     <mxGraphModel dx="3390" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -491,6 +491,9 @@
         <mxCell id="WJADcjosmOGT2jdmS7W--168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--158" target="WJADcjosmOGT2jdmS7W--167">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--158" target="WJADcjosmOGT2jdmS7W--192">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WJADcjosmOGT2jdmS7W--158" value="&lt;div&gt;获得不到，则从数据库中查询&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; list = queryFromDatabase(ms, parameter, rowBounds, resultHandler, key, boundSql);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4830" y="2010" width="420" height="50.63" as="geometry" />
         </mxCell>
@@ -515,7 +518,10 @@
         <mxCell id="WJADcjosmOGT2jdmS7W--183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--167" target="WJADcjosmOGT2jdmS7W--181">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WJADcjosmOGT2jdmS7W--167" value="stmt = prepareStatement(handler, ms.getStatementLog());" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WJADcjosmOGT2jdmS7W--191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--167" target="WJADcjosmOGT2jdmS7W--190">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--167" value="&lt;div&gt;拿到连接和statement&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; stmt = prepareStatement(handler, ms.getStatementLog());&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5370" y="2230" width="310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WJADcjosmOGT2jdmS7W--174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--169" target="WJADcjosmOGT2jdmS7W--173">
@@ -539,11 +545,11 @@
         <mxCell id="WJADcjosmOGT2jdmS7W--178" value="&lt;div&gt;switch (ms.getStatementType()) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; case STATEMENT:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; delegate = new SimpleStatementHandler(executor, ms, parameter, rowBounds, resultHandler, boundSql);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; break;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; case PREPARED:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; delegate = new PreparedStatementHandler(executor, ms, parameter, rowBounds, resultHandler, boundSql);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; break;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; case CALLABLE:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; delegate = new CallableStatementHandler(executor, ms, parameter, rowBounds, resultHandler, boundSql);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; break;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; default:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; throw new ExecutorException(&quot;Unknown statement type: &quot; + ms.getStatementType());&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="6800" y="1819.99" width="500" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="WJADcjosmOGT2jdmS7W--180" value="stmt = prepareStatement(handler, ms.getStatementLog());" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WJADcjosmOGT2jdmS7W--180" value="Connection connection = getConnection(statementLog);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5780" y="2170" width="310" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="WJADcjosmOGT2jdmS7W--181" value="stmt = prepareStatement(handler, ms.getStatementLog());" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5780" y="2280" width="310" height="50" as="geometry" />
+        <mxCell id="WJADcjosmOGT2jdmS7W--181" value="stmt = handler.prepare(connection, transaction.getTimeout());" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5780" y="2260" width="310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WJADcjosmOGT2jdmS7W--188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--184" target="WJADcjosmOGT2jdmS7W--186">
           <mxGeometry relative="1" as="geometry" />
@@ -559,6 +565,18 @@
         </mxCell>
         <mxCell id="WJADcjosmOGT2jdmS7W--187" value="&lt;div&gt;结果集处理器&lt;/div&gt;&lt;div&gt;this.resultSetHandler = configuration.newResultSetHandler(executor, mappedStatement, rowBounds, parameterHandler, resultHandler, boundSql);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="7870" y="2005" width="420" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--190" value="&lt;div&gt;处理参数&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; handler.parameterize(stmt);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5780" y="2350" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="WJADcjosmOGT2jdmS7W--192" target="WJADcjosmOGT2jdmS7W--194">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--192" value="调用数据库执行sql&lt;br&gt;return handler.query(stmt, resultHandler);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5370" y="2500" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WJADcjosmOGT2jdmS7W--194" value="&lt;div&gt;String sql = boundSql.getSql();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; statement.execute(sql);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return resultSetHandler.handleResultSets(statement);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5780" y="2495" width="320" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
