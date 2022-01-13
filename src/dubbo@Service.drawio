@@ -1,1 +1,188 @@
-<mxfile host="app.diagrams.net" modified="2022-01-13T14:41:07.145Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" version="16.1.2" etag="MKTTJmIEmIR-kVbBvGb3" type="github"><diagram id="-ZOAbeim4-3QaTn0iV8p">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-13T15:18:58.830Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="z0M5tpJaZBDhTgbTDukU" version="16.1.2" type="github">
+  <diagram id="-ZOAbeim4-3QaTn0iV8p" name="第 1 页">
+    <mxGraphModel dx="2249" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MlA-OAKGZCwKXPXbJSl6-23" target="MlA-OAKGZCwKXPXbJSl6-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="230" as="sourcePoint" />
+            <mxPoint x="620" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MlA-OAKGZCwKXPXbJSl6-28" target="MlA-OAKGZCwKXPXbJSl6-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="777" y="225" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MlA-OAKGZCwKXPXbJSl6-28" target="MlA-OAKGZCwKXPXbJSl6-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="777" y="225" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MlA-OAKGZCwKXPXbJSl6-28" target="MlA-OAKGZCwKXPXbJSl6-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="777" y="225" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MlA-OAKGZCwKXPXbJSl6-28" target="MlA-OAKGZCwKXPXbJSl6-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="777" y="225" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-7" value="Spring会将配置文件中的内容解析到Environment属性中&lt;br&gt;@PropertySource(&quot;classpath:/spring/dubbo-provider.properties&quot;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="120" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-8" value="&lt;div&gt;&lt;/div&gt;@EnableDubboConfig直接中默认中有一个multiple，默认值为true&lt;div&gt;AnnotationAttributes attributes = AnnotationAttributes.fromMap(&lt;span&gt;importingClassMetadata.getAnnotationAttributes(EnableDubboConfig.class.getName()));&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="100" width="650" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-10" value="默认为true&lt;br&gt;boolean multiple = attributes.getBoolean(&quot;multiple&quot;);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="190" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MlA-OAKGZCwKXPXbJSl6-12" target="MlA-OAKGZCwKXPXbJSl6-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0080;dashed=1;curved=1;" edge="1" parent="1" source="MlA-OAKGZCwKXPXbJSl6-12" target="MlA-OAKGZCwKXPXbJSl6-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-12" value="registerBeans(registry, &lt;font color=&quot;#ff0080&quot;&gt;&lt;b&gt;DubboConfigConfiguration.Single.class&lt;/b&gt;&lt;/font&gt;);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="290" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-14" value="生成beanDefinition并注册到beanDefinitionMap中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="290" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MlA-OAKGZCwKXPXbJSl6-16" target="MlA-OAKGZCwKXPXbJSl6-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-16" value="&lt;span&gt;if(multiple)&amp;nbsp;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="390" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MlA-OAKGZCwKXPXbJSl6-18" target="MlA-OAKGZCwKXPXbJSl6-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-18" value="registerBeans(registry, DubboConfigConfiguration.Multiple.class);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="390" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MlA-OAKGZCwKXPXbJSl6-22" target="MlA-OAKGZCwKXPXbJSl6-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-38" value="第一步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="MlA-OAKGZCwKXPXbJSl6-25">
+          <mxGeometry x="-0.1647" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MlA-OAKGZCwKXPXbJSl6-22" target="MlA-OAKGZCwKXPXbJSl6-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="228" />
+              <mxPoint x="110" y="651" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-40" value="第二步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="MlA-OAKGZCwKXPXbJSl6-39">
+          <mxGeometry x="0.8341" y="2" relative="1" as="geometry">
+            <mxPoint x="-88" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-22" value="Spring会解析@Configuration注解" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="202.5" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-23" value="@EnableDubbo(scanBasePackages = &quot;org.apache.dubbo.demo.provider&quot;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="508.5" y="40" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MlA-OAKGZCwKXPXbJSl6-22" target="MlA-OAKGZCwKXPXbJSl6-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MlA-OAKGZCwKXPXbJSl6-26" target="MlA-OAKGZCwKXPXbJSl6-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-26" value="解析dubbo配置文件&lt;br&gt;@EnableDubboConfig" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="130" width="157" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-28" value="@Import(DubboConfigConfigurationRegistrar.class)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="210" width="307" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0080;" edge="1" parent="1" source="MlA-OAKGZCwKXPXbJSl6-31" target="MlA-OAKGZCwKXPXbJSl6-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-31" value="&lt;div&gt;@EnableDubboConfigBindings({&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; @EnableDubboConfigBinding(prefix = &quot;dubbo.application&quot;, type = ApplicationConfig.class),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; @EnableDubboConfigBinding(&lt;font color=&quot;#ff0080&quot;&gt;prefix &lt;/font&gt;= &quot;dubbo.module&quot;, &lt;font color=&quot;#ff0080&quot;&gt;type&lt;/font&gt; = ModuleConfig.class),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; @EnableDubboConfigBinding(prefix = &quot;dubbo.registry&quot;, type = RegistryConfig.class),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; @EnableDubboConfigBinding(prefix = &quot;dubbo.protocol&quot;, type = ProtocolConfig.class),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; @EnableDubboConfigBinding(prefix = &quot;dubbo.monitor&quot;, type = MonitorConfig.class),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; @EnableDubboConfigBinding(prefix = &quot;dubbo.provider&quot;, type = ProviderConfig.class),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; @EnableDubboConfigBinding(prefix = &quot;dubbo.consumer&quot;, type = ConsumerConfig.class),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; @EnableDubboConfigBinding(prefix = &quot;dubbo.config-center&quot;, type = ConfigCenterBean.class),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; @EnableDubboConfigBinding(prefix = &quot;dubbo.metadata-report&quot;, type = MetadataReportConfig.class),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; @EnableDubboConfigBinding(prefix = &quot;dubbo.metrics&quot;, type = MetricsConfig.class)&lt;span&gt;})&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; public static class &lt;font color=&quot;#ff0080&quot;&gt;&lt;b&gt;Single &lt;/b&gt;&lt;/font&gt;{&lt;span&gt;}&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="315" width="550" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0080;" edge="1" parent="1" source="MlA-OAKGZCwKXPXbJSl6-34" target="MlA-OAKGZCwKXPXbJSl6-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-34" value="@EnableDubboConfigBindings" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="550" width="210" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="MlA-OAKGZCwKXPXbJSl6-36" target="MlA-OAKGZCwKXPXbJSl6-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="MlA-OAKGZCwKXPXbJSl6-36" target="MlA-OAKGZCwKXPXbJSl6-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="MlA-OAKGZCwKXPXbJSl6-36" target="MlA-OAKGZCwKXPXbJSl6-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="MlA-OAKGZCwKXPXbJSl6-36" target="MlA-OAKGZCwKXPXbJSl6-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-36" value="@Import(DubboConfigBindingsRegistrar.class)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="630" width="270" height="41.25" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-41" value="&lt;div&gt;获取所有属性&lt;/div&gt;&lt;div&gt;AnnotationAttributes attributes = AnnotationAttributes.fromMap(&lt;span&gt;importingClassMetadata.getAnnotationAttributes(EnableDubboConfigBindings.class.getName()));&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="895" y="520" width="695" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-43" value="获取属性值&lt;br&gt;AnnotationAttributes[] annotationAttributes = attributes.getAnnotationArray(&quot;value&quot;);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="895" y="608.75" width="495" height="51.25" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-45" value="DubboConfigBindingRegistrar registrar = new DubboConfigBindingRegistrar();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="895" y="690" width="425" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-46" value="将环境解析好的环境变量传进去，用于一会从中获取配置数据然会封装成beanDefinition&lt;br&gt;registrar.setEnvironment(environment);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="895" y="770" width="505" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0080;" edge="1" parent="1" source="MlA-OAKGZCwKXPXbJSl6-49" target="MlA-OAKGZCwKXPXbJSl6-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0080;" edge="1" parent="1" source="MlA-OAKGZCwKXPXbJSl6-49" target="MlA-OAKGZCwKXPXbJSl6-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0080;" edge="1" parent="1" source="MlA-OAKGZCwKXPXbJSl6-49" target="MlA-OAKGZCwKXPXbJSl6-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0080;" edge="1" parent="1" source="MlA-OAKGZCwKXPXbJSl6-49" target="MlA-OAKGZCwKXPXbJSl6-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-49" value="&lt;div&gt;for (AnnotationAttributes element : annotationAttributes) {&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 逐个解析@EnableDubboConfigBinding注解，比如@EnableDubboConfigBinding(prefix = &quot;dubbo.application&quot;, type = ApplicationConfig.class)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; registrar.&lt;font color=&quot;#ff0080&quot;&gt;registerBeanDefinitions&lt;/font&gt;(element, registry);&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="895" y="770" width="575" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0080;curved=1;dashed=1;" edge="1" parent="1" source="MlA-OAKGZCwKXPXbJSl6-50" target="MlA-OAKGZCwKXPXbJSl6-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1830" y="470" />
+              <mxPoint x="850" y="470" />
+              <mxPoint x="850" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-50" value="获取前缀&lt;br&gt;String prefix = environment.resolvePlaceholders(attributes.getString(&quot;&lt;font color=&quot;#ff0080&quot;&gt;prefix&lt;/font&gt;&quot;));" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="680" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-53" value="获取类型&lt;br&gt;Class&amp;lt;? extends AbstractConfig&amp;gt; configClass = attributes.getClass(&quot;type&quot;);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="760" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-54" value="默认为false&lt;br&gt;boolean multiple = attributes.getBoolean(&quot;multiple&quot;);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="830" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-55" value="registerDubboConfigBeans(prefix, configClass, multiple, registry);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="900" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MlA-OAKGZCwKXPXbJSl6-59" value="Map&amp;lt;String, Object&amp;gt; properties = getSubProperties(environment.getPropertySources(), prefix);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2170" y="680" width="540" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
