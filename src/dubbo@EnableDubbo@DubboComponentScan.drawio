@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-14T02:20:36.287Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="SjlI4uG4Y3A0SWNpdzQZ" version="16.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-14T02:31:01.055Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="LS_LuGk96ed_-xYSeIAb" version="16.2.6" type="github">
   <diagram id="dAGm9d05bVq563Y25KDQ" name="第 1 页">
-    <mxGraphModel dx="2837" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3005" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -127,11 +127,14 @@
         <mxCell id="HFMOyKSnLn-s5Kh4_8ME-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-31" target="HFMOyKSnLn-s5Kh4_8ME-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-31" value="&lt;font color=&quot;#000000&quot;&gt;&lt;div&gt;该方法会进行扫描，扫描@Service注解了的类，然后生成BeanDefinition（会生成两个，一个普通的bean，一个ServiceBean），后续的Spring周期中会生成Bean&lt;/div&gt;&lt;div&gt;在ServiceBean中会监听ContextRefreshedEvent事件，一旦Spring启动完后，就会进行服务导出registerServiceAnnotationBeanPostProcessor(packagesToScan, registry);&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-31" value="&lt;font color=&quot;#000000&quot;&gt;&lt;div&gt;该方法会进行扫描，扫描@Service注解了的类，然后生成BeanDefinition（会生成两个，一个普通的bean，一个ServiceBean），后续的Spring周期中会生成Bean&lt;/div&gt;&lt;div&gt;在ServiceBean中会监听ContextRefreshedEvent事件，一旦Spring启动完后，就会进行服务导出registerServiceAnnotationBeanPostProcessor(packagesToScan, registry);&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1040" y="740" width="510" height="81.75" as="geometry" />
         </mxCell>
-        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-33" value="&lt;font color=&quot;#000000&quot;&gt;registerReferenceAnnotationBeanPostProcessor(registry);&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="1250" width="340" height="43.75" as="geometry" />
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-33" target="HFMOyKSnLn-s5Kh4_8ME-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-33" value="&lt;font color=&quot;#000000&quot;&gt;实现了AnnotationInjectedBeanPostProcessor接口，继而实现了InstantiationAwareBeanPostProcessorAdapter接口所以Spring在启动时，在对属性进行注入时会调用AnnotationInjectedBeanPostProcessor接口中的postProcessPropertyValues方法在这个过程中会按照@Reference注解的信息去生成一个RefrenceBean对象&lt;br&gt;registerReferenceAnnotationBeanPostProcessor(registry);&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1170" width="600" height="90" as="geometry" />
         </mxCell>
         <mxCell id="HFMOyKSnLn-s5Kh4_8ME-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontColor=#FF6666;curved=1;dashed=1;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-35" target="HFMOyKSnLn-s5Kh4_8ME-51">
           <mxGeometry relative="1" as="geometry" />
@@ -327,6 +330,9 @@
         </mxCell>
         <mxCell id="HFMOyKSnLn-s5Kh4_8ME-114" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;服务导出（服务注册）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;export();&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1160" y="2445" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-116" value="&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;因为他是加载属性和方法上的，所以就注册一个ReferenceAnnotationBeanPostProcessor来解析，效仿@Autowire的注解解析流程&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;ReferenceAnnotationBeanPostProcessor是一个BeanPostProcessor&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;dBeanRegistrar.registerInfrastructureBean(registry,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ReferenceAnnotationBeanPostProcessor.BEAN_NAME, &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;ReferenceAnnotationBeanPostProcessor&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;.class);&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
+          <mxGeometry x="1768" y="1180" width="702" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
