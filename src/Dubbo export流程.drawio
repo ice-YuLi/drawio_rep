@@ -1,26 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2022-01-14T16:11:01.153Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="vG2g3sYm2Pex2dAR8_Kk" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-14T16:22:33.165Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="1XxgzKtT5v98FqngW508" version="16.2.7" type="github">
   <diagram id="xXIiwV4dRq0vxeCP2KqJ" name="第 1 页">
     <mxGraphModel dx="1422" dy="2008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="22falqz4Or-8pj2Nucx1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-1" target="22falqz4Or-8pj2Nucx1-2">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="340" />
+              <mxPoint x="260" y="310" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-1" target="22falqz4Or-8pj2Nucx1-4">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="340" />
+              <mxPoint x="260" y="825" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-1" value="ServiceBean.java&lt;br&gt;export()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="310" width="170" height="60" as="geometry" />
+          <mxGeometry x="40" y="310" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-2" target="22falqz4Or-8pj2Nucx1-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-2" target="22falqz4Or-8pj2Nucx1-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-2" value="super.export();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="280" width="133" height="40" as="geometry" />
+          <mxGeometry x="450" y="290" width="133" height="40" as="geometry" />
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-4" value="服务导出成功后发布ServiceBeanExportedEvent事件&lt;br&gt;publishExportEvent();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="630" width="330" height="50" as="geometry" />
+          <mxGeometry x="320" y="800" width="330" height="50" as="geometry" />
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-6" target="22falqz4Or-8pj2Nucx1-8">
           <mxGeometry relative="1" as="geometry" />
@@ -265,6 +280,42 @@
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-90" value="&lt;div&gt;。。。&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="1180" y="502.5" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-94" target="22falqz4Or-8pj2Nucx1-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-94" target="22falqz4Or-8pj2Nucx1-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-94" value="&lt;font color=&quot;#000000&quot;&gt;检查是否需要延迟发布&lt;br&gt;if (shouldDelay())&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1540" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-96" value="&lt;div&gt;DELAY_EXPORT_EXECUTOR.schedule(this::doExport, getDelay(), TimeUnit.MILLISECONDS);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="1470" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-98" target="22falqz4Or-8pj2Nucx1-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-98" value="&lt;div&gt;导出服务&lt;/div&gt;&lt;div&gt;doExport();&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="1620" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-100" target="22falqz4Or-8pj2Nucx1-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-100" target="22falqz4Or-8pj2Nucx1-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-100" value="&lt;div&gt;doExportUrls();&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1365" y="1622.5" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-102" value="根据参数组装map" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1557.5" width="146" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-103" value="&lt;div&gt;构造注册中心url，地址+参数&lt;/div&gt;&lt;div&gt;List&amp;lt;URL&amp;gt; urls = UrlUtils.parseURLs(address, map);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1680" width="316" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-106" value="&lt;ul&gt;&lt;li&gt;zookeeper://127.0.0.1:2181/org.apache.dubbo.registry.RegistryService?application=dubbo-demo-provider1-application&amp;amp;dubbo=2.0.2&amp;amp;logger=log4j&amp;amp;pid=14456&amp;amp;release=2.7.0&amp;amp;timeout=3000×tamp=1642177176806&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="1500" width="1190" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
