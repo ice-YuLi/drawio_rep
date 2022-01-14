@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-14T15:29:34.546Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="1-vGvXkWL6kU2MZpOc7V" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-14T16:11:01.153Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="vG2g3sYm2Pex2dAR8_Kk" version="16.2.7" type="github">
   <diagram id="xXIiwV4dRq0vxeCP2KqJ" name="第 1 页">
     <mxGraphModel dx="1422" dy="2008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,16 +11,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-1" value="ServiceBean.java&lt;br&gt;export()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="310" width="170" height="60" as="geometry" />
+          <mxGeometry x="150" y="310" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-2" target="22falqz4Or-8pj2Nucx1-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-2" value="super.export();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="280" width="133" height="40" as="geometry" />
+          <mxGeometry x="430" y="280" width="133" height="40" as="geometry" />
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-4" value="服务导出成功后发布ServiceBeanExportedEvent事件&lt;br&gt;publishExportEvent();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="630" width="330" height="50" as="geometry" />
+          <mxGeometry x="430" y="630" width="330" height="50" as="geometry" />
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-6" target="22falqz4Or-8pj2Nucx1-8">
           <mxGeometry relative="1" as="geometry" />
@@ -28,11 +28,20 @@
         <mxCell id="22falqz4Or-8pj2Nucx1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-6" target="22falqz4Or-8pj2Nucx1-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-6" target="22falqz4Or-8pj2Nucx1-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-6" target="22falqz4Or-8pj2Nucx1-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-6" target="22falqz4Or-8pj2Nucx1-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-6" value="checkAndUpdateSubConfigs();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="190" width="200" height="40" as="geometry" />
+          <mxGeometry x="780" y="190" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-8" value="补全ServiceConfig中的属性completeCompoundConfigs();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="70" width="250" height="50" as="geometry" />
+          <mxGeometry x="1180" y="80" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-10" target="22falqz4Or-8pj2Nucx1-12">
           <mxGeometry relative="1" as="geometry" />
@@ -40,8 +49,11 @@
         <mxCell id="22falqz4Or-8pj2Nucx1-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-10" target="22falqz4Or-8pj2Nucx1-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-10" target="22falqz4Or-8pj2Nucx1-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-10" value="startConfigCenter();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="150" width="250" height="50" as="geometry" />
+          <mxGeometry x="1180" y="160" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-12" target="22falqz4Or-8pj2Nucx1-14">
           <mxGeometry relative="1" as="geometry" />
@@ -64,7 +76,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-12" value="从其他位置获取配置中心的相关属性信息，比如配置中心地址this.configCenter.refresh();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1750" y="140" width="360" height="70" as="geometry" />
+          <mxGeometry x="1780" y="140" width="360" height="70" as="geometry" />
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-14" target="22falqz4Or-8pj2Nucx1-40">
           <mxGeometry relative="1" as="geometry" />
@@ -108,8 +120,13 @@
         <mxCell id="22falqz4Or-8pj2Nucx1-31" value="&amp;nbsp;for (Method method : methods)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2300" y="470" width="370" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="22falqz4Or-8pj2Nucx1-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-32" target="22falqz4Or-8pj2Nucx1-38">
+        <mxCell id="22falqz4Or-8pj2Nucx1-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-32" target="22falqz4Or-8pj2Nucx1-38">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-32" target="22falqz4Or-8pj2Nucx1-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3130" y="275" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-32" value="if (MethodUtils.isSetter(method))" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2860" y="320" width="230" height="80" as="geometry" />
@@ -118,7 +135,7 @@
           <mxGeometry x="2860" y="470" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-38" value="通过配置的优先级，调用set方法进行赋值&lt;br&gt;method.invoke(this, ClassUtils.convertPrimitive(method.getParameterTypes()[0], value));" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3150" y="335" width="530" height="50" as="geometry" />
+          <mxGeometry x="3150" y="420" width="530" height="50" as="geometry" />
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-40" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // JVM环境变量&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; compositeConfiguration.addConfiguration(this.&lt;font color=&quot;#ff6666&quot;&gt;getSystemConfig&lt;/font&gt;(prefix, id));&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 操作系统环境变量&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; compositeConfiguration.addConfiguration(this.&lt;font color=&quot;#ff6666&quot;&gt;getEnvironmentConfig&lt;/font&gt;(prefix, id));&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 配置中心APP配置&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; compositeConfiguration.addConfiguration(this.&lt;font color=&quot;#ff6666&quot;&gt;getAppExternalConfig&lt;/font&gt;(prefix, id));&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 配置中心Global配置&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; compositeConfiguration.addConfiguration(this.&lt;font color=&quot;#ff6666&quot;&gt;getExternalConfig&lt;/font&gt;(prefix, id));&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // dubbo.properties中的配置&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; compositeConfiguration.addConfiguration(this.&lt;font color=&quot;#ff6666&quot;&gt;getPropertiesConfig&lt;/font&gt;(prefix, id));&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="3060" width="530" height="150" as="geometry" />
@@ -203,6 +220,51 @@
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-66" value="&lt;div&gt;存入 AppExternalConfigurationMap 应用配置项&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Environment.getInstance().updateAppExternalConfigurationMap(parseProperties(appConfigContent));&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2150" y="1230" width="635" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-72" target="22falqz4Or-8pj2Nucx1-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-72" value="prepareEnvironment();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="1360" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-74" value="从配置中心取到配置数据后，刷新所有的XxConfig中的属性，除开ServiceConfig&lt;br&gt;ConfigManager.getInstance().refreshAll();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="1350" width="455" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-76" target="22falqz4Or-8pj2Nucx1-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-76" value="获取xx配置项的value&lt;br&gt;String value = StringUtils.trim(compositeConfiguration.getString(extractPropertyName(getClass(), method)));" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3150" y="250" width="530" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-78" target="22falqz4Or-8pj2Nucx1-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-78" value="return convert(String.class, key, null);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3760" y="250" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-80" target="22falqz4Or-8pj2Nucx1-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-80" value="Configuration.java&lt;br&gt;String value = (String) getProperty(key);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4040" y="250" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-82" target="22falqz4Or-8pj2Nucx1-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-82" value="Configuration.java&lt;br&gt;return getProperty(key, null);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4330" y="250" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-84" value="AbstractPrefixConfiguration.java&lt;br&gt;&lt;div&gt;@Override&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; public Object getProperty(String key, Object defaultValue) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Object value = null;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (StringUtils.isNotEmpty(prefix)) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (StringUtils.isNotEmpty(id)) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; value = getInternalProperty(prefix + id + &quot;.&quot; + key);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (value == null) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; value = getInternalProperty(prefix + key);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; } else {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; value = getInternalProperty(key);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return value != null ? value : defaultValue;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="4650" y="130" width="350" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-86" value="&lt;div&gt;如果protocol不是只有injvm协议，表示服务调用不是只在本机jvm里面调用，那就需要用到注册中心&lt;br&gt;&lt;/div&gt;&lt;div&gt;if (!isOnlyInJvm()) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; checkRegistry();&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="255" width="310" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-88" value="&lt;div&gt;刷新ServiceConfig，也就是serviceBean&lt;/div&gt;&lt;div&gt;this.refresh();&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="400" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="22falqz4Or-8pj2Nucx1-90" value="&lt;div&gt;。。。&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="502.5" width="240" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
