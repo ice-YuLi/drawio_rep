@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-14T02:31:01.055Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="LS_LuGk96ed_-xYSeIAb" version="16.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-14T02:43:09.542Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="_zdo-YBd63q4UbPPyQs0" version="16.2.6" type="github">
   <diagram id="dAGm9d05bVq563Y25KDQ" name="第 1 页">
-    <mxGraphModel dx="3005" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2837" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -313,26 +313,38 @@
         <mxCell id="HFMOyKSnLn-s5Kh4_8ME-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0080;strokeColor=#000000;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-107" target="HFMOyKSnLn-s5Kh4_8ME-109">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#FF6666;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-107" target="HFMOyKSnLn-s5Kh4_8ME-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HFMOyKSnLn-s5Kh4_8ME-107" value="&lt;font color=&quot;#000000&quot;&gt;beanFactory.preInstantiateSingletons();&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
           <mxGeometry x="440" y="2305" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HFMOyKSnLn-s5Kh4_8ME-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=17;fontColor=#000000;dashed=1;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-109" target="HFMOyKSnLn-s5Kh4_8ME-112">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#FF6666;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-121" target="HFMOyKSnLn-s5Kh4_8ME-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HFMOyKSnLn-s5Kh4_8ME-109" value="&lt;font color=&quot;#000000&quot;&gt;在这会实例化ServiceBean&lt;br&gt;this.getBean(beanName);&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
-          <mxGeometry x="750" y="2302.5" width="200" height="45" as="geometry" />
+          <mxGeometry x="750" y="2420" width="200" height="45" as="geometry" />
         </mxCell>
         <mxCell id="HFMOyKSnLn-s5Kh4_8ME-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-112" target="HFMOyKSnLn-s5Kh4_8ME-114">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HFMOyKSnLn-s5Kh4_8ME-112" value="&lt;font style=&quot;font-size: 12px&quot;&gt;因为实现了ApplicationListener&amp;lt;ContextRefreshedEvent&amp;gt;接口，所以在ServiceBean中会监听ContextRefreshedEvent事件，一旦Spring启动完后，就调用onApplicationEvent方法&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="662.5" y="2430" width="375" height="80" as="geometry" />
+          <mxGeometry x="662.5" y="2580" width="375" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HFMOyKSnLn-s5Kh4_8ME-114" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;服务导出（服务注册）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;export();&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="2445" width="210" height="50" as="geometry" />
+          <mxGeometry x="1160" y="2595" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HFMOyKSnLn-s5Kh4_8ME-116" value="&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;因为他是加载属性和方法上的，所以就注册一个ReferenceAnnotationBeanPostProcessor来解析，效仿@Autowire的注解解析流程&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;ReferenceAnnotationBeanPostProcessor是一个BeanPostProcessor&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;dBeanRegistrar.registerInfrastructureBean(registry,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ReferenceAnnotationBeanPostProcessor.BEAN_NAME, &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;ReferenceAnnotationBeanPostProcessor&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;.class);&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
           <mxGeometry x="1768" y="1180" width="702" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-119" value="&lt;font color=&quot;#000000&quot;&gt;每个bean进行属性填充的时候都会调用AnnotationInjectedBeanPostProcessor的postProcessPropertyValues方法&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="2295" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-121" value="&lt;font color=&quot;#000000&quot;&gt;实例化bean&lt;br&gt;this.getBean(beanName);&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
+          <mxGeometry x="930" y="2302.5" width="200" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
