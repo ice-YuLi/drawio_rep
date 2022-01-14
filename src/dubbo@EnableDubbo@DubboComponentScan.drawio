@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-14T03:01:26.205Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="J3jAPKtqduORZrX5nM82" version="16.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-14T03:18:59.613Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="2m7yuWy54lK4xUgd7Gwh" version="16.2.6" type="github">
   <diagram id="dAGm9d05bVq563Y25KDQ" name="第 1 页">
     <mxGraphModel dx="2600" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -462,6 +462,21 @@
         <mxCell id="HFMOyKSnLn-s5Kh4_8ME-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-156" target="HFMOyKSnLn-s5Kh4_8ME-163">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-156" target="HFMOyKSnLn-s5Kh4_8ME-165">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-156" target="HFMOyKSnLn-s5Kh4_8ME-167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-156" target="HFMOyKSnLn-s5Kh4_8ME-166">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-156" target="HFMOyKSnLn-s5Kh4_8ME-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-156" target="HFMOyKSnLn-s5Kh4_8ME-173">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HFMOyKSnLn-s5Kh4_8ME-156" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;生成Bean&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;injectedObject = doGetInjectedBean(attributes, bean，beanName, injectedType, injectedElement);&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
           <mxGeometry x="3640" y="2550" width="380" height="60" as="geometry" />
         </mxCell>
@@ -476,6 +491,79 @@
         </mxCell>
         <mxCell id="HFMOyKSnLn-s5Kh4_8ME-163" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;根据@Reference注解的信息生成referenceBeanName&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; String referenceBeanName = getReferenceBeanName(attributes, injectedType);&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
           <mxGeometry x="4150" y="2540" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-165" target="HFMOyKSnLn-s5Kh4_8ME-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-178" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-165" target="HFMOyKSnLn-s5Kh4_8ME-176">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-165" value="&lt;font color=&quot;#000000&quot;&gt;生成一个&lt;/font&gt;&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;ReferenceBean&lt;/b&gt;&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;对象&lt;br&gt;ReferenceBean referenceBean = buildReferenceBeanIfAbsent(referenceBeanName, attributes, injectedType);&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
+          <mxGeometry x="4150" y="2640" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-166" value="&lt;font color=&quot;#000000&quot;&gt;cacheInjectedReferenceBean(referenceBean, injectedElement);&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
+          <mxGeometry x="4150" y="2840" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-167" value="&lt;font color=&quot;#000000&quot;&gt;把referenceBean添加到Spring容器中去&lt;br&gt;registerReferenceBean(referencedBeanName, referenceBean, attributes, injectedType);&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
+          <mxGeometry x="4150" y="2745" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-168" value="&lt;font color=&quot;#000000&quot;&gt;放入&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;referenceBean&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;缓存&lt;br&gt;cacheInjectedReferenceBean(referenceBean, injectedElement);&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
+          <mxGeometry x="4150" y="2940" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#FF6666;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-173" target="HFMOyKSnLn-s5Kh4_8ME-188">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-173" value="&lt;font color=&quot;#000000&quot;&gt;return getOrCreateProxy(referencedBeanName, referenceBeanName, referenceBean, injectedType);&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
+          <mxGeometry x="4150" y="3040" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-175" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;ReferenceBeanBuilder beanBuilder = ReferenceBeanBuilder&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;.create(attributes, applicationContext)&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;.interfaceClass(referencedType);&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
+          <mxGeometry x="4620" y="2600" width="460" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-176" target="HFMOyKSnLn-s5Kh4_8ME-179">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-176" target="HFMOyKSnLn-s5Kh4_8ME-180">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-176" target="HFMOyKSnLn-s5Kh4_8ME-183">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-176" value="&lt;font color=&quot;#000000&quot;&gt;referenceBean = beanBuilder.build();&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
+          <mxGeometry x="4620" y="2670" width="460" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-179" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;创建一个ReferenceBean对象&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;C configBean = doBuild();&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
+          <mxGeometry x="5160" y="2577.5" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-180" value="&lt;font color=&quot;#000000&quot;&gt;给ReferenceBean对象的属性赋值&lt;br&gt;configureBean(configBean);&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
+          <mxGeometry x="5160" y="2667.5" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-183" value="&lt;font color=&quot;#000000&quot;&gt;return configBean;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
+          <mxGeometry x="5160" y="2757.5" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-185" value="&lt;font color=&quot;#000000&quot;&gt;考虑到当前调用的dubbo服务是本地提供的，创建代理对象&lt;br&gt;return&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;newProxyInstance(getClassLoader(), new Class[]{serviceInterfaceType},&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;nbsp;wrapInvocationHandler(referenceBeanName, referenceBean));&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
+          <mxGeometry x="5080" y="2950" width="460" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-186" value="&lt;font color=&quot;#000000&quot;&gt;return referenceBean.get();&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
+          <mxGeometry x="5080" y="3120" width="460" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#FF6666;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-188" target="HFMOyKSnLn-s5Kh4_8ME-185">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-192" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="HFMOyKSnLn-s5Kh4_8ME-190">
+          <mxGeometry x="0.5604" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#FF6666;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-188" target="HFMOyKSnLn-s5Kh4_8ME-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-193" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="HFMOyKSnLn-s5Kh4_8ME-191">
+          <mxGeometry x="0.5056" y="3" relative="1" as="geometry">
+            <mxPoint x="10" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-188" value="&lt;font color=&quot;#000000&quot;&gt;判断但前spring容器中是否包含serviceBean&lt;br&gt;existsServiceBean(referencedBeanName)&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="4590" y="3020" width="320" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
