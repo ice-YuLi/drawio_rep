@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-14T03:18:59.613Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="2m7yuWy54lK4xUgd7Gwh" version="16.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-14T03:22:26.363Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="rEdEO458aR8AqUxm4S84" version="16.2.6" type="github">
   <diagram id="dAGm9d05bVq563Y25KDQ" name="第 1 页">
     <mxGraphModel dx="2600" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -540,8 +540,14 @@
         <mxCell id="HFMOyKSnLn-s5Kh4_8ME-183" value="&lt;font color=&quot;#000000&quot;&gt;return configBean;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
           <mxGeometry x="5160" y="2757.5" width="260" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-185" value="&lt;font color=&quot;#000000&quot;&gt;考虑到当前调用的dubbo服务是本地提供的，创建代理对象&lt;br&gt;return&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;newProxyInstance(getClassLoader(), new Class[]{serviceInterfaceType},&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;nbsp;wrapInvocationHandler(referenceBeanName, referenceBean));&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;dashed=1;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-185" target="HFMOyKSnLn-s5Kh4_8ME-198">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-185" value="&lt;font color=&quot;#000000&quot;&gt;考虑到当前调用的dubbo服务是本地提供的，创建代理对象&lt;br&gt;return&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;newProxyInstance(getClassLoader(), new Class[]{serviceInterfaceType},&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#ff6666&quot;&gt;wrapInvocationHandler&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;(referenceBeanName, referenceBean));&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
           <mxGeometry x="5080" y="2950" width="460" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-186" target="HFMOyKSnLn-s5Kh4_8ME-194">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HFMOyKSnLn-s5Kh4_8ME-186" value="&lt;font color=&quot;#000000&quot;&gt;return referenceBean.get();&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
           <mxGeometry x="5080" y="3120" width="460" height="45" as="geometry" />
@@ -564,6 +570,27 @@
         </mxCell>
         <mxCell id="HFMOyKSnLn-s5Kh4_8ME-188" value="&lt;font color=&quot;#000000&quot;&gt;判断但前spring容器中是否包含serviceBean&lt;br&gt;existsServiceBean(referencedBeanName)&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;fontColor=#FF6666;" vertex="1" parent="1">
           <mxGeometry x="4590" y="3020" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-194" target="HFMOyKSnLn-s5Kh4_8ME-196">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-194" value="&lt;font color=&quot;#000000&quot;&gt;ReferenceConfig.java&lt;br&gt;init();&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
+          <mxGeometry x="5640" y="3120" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-196" value="&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp;创建代理对象&lt;br&gt;ref = createProxy(map);&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
+          <mxGeometry x="6000" y="3120" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#FF6666;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-198" target="HFMOyKSnLn-s5Kh4_8ME-200">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-198" value="&lt;font color=&quot;#000000&quot;&gt;当方法调用过程中会&lt;/font&gt;&lt;span style=&quot;color: rgb(255 , 102 , 102)&quot;&gt;wrapInvocationHandler&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;nbsp;的invoke方法&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
+          <mxGeometry x="5620" y="2970" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;fontColor=#FF6666;" edge="1" parent="1" source="HFMOyKSnLn-s5Kh4_8ME-200" target="HFMOyKSnLn-s5Kh4_8ME-194">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFMOyKSnLn-s5Kh4_8ME-200" value="&lt;font color=&quot;#000000&quot;&gt;当方法调用过程中会&lt;/font&gt;&lt;span style=&quot;color: rgb(255 , 102 , 102)&quot;&gt;wrapInvocationHandler&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;nbsp;的invoke方法&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
+          <mxGeometry x="5990" y="2970" width="280" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
