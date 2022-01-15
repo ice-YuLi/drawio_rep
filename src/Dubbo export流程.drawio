@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-15T16:44:43.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="uuGIVSxl1W9nOjh7fcs7" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-15T16:49:02.583Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="QuYvwwDlpQfyHJrl1-U3" version="16.2.7" type="github">
   <diagram id="xXIiwV4dRq0vxeCP2KqJ" name="第 1 页">
     <mxGraphModel dx="1438" dy="1949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1089,7 +1089,7 @@
         <mxCell id="Qj0Jp0gUjMdsc-N4maKM-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0080;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-93" target="Qj0Jp0gUjMdsc-N4maKM-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-93" value="this.setRouterChain(RouterChain.buildChain(url));" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-93" value="this.&lt;font color=&quot;#ff0080&quot;&gt;&lt;b&gt;setRouterChain&lt;/b&gt;&lt;/font&gt;(RouterChain.&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;buildChain&lt;/b&gt;&lt;/font&gt;(url));" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4393.5" y="4092" width="310" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Qj0Jp0gUjMdsc-N4maKM-98" value="构造方法" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0080;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-95" target="Qj0Jp0gUjMdsc-N4maKM-97">
@@ -1437,6 +1437,9 @@
           <mxGeometry x="9010" y="5550" width="470" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Qj0Jp0gUjMdsc-N4maKM-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-213" target="Qj0Jp0gUjMdsc-N4maKM-217">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-254" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;fontColor=#FF6666;dashed=1;curved=1;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-213" target="Qj0Jp0gUjMdsc-N4maKM-93">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qj0Jp0gUjMdsc-N4maKM-213" value="得到了所引入的服务Invoker之后，把它们设置到路由链中去，在调用时使用，并且会调用TagRouter的notify方法&lt;br&gt;&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;routerChain&lt;/b&gt;&lt;/font&gt;.setInvokers(newInvokers);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
