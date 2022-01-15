@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-15T14:46:41.556Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="7mLGPkukXj4vA7Y3X3Zh" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-15T15:07:48.421Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="hW95vJoz37gGzng6quvD" version="16.2.7" type="github">
   <diagram id="xXIiwV4dRq0vxeCP2KqJ" name="第 1 页">
     <mxGraphModel dx="1422" dy="2008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -980,7 +980,7 @@
         <mxCell id="Qj0Jp0gUjMdsc-N4maKM-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0080;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-53" target="Qj0Jp0gUjMdsc-N4maKM-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0080;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-53" target="Qj0Jp0gUjMdsc-N4maKM-85">
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0080;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-53" target="Qj0Jp0gUjMdsc-N4maKM-85">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qj0Jp0gUjMdsc-N4maKM-53" value="RegistryProtocol.java&lt;br&gt;refer(Class&amp;lt;T&amp;gt; type, URL url)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1062,8 +1062,44 @@
         <mxCell id="Qj0Jp0gUjMdsc-N4maKM-83" value="qs表示 queryString, 表示url中的参数，表示消费者引入服务时所配置的参数&lt;br&gt;Map&amp;lt;String, String&amp;gt; qs = StringUtils.parseQueryString(url.getParameterAndDecoded(REFER_KEY));" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2970" y="3909.3799999999997" width="620" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0080;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-85" target="Qj0Jp0gUjMdsc-N4maKM-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0080;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-85" target="Qj0Jp0gUjMdsc-N4maKM-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0080;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-85" target="Qj0Jp0gUjMdsc-N4maKM-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Qj0Jp0gUjMdsc-N4maKM-85" value="这里的cluster是cluster的Adaptive对象,扩展点，cluster默认为FailoverCluster&lt;br&gt;return doRefer(cluster, registry, type, url);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2970" y="3989.9999999999995" width="620" height="50" as="geometry" />
+          <mxGeometry x="2970" y="4066.9999999999995" width="620" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-87" value="创建服务目录&lt;br&gt;RegistryDirectory&amp;lt;T&amp;gt; directory = new RegistryDirectory&amp;lt;T&amp;gt;(type, url);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3680" y="3989.9999999999995" width="620" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-89" value="注册简化后的消费url&lt;br&gt;registry.register(directory.getRegisteredConsumerUrl());" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3680" y="4066.9999999999995" width="620" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0080;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-90" target="Qj0Jp0gUjMdsc-N4maKM-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-90" value="路由链是动态服务目录中的一个属性，通过路由链可以过滤某些服务提供者，可以通过Dubbo控制台配置&lt;br&gt;directory.buildRouterChain(subscribeUrl);" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="3680" y="4150" width="620" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0080;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-93" target="Qj0Jp0gUjMdsc-N4maKM-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-93" value="this.setRouterChain(RouterChain.buildChain(url));" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4393.5" y="4092" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-98" value="构造方法" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0080;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-95" target="Qj0Jp0gUjMdsc-N4maKM-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-95" value="return new RouterChain&amp;lt;&amp;gt;(url);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4780" y="4093" width="210" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-97" value="&lt;div&gt;List&amp;lt;RouterFactory&amp;gt; extensionFactories = ExtensionLoader.getExtensionLoader(RouterFactory.class)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .getActivateExtension(url, (String[]) null);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="5110" y="4050" width="560" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
