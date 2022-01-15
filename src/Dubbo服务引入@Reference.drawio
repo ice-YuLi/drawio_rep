@@ -1,1 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2022-01-15T07:08:56.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" version="16.2.7" etag="zEjbrLtstelog6sHI6hL" type="github"><diagram id="42omxzGdMsQnlDtkS1z_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-15T13:24:26.525Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="3bVYMq1k0Bu4ala-v7vM" version="16.2.7" type="github">
+  <diagram id="42omxzGdMsQnlDtkS1z_" name="第 1 页">
+    <mxGraphModel dx="1354" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uczweYeZnGjjvUOM6_65-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uczweYeZnGjjvUOM6_65-1" target="uczweYeZnGjjvUOM6_65-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uczweYeZnGjjvUOM6_65-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uczweYeZnGjjvUOM6_65-1" target="uczweYeZnGjjvUOM6_65-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uczweYeZnGjjvUOM6_65-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uczweYeZnGjjvUOM6_65-1" target="uczweYeZnGjjvUOM6_65-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uczweYeZnGjjvUOM6_65-1" value="ReferenceConfig.java&lt;br&gt;init();" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="220" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uczweYeZnGjjvUOM6_65-2" value="Map&lt;String, String&gt; map = new HashMap&lt;String, String&gt;();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="110" width="260" height="34.38" as="geometry" />
+        </mxCell>
+        <mxCell id="uczweYeZnGjjvUOM6_65-5" value="给map赋值&lt;br&gt;。。。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="170" width="260" height="44.38" as="geometry" />
+        </mxCell>
+        <mxCell id="uczweYeZnGjjvUOM6_65-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uczweYeZnGjjvUOM6_65-7" target="uczweYeZnGjjvUOM6_65-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uczweYeZnGjjvUOM6_65-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uczweYeZnGjjvUOM6_65-7" target="uczweYeZnGjjvUOM6_65-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uczweYeZnGjjvUOM6_65-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uczweYeZnGjjvUOM6_65-7" target="uczweYeZnGjjvUOM6_65-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uczweYeZnGjjvUOM6_65-7" value="创建代理对象&lt;br&gt;ref = createProxy(map);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="240" width="260" height="44.38" as="geometry" />
+        </mxCell>
+        <mxCell id="uczweYeZnGjjvUOM6_65-9" value="连接 zookeeper&lt;br&gt;AbstractInterfaceConfig.java&lt;br&gt;checkRegistry();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="120" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uczweYeZnGjjvUOM6_65-12" value="如果配置文件中没有配置注册中心，则尝试从系统参数中获取&lt;br&gt;loadRegistriesFromBackwardConfig();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="210" width="279" height="54.38" as="geometry" />
+        </mxCell>
+        <mxCell id="uczweYeZnGjjvUOM6_65-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uczweYeZnGjjvUOM6_65-14" target="uczweYeZnGjjvUOM6_65-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uczweYeZnGjjvUOM6_65-14" value="连接zookeeper&lt;br&gt;useRegistryForConfigIfNecessary();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="300" width="279" height="54.38" as="geometry" />
+        </mxCell>
+        <mxCell id="uczweYeZnGjjvUOM6_65-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uczweYeZnGjjvUOM6_65-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1950" y="327.19000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uczweYeZnGjjvUOM6_65-17" value="连接 zookeeper ，获取上面的配置，并保存到本地&lt;br&gt;startConfigCenter();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="300" width="279" height="54.38" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
