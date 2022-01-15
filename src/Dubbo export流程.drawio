@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-15T13:24:19.647Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="NxxqwqMi_2fcQD26raHV" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-15T14:27:28.769Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="6IT10ViL709nvf76f8Um" version="16.2.7" type="github">
   <diagram id="xXIiwV4dRq0vxeCP2KqJ" name="第 1 页">
-    <mxGraphModel dx="5688" dy="4269" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1237" dy="1899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -299,26 +299,23 @@
         <mxCell id="22falqz4Or-8pj2Nucx1-98" value="&lt;div&gt;导出服务&lt;/div&gt;&lt;div&gt;doExport();&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1125" y="1620" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="22falqz4Or-8pj2Nucx1-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="22falqz4Or-8pj2Nucx1-100" target="22falqz4Or-8pj2Nucx1-102" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="22falqz4Or-8pj2Nucx1-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="22falqz4Or-8pj2Nucx1-100" target="22falqz4Or-8pj2Nucx1-103" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="14DJCqyX7DSxiKLRsMho-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="22falqz4Or-8pj2Nucx1-100" target="14DJCqyX7DSxiKLRsMho-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22falqz4Or-8pj2Nucx1-100" target="Qj0Jp0gUjMdsc-N4maKM-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-100" value="&lt;div&gt;doExportUrls();&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="1365" y="1622.5" width="110" height="45" as="geometry" />
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-102" value="根据参数组装map" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1640" y="1557.5" width="146" height="45" as="geometry" />
+          <mxGeometry x="2000" y="1500" width="146" height="45" as="geometry" />
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-103" value="&lt;div&gt;构造注册中心url，地址+参数&lt;/div&gt;&lt;div&gt;List&amp;lt;URL&amp;gt; &lt;font color=&quot;#ff6666&quot;&gt;urls &lt;/font&gt;= UrlUtils.parseURLs(address, map);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1640" y="1680" width="316" height="47.5" as="geometry" />
+          <mxGeometry x="2000" y="1598.75" width="316" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-106" value="&lt;ul&gt;&lt;li&gt;zookeeper://127.0.0.1:2181/org.apache.dubbo.registry.RegistryService?application=dubbo-demo-provider1-application&amp;amp;dubbo=2.0.2&amp;amp;logger=log4j&amp;amp;pid=14456&amp;amp;release=2.7.0&amp;amp;timeout=3000×tamp=1642177176806&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1530" y="1500" width="1190" height="40" as="geometry" />
+          <mxGeometry x="2342.5" y="1602.5" width="1190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="14DJCqyX7DSxiKLRsMho-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" parent="1" source="14DJCqyX7DSxiKLRsMho-2" target="14DJCqyX7DSxiKLRsMho-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -326,8 +323,13 @@
         <mxCell id="14DJCqyX7DSxiKLRsMho-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" parent="1" source="14DJCqyX7DSxiKLRsMho-2" target="14DJCqyX7DSxiKLRsMho-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="14DJCqyX7DSxiKLRsMho-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontColor=#FF6666;curved=1;dashed=1;" parent="1" source="14DJCqyX7DSxiKLRsMho-2" target="14DJCqyX7DSxiKLRsMho-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="14DJCqyX7DSxiKLRsMho-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontColor=#FF6666;curved=1;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="14DJCqyX7DSxiKLRsMho-2" target="14DJCqyX7DSxiKLRsMho-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1798" y="1680" />
+              <mxPoint x="1630" y="1680" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="14DJCqyX7DSxiKLRsMho-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" parent="1" source="14DJCqyX7DSxiKLRsMho-2" target="14DJCqyX7DSxiKLRsMho-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -339,7 +341,7 @@
           <mxGeometry x="1640" y="1780" width="316" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="14DJCqyX7DSxiKLRsMho-4" value="# 配一个协议&#xa;dubbo.protocol.name=dubbo&#xa;dubbo.protocol.port=20889&#xa;dubbo.protocol.host=0.0.0.0&#xa;# 配多个协议，上下可以同时配&#xa;dubbo.protocols.p1.name=dubbo&#xa;dubbo.protocols.p1.port=20880&#xa;dubbo.protocols.p1.host=0.0.0.0" style="text;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="1910" y="1540" width="200" height="130" as="geometry" />
+          <mxGeometry x="1530" y="1410" width="200" height="130" as="geometry" />
         </mxCell>
         <mxCell id="14DJCqyX7DSxiKLRsMho-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" parent="1" source="14DJCqyX7DSxiKLRsMho-5" target="14DJCqyX7DSxiKLRsMho-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -366,7 +368,7 @@
           <mxGeometry x="3120" y="1777.81" width="320" height="51.87" as="geometry" />
         </mxCell>
         <mxCell id="14DJCqyX7DSxiKLRsMho-16" value="&lt;span style=&quot;text-align: center&quot;&gt;pathKey&amp;nbsp; =&amp;nbsp;&lt;/span&gt;tulings/org.apache.dubbo.demo.DemoService:1.0.1" style="text;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="2240" y="1610" width="340" height="30" as="geometry" />
+          <mxGeometry x="2510" y="1693.75" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="14DJCqyX7DSxiKLRsMho-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" parent="1" source="14DJCqyX7DSxiKLRsMho-17" target="14DJCqyX7DSxiKLRsMho-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -468,9 +470,9 @@
         <mxCell id="14DJCqyX7DSxiKLRsMho-54" value="执行逻辑" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="2980" y="2390" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="14DJCqyX7DSxiKLRsMho-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;fontColor=#FF6666;entryX=0.75;entryY=1;entryDx=0;entryDy=0;curved=1;dashed=1;" parent="1" source="14DJCqyX7DSxiKLRsMho-58" target="22falqz4Or-8pj2Nucx1-103" edge="1">
+        <mxCell id="14DJCqyX7DSxiKLRsMho-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;fontColor=#FF6666;curved=1;dashed=1;" parent="1" source="14DJCqyX7DSxiKLRsMho-58" target="Qj0Jp0gUjMdsc-N4maKM-8" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1870" y="1720" as="targetPoint" />
+            <mxPoint x="2215.4999999999995" y="1650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="14DJCqyX7DSxiKLRsMho-61" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" parent="1" source="14DJCqyX7DSxiKLRsMho-58" target="14DJCqyX7DSxiKLRsMho-60" edge="1">
@@ -793,55 +795,226 @@
         <mxCell id="14DJCqyX7DSxiKLRsMho-160" value="。。。" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="5240" y="3190" width="430" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="lTHa7JccNruzSSczpg-J-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lTHa7JccNruzSSczpg-J-4" target="lTHa7JccNruzSSczpg-J-5">
+        <mxCell id="lTHa7JccNruzSSczpg-J-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lTHa7JccNruzSSczpg-J-4" target="lTHa7JccNruzSSczpg-J-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lTHa7JccNruzSSczpg-J-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lTHa7JccNruzSSczpg-J-4" target="lTHa7JccNruzSSczpg-J-6">
+        <mxCell id="lTHa7JccNruzSSczpg-J-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lTHa7JccNruzSSczpg-J-4" target="lTHa7JccNruzSSczpg-J-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lTHa7JccNruzSSczpg-J-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lTHa7JccNruzSSczpg-J-4" target="lTHa7JccNruzSSczpg-J-10">
+        <mxCell id="lTHa7JccNruzSSczpg-J-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="lTHa7JccNruzSSczpg-J-4" target="lTHa7JccNruzSSczpg-J-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lTHa7JccNruzSSczpg-J-4" value="ReferenceConfig.java&lt;br&gt;init();" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="3160" width="330" height="50" as="geometry" />
+        <mxCell id="lTHa7JccNruzSSczpg-J-4" value="ReferenceConfig.java&lt;br&gt;init();" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="3650" width="330" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lTHa7JccNruzSSczpg-J-5" value="Map&lt;String, String&gt; map = new HashMap&lt;String, String&gt;();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="3050" width="260" height="34.38" as="geometry" />
+        <mxCell id="lTHa7JccNruzSSczpg-J-5" value="Map&lt;String, String&gt; map = new HashMap&lt;String, String&gt;();" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="3540" width="260" height="34.38" as="geometry" />
         </mxCell>
-        <mxCell id="lTHa7JccNruzSSczpg-J-6" value="给map赋值&lt;br&gt;。。。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="3110" width="260" height="44.38" as="geometry" />
+        <mxCell id="lTHa7JccNruzSSczpg-J-6" value="给map赋值&lt;br&gt;。。。" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="3600" width="260" height="44.38" as="geometry" />
         </mxCell>
-        <mxCell id="lTHa7JccNruzSSczpg-J-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lTHa7JccNruzSSczpg-J-10" target="lTHa7JccNruzSSczpg-J-11">
+        <mxCell id="lTHa7JccNruzSSczpg-J-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lTHa7JccNruzSSczpg-J-10" target="lTHa7JccNruzSSczpg-J-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lTHa7JccNruzSSczpg-J-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lTHa7JccNruzSSczpg-J-10" target="lTHa7JccNruzSSczpg-J-12">
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lTHa7JccNruzSSczpg-J-10" target="Qj0Jp0gUjMdsc-N4maKM-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lTHa7JccNruzSSczpg-J-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lTHa7JccNruzSSczpg-J-10" target="lTHa7JccNruzSSczpg-J-14">
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lTHa7JccNruzSSczpg-J-10" target="Qj0Jp0gUjMdsc-N4maKM-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lTHa7JccNruzSSczpg-J-10" value="创建代理对象&lt;br&gt;ref = createProxy(map);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="3180" width="260" height="44.38" as="geometry" />
-        </mxCell>
-        <mxCell id="lTHa7JccNruzSSczpg-J-11" value="连接 zookeeper&lt;br&gt;AbstractInterfaceConfig.java&lt;br&gt;checkRegistry();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="981" y="3060" width="209" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lTHa7JccNruzSSczpg-J-12" value="如果配置文件中没有配置注册中心，则尝试从系统参数中获取&lt;br&gt;loadRegistriesFromBackwardConfig();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="981" y="3150" width="279" height="54.38" as="geometry" />
-        </mxCell>
-        <mxCell id="lTHa7JccNruzSSczpg-J-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lTHa7JccNruzSSczpg-J-14" target="lTHa7JccNruzSSczpg-J-16">
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="lTHa7JccNruzSSczpg-J-10" target="Qj0Jp0gUjMdsc-N4maKM-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lTHa7JccNruzSSczpg-J-14" value="连接zookeeper&lt;br&gt;useRegistryForConfigIfNecessary();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="981" y="3240" width="279" height="54.38" as="geometry" />
+        <mxCell id="lTHa7JccNruzSSczpg-J-10" value="创建代理对象&lt;br&gt;ref = createProxy(map);" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="3670" width="260" height="44.38" as="geometry" />
         </mxCell>
-        <mxCell id="lTHa7JccNruzSSczpg-J-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lTHa7JccNruzSSczpg-J-16">
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lTHa7JccNruzSSczpg-J-11" target="lTHa7JccNruzSSczpg-J-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lTHa7JccNruzSSczpg-J-11" target="lTHa7JccNruzSSczpg-J-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lTHa7JccNruzSSczpg-J-11" value="连接 zookeeper&lt;br&gt;AbstractInterfaceConfig.java&lt;br&gt;checkRegistry();" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="951" y="3550" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lTHa7JccNruzSSczpg-J-12" value="如果配置文件中没有配置注册中心，则尝试从系统参数中获取&lt;br&gt;loadRegistriesFromBackwardConfig();" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1375" y="3485.62" width="279" height="54.38" as="geometry" />
+        </mxCell>
+        <mxCell id="lTHa7JccNruzSSczpg-J-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="lTHa7JccNruzSSczpg-J-14" target="22falqz4Or-8pj2Nucx1-10" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1690" y="3267.19" as="targetPoint" />
+            <mxPoint x="1340" y="3267.1900000000005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1720" y="3643" />
+              <mxPoint x="1720" y="3400" />
+              <mxPoint x="1260" y="3400" />
+              <mxPoint x="1260" y="1720" />
+              <mxPoint x="1110" y="1720" />
+              <mxPoint x="1110" y="197" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lTHa7JccNruzSSczpg-J-16" value="连接 zookeeper ，获取上面的配置，并保存到本地&lt;br&gt;startConfigCenter();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="3240" width="279" height="54.38" as="geometry" />
+        <mxCell id="lTHa7JccNruzSSczpg-J-14" value="连接zookeeper&lt;br&gt;useRegistryForConfigIfNecessary();" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1375" y="3615.62" width="279" height="54.38" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-1" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="57.89473684210526" y="3350" as="sourcePoint" />
+            <mxPoint x="9271.052631578947" y="3370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-2" target="22falqz4Or-8pj2Nucx1-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-2" target="22falqz4Or-8pj2Nucx1-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-2" value="List&amp;lt;URL&amp;gt; us = loadRegistries(false);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="951" y="3740" width="279" height="54.38" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-8" target="22falqz4Or-8pj2Nucx1-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-8" target="22falqz4Or-8pj2Nucx1-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-8" value="List&amp;lt;URL&amp;gt; registryURLs = loadRegistries(true);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1570" width="300" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-14" value="&lt;font color=&quot;#ff0080&quot;&gt;&lt;b&gt;registry&lt;/b&gt;&lt;/font&gt;://127.0.0.1:2181/org.apache.dubbo.registry.RegistryService?application=dubbo-demo-consumer-application&amp;amp;dubbo=2.0.2&amp;amp;pid=13948&amp;amp;registry=zookeeper&amp;amp;release=2.7.0&amp;amp;timestamp=1642254058770" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="3794.38" width="1130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-15" value="给url添加当前服务消费者的配置参数&lt;br&gt;urls.add(u.addParameterAndEncoded(&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;REFER_KEY&lt;/b&gt;&lt;/font&gt;, StringUtils.toQueryString(map)));" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="951" y="3850" width="489" height="54.38" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-17" target="Qj0Jp0gUjMdsc-N4maKM-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-17" value="&lt;font color=&quot;#000000&quot;&gt;if (urls.size() == 1)&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="951" y="3960" width="259" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-19" target="Qj0Jp0gUjMdsc-N4maKM-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;dashed=1;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-19" target="Qj0Jp0gUjMdsc-N4maKM-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-57" value="经过下面的 AOP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;fontStyle=1" vertex="1" connectable="0" parent="Qj0Jp0gUjMdsc-N4maKM-55">
+          <mxGeometry x="-0.0616" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-19" value="因为protocol=&lt;b style=&quot;color: rgb(255 , 0 , 128) ; text-align: left&quot;&gt;registry，所以会调用&lt;/b&gt;&lt;b style=&quot;color: rgb(255 , 0 , 128) ; text-align: left&quot;&gt;registry实现类&lt;/b&gt;&lt;br&gt;invoker = REF_PROTOCOL.refer(interfaceClass, urls.get(0));" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="3971.41" width="380" height="37.19" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-21" value="这里就涉及到Dubbo的SPI中的AOP功能，如果当前扩展点存在wrapper类型的实现类，那么会在实际通过key获取的value实现类外面，包N曾wrapper类，具体需要看SPI中的AOP源码" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="3830" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-22" target="Qj0Jp0gUjMdsc-N4maKM-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-25" target="Qj0Jp0gUjMdsc-N4maKM-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1831.8026315789475" y="4130.0223285486445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-22" value="ProtocolListenerWrapper.java" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1493.75" y="4050" width="380" height="37.19" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-23" target="Qj0Jp0gUjMdsc-N4maKM-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-23" value="return protocol.refer(type, url);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1805" y="4250" width="195" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-25" target="Qj0Jp0gUjMdsc-N4maKM-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-25" value="REGISTRY_PROTOCOL.equals(url.getProtocol())" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1601.25" y="4120" width="165" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-30" target="Qj0Jp0gUjMdsc-N4maKM-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-30" value="&lt;div&gt;new ListenerInvokerWrapper&amp;lt;T&amp;gt;(protocol.refer(type,url),&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; Collections.unmodifiableList(&lt;/span&gt;&lt;span&gt;ExtensionLoader.getExtensionLoader(InvokerListener.class)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .getActivateExtension(url,INVOKER_LISTENER_KEY)));&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="4230" width="490" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-32" value="当&lt;span style=&quot;text-align: left&quot;&gt;protocol.refer(type,url)执行结束后就会调用下面的监听方法&lt;/span&gt;&lt;br&gt;listener.referred(invoker);" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1333" y="4357.5" width="344" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-35" target="Qj0Jp0gUjMdsc-N4maKM-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-35" target="Qj0Jp0gUjMdsc-N4maKM-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-35" value="ProtocolListenerWrapper.java" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2101" y="4256.41" width="380" height="37.19" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-37" target="Qj0Jp0gUjMdsc-N4maKM-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-37" target="Qj0Jp0gUjMdsc-N4maKM-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-37" value="REGISTRY_PROTOCOL.equals(url.getProtocol())" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2205" y="4330" width="165" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-41" value="return protocol.refer(type, url);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2382.5" y="4450" width="195" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-43" target="Qj0Jp0gUjMdsc-N4maKM-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-43" value="buildInvokerChain(protocol.refer(type, url), REFERENCE_FILTER_KEY, CommonConstants.CONSUMER);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="4450" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-51" value="&amp;nbsp;return new CallbackRegistrationInvoker&amp;lt;&amp;gt;(last, filters);" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1974" y="4550" width="332" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0080;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-53" target="Qj0Jp0gUjMdsc-N4maKM-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0080;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-53" target="Qj0Jp0gUjMdsc-N4maKM-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-53" value="RegistryProtocol.java&lt;br&gt;refer(Class&amp;lt;T&amp;gt; type, URL url)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2581.25" y="3961.41" width="262.5" height="58.59" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-58" value="&lt;div&gt;将protocol从registry改成zookeeper&lt;/div&gt;&lt;div&gt;url = URLBuilder.from(url)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .setProtocol(url.getParameter(REGISTRY_KEY,DEFAULT_REGISTRY)) // 将 protocol 赋值为 zookeeper&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .removeParameter(REGISTRY_KEY) // 将 parameters 集合中的 key 为 registry 键值对移除&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .build();&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2970" y="3727.19" width="615" height="79.99" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0080;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-61" target="Qj0Jp0gUjMdsc-N4maKM-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0080;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-61" target="Qj0Jp0gUjMdsc-N4maKM-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0080;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-61" target="Qj0Jp0gUjMdsc-N4maKM-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-61" value="Registry registry = registryFactory.getRegistry(url);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2970" y="3830" width="620" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-63" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;AbstractRegistryFactory.java&lt;/span&gt;&lt;/div&gt;&lt;div&gt;url = URLBuilder.from(url)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .setPath(RegistryService.class.getName())&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .addParameter(INTERFACE_KEY, RegistryService.class.getName())&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .removeParameters(EXPORT_KEY, REFER_KEY)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .build();&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="3680" y="3680" width="470" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-65" value="&lt;div style=&quot;&quot;&gt;String key = url.toServiceStringWithoutResolving();&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3680" y="3824.38" width="290" height="45.62" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-66" value="&lt;ul&gt;&#xa;  &lt;li&gt;key = &quot;zookeeper://127.0.0.1:2181/org.apache.dubbo.registry.RegistryService&quot;&lt;/li&gt;&#xa;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#FF0080;" vertex="1" parent="1">
+          <mxGeometry x="3960" y="3812.81" width="480" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0080;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-68" target="Qj0Jp0gUjMdsc-N4maKM-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-68" value="&lt;div&gt;registry = createRegistry(url);&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3680" y="3904.38" width="290" height="45.62" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-70" value="&lt;div&gt;ZookeeperRegistryFactory.java&lt;br&gt;&lt;/div&gt;&lt;div&gt;return new ZookeeperRegistry(url, zookeeperTransporter);&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="4040" y="3899.38" width="360" height="55.62" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-72" value="&lt;div&gt;ZookeeperRegistryFactory.java&lt;br&gt;&lt;/div&gt;&lt;div&gt;return new ZookeeperRegistry(url, zookeeperTransporter);&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="4050" y="3909.38" width="360" height="55.62" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
