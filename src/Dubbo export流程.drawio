@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-15T16:37:59.078Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="WP4BnhS6aPMDV9Bl7-r9" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-15T16:44:43.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="uuGIVSxl1W9nOjh7fcs7" version="16.2.7" type="github">
   <diagram id="xXIiwV4dRq0vxeCP2KqJ" name="第 1 页">
-    <mxGraphModel dx="1237" dy="1899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1438" dy="1949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1439,7 +1439,7 @@
         <mxCell id="Qj0Jp0gUjMdsc-N4maKM-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-213" target="Qj0Jp0gUjMdsc-N4maKM-217">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-213" value="得到了所引入的服务Invoker之后，把它们设置到路由链中去，在调用时使用，并且会调用TagRouter的notify方法&lt;br&gt;routerChain.setInvokers(newInvokers);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-213" value="得到了所引入的服务Invoker之后，把它们设置到路由链中去，在调用时使用，并且会调用TagRouter的notify方法&lt;br&gt;&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;routerChain&lt;/b&gt;&lt;/font&gt;.setInvokers(newInvokers);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="9010" y="5640" width="660" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Qj0Jp0gUjMdsc-N4maKM-215" value="this.urlInvokerMap = newUrlInvokerMap;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
@@ -1461,6 +1461,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qj0Jp0gUjMdsc-N4maKM-233" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-219" target="Qj0Jp0gUjMdsc-N4maKM-232">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-237" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-219" target="Qj0Jp0gUjMdsc-N4maKM-236">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-238" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-219" target="Qj0Jp0gUjMdsc-N4maKM-235">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-240" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-219" target="Qj0Jp0gUjMdsc-N4maKM-239">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-242" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-219" target="Qj0Jp0gUjMdsc-N4maKM-241">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-253" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-219" target="Qj0Jp0gUjMdsc-N4maKM-248">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qj0Jp0gUjMdsc-N4maKM-219" value="routers.forEach(router -&gt; router.notify(this.invokers));" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
@@ -1489,6 +1504,38 @@
         </mxCell>
         <mxCell id="Qj0Jp0gUjMdsc-N4maKM-234" value="dubbo-demo-provider-application.tag-router" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="10760" y="5820" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-235" value="&lt;div&gt;对指定的路径进行监听&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;configuration.addListener(key, this);&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="10680" y="5940" width="360" height="54.38" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-236" value="application = providerApplication;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="10680" y="6030" width="360" height="54.38" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-239" value="获取标签动态配置信息&lt;br&gt;String rawRule = configuration.getRule(key, DynamicConfiguration.DEFAULT_GROUP);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="10680" y="6130" width="510" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-241" value="获取标签动态配置信息&lt;br&gt;String rawRule = configuration.getRule(key, DynamicConfiguration.DEFAULT_GROUP);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="10680" y="6230" width="510" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-244" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-245" target="Qj0Jp0gUjMdsc-N4maKM-251">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-245" value="手动调用监听器处理事件的方法process()&lt;br&gt;this.process(new ConfigChangeEvent(routerKey, rule));" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="11050" y="6359" width="320" height="71.47" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-246" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-248" target="Qj0Jp0gUjMdsc-N4maKM-245">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-247" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="Qj0Jp0gUjMdsc-N4maKM-246">
+          <mxGeometry x="-0.2182" y="-4" relative="1" as="geometry">
+            <mxPoint x="7" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-248" value="&lt;font color=&quot;#000000&quot;&gt;if (StringUtils.isNotEmpty(rule))&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="10680" y="6370.47" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-251" value="this.tagRouterRule = TagRuleParser.parse(event.getValue());" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="11480" y="6355.74" width="365" height="79.47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
