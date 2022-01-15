@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-15T15:07:48.421Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="hW95vJoz37gGzng6quvD" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-15T15:40:49.533Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="jPIy_ri1J2PYwbKFTHFr" version="16.2.7" type="github">
   <diagram id="xXIiwV4dRq0vxeCP2KqJ" name="第 1 页">
     <mxGraphModel dx="1422" dy="2008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1092,14 +1092,118 @@
         <mxCell id="Qj0Jp0gUjMdsc-N4maKM-93" value="this.setRouterChain(RouterChain.buildChain(url));" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4393.5" y="4092" width="310" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-98" value="构造方法" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0080;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-95" target="Qj0Jp0gUjMdsc-N4maKM-97">
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-98" value="构造方法" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0080;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-95" target="Qj0Jp0gUjMdsc-N4maKM-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0080;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-95" target="Qj0Jp0gUjMdsc-N4maKM-100">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qj0Jp0gUjMdsc-N4maKM-95" value="return new RouterChain&amp;lt;&amp;gt;(url);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4780" y="4093" width="210" height="38" as="geometry" />
         </mxCell>
         <mxCell id="Qj0Jp0gUjMdsc-N4maKM-97" value="&lt;div&gt;List&amp;lt;RouterFactory&amp;gt; extensionFactories = ExtensionLoader.getExtensionLoader(RouterFactory.class)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .getActivateExtension(url, (String[]) null);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="5110" y="4050" width="560" height="70" as="geometry" />
+          <mxGeometry x="5110" y="4017.19" width="560" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-99" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="1">
+          <mxGeometry x="5760" y="3990" width="351" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-100" target="Qj0Jp0gUjMdsc-N4maKM-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-100" target="Qj0Jp0gUjMdsc-N4maKM-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-100" target="Qj0Jp0gUjMdsc-N4maKM-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-100" value="&lt;div&gt;根据路由工厂，创建路由规则&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; List&amp;lt;Router&amp;gt; routers = extensionFactories.stream()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .map(factory -&amp;gt; &lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;factory.getRouter(url)&lt;/font&gt;&lt;/b&gt;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .collect(Collectors.toList());&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="5110" y="4130" width="380" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-102" target="Qj0Jp0gUjMdsc-N4maKM-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-102" value="AppRouterFactory.java&lt;br&gt;router = createRouter(url);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="5610" y="4152.5" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-104" target="Qj0Jp0gUjMdsc-N4maKM-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-104" value="返回包含路由规则的对象，内部会进行初始化，和规则解析&lt;br&gt;AppRouterFactory.java&lt;br&gt;&amp;nbsp;return &lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;new AppRouter&lt;/font&gt;&lt;/b&gt;(DynamicConfiguration.getDynamicConfiguration(), url);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="5975" y="4146.25" width="455" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-106" target="Qj0Jp0gUjMdsc-N4maKM-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-106" value="AppRouter.java&lt;br&gt;&amp;nbsp;super(configuration, url, url.getParameter(CommonConstants.APPLICATION_KEY));" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="6500" y="4148.13" width="390" height="53.75" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-108" target="Qj0Jp0gUjMdsc-N4maKM-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-108" target="Qj0Jp0gUjMdsc-N4maKM-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-108" target="Qj0Jp0gUjMdsc-N4maKM-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-108" target="Qj0Jp0gUjMdsc-N4maKM-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-108" value="ListenableRouter.java&lt;br&gt;this.init(ruleKey);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="6970" y="4148.13" width="170" height="51.87" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-110" value="服务名+&quot;.condition-router&quot;，或 应用名+&quot;.condition-router&quot;&lt;br&gt;&amp;nbsp;String routerKey = ruleKey + RULE_SUFFIX;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="7230" y="4020" width="380" height="54.06" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-112" value="绑定一个监听器去监听routerKey对应的路径，当前类ListenableRouter就自带了一个监听器&lt;br&gt;configuration.addListener(routerKey, this);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="7230" y="4120" width="330" height="51.06" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-114" value="绑定完监听器后，主动的从配置中心获取一下当前服务或消费者应用的对应的路由配置&lt;br&gt;String rule = configuration.getRule(routerKey, DynamicConfiguration.DEFAULT_GROUP);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="7230" y="4210" width="470" height="72.94" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-116" target="Qj0Jp0gUjMdsc-N4maKM-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-116" target="Qj0Jp0gUjMdsc-N4maKM-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-116" value="手动调用监听器处理事件的方法process()&lt;br&gt;this.process(new ConfigChangeEvent(routerKey, rule));" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="7600" y="4308.53" width="320" height="71.47" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-117" target="Qj0Jp0gUjMdsc-N4maKM-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-121" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="Qj0Jp0gUjMdsc-N4maKM-119">
+          <mxGeometry x="-0.2182" y="-4" relative="1" as="geometry">
+            <mxPoint x="7" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-117" value="&lt;font color=&quot;#000000&quot;&gt;if (StringUtils.isNotEmpty(rule))&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="7230" y="4320" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-122" value="解析路由规则&lt;br&gt;routerRule = ConditionRuleParser.parse(event.getValue());" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="8040" y="4259.530000000001" width="355" height="59.47" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-123" target="Qj0Jp0gUjMdsc-N4maKM-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-123" value="根据路由规则，生成ConditionRouter-条件路由对象，并赋值给当前Router对象的conditionRouters属性&lt;br&gt;generateConditions(routerRule);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="8040" y="4349.53" width="365" height="79.47" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-126" value="&lt;div&gt;将解析出来的路由规则，赋值给属性&lt;/div&gt;&lt;div&gt;this.conditionRouters = rule.getConditions()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .stream()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .map(condition -&amp;gt; new ConditionRouter(condition, rule.isForce(), rule.isEnabled()))&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .collect(Collectors.toList());&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="8560" y="4344.76" width="550" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-128" value="ServiceRouterFactory.java&lt;br&gt;与AppRouterFactory类似，就是监听的路径不一样" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="5610" y="4242.5" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="Qj0Jp0gUjMdsc-N4maKM-130" target="Qj0Jp0gUjMdsc-N4maKM-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-130" value="MockRouterFactory.java" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="5610" y="4335" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Qj0Jp0gUjMdsc-N4maKM-132" value="只实例化，没有进行规则初始化&lt;br&gt;return&amp;nbsp;new MockInvokersSelector()" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="5975" y="4335" width="280" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
