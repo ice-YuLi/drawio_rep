@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T13:18:11.013Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="FHRj_mT4Ke4F2fKPmxfN" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-16T13:51:53.157Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="09BAFJy3U079ukpdrxwg" version="16.2.7" type="github">
   <diagram id="N_SzV05Sl-xpzJkPLOpi" name="第 1 页">
     <mxGraphModel dx="1422" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,29 +31,29 @@
         <mxCell id="OXep2yuAuGdIZl1_ptaH-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-13" target="OXep2yuAuGdIZl1_ptaH-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OXep2yuAuGdIZl1_ptaH-13" value="return new HeaderExchangeServer(Transporters.bind(url, new DecodeHandler(new HeaderExchangeHandler(handler))));" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-13" value="return new HeaderExchangeServer(&lt;font color=&quot;#ff6666&quot;&gt;Transporters.bind&lt;/font&gt;(url, new DecodeHandler(new HeaderExchangeHandler(handler))));" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1520" y="210" width="360" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OXep2yuAuGdIZl1_ptaH-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-16" target="OXep2yuAuGdIZl1_ptaH-17">
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-17" target="OXep2yuAuGdIZl1_ptaH-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OXep2yuAuGdIZl1_ptaH-16" value="HeaderExchangeServer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="110" width="230" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="OXep2yuAuGdIZl1_ptaH-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-17" target="OXep2yuAuGdIZl1_ptaH-19">
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-17" target="OXep2yuAuGdIZl1_ptaH-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OXep2yuAuGdIZl1_ptaH-17" value="DecodeHandler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1480" y="110" width="230" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="OXep2yuAuGdIZl1_ptaH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-19" target="OXep2yuAuGdIZl1_ptaH-21">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-17" value="DecodeHandler.received()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="1040" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OXep2yuAuGdIZl1_ptaH-19" value="DecodeHandler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1810" y="110" width="230" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-21" target="OXep2yuAuGdIZl1_ptaH-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-21" target="OXep2yuAuGdIZl1_ptaH-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OXep2yuAuGdIZl1_ptaH-21" value="HeaderExchangeHandler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2120" y="110" width="230" height="50" as="geometry" />
+          <mxGeometry x="1290" y="1140" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OXep2yuAuGdIZl1_ptaH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-23" target="OXep2yuAuGdIZl1_ptaH-25">
           <mxGeometry relative="1" as="geometry" />
@@ -64,7 +64,10 @@
         <mxCell id="OXep2yuAuGdIZl1_ptaH-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-25" target="OXep2yuAuGdIZl1_ptaH-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OXep2yuAuGdIZl1_ptaH-25" value="NettyTransporter.java&lt;br&gt;return new NettyServer(url, listener);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-25" target="OXep2yuAuGdIZl1_ptaH-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-25" value="NettyTransporter.java&lt;br&gt;return new &lt;font color=&quot;#ff6666&quot;&gt;NettyServer&lt;/font&gt;(url, listener);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2380" y="210" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OXep2yuAuGdIZl1_ptaH-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-27" target="OXep2yuAuGdIZl1_ptaH-29">
@@ -81,6 +84,99 @@
         </mxCell>
         <mxCell id="OXep2yuAuGdIZl1_ptaH-31" value="&lt;div&gt;return new MultiMessageHandler(new HeartbeatHandler(ExtensionLoader.getExtensionLoader(Dispatcher.class)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .getAdaptiveExtension().dispatch(handler, url)));&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3780" y="205" width="520" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-33" target="OXep2yuAuGdIZl1_ptaH-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-33" value="MultiMessageHandler.received()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="770" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-35" target="OXep2yuAuGdIZl1_ptaH-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-35" target="OXep2yuAuGdIZl1_ptaH-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-35" value="HeartbeatHandler.received()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="860" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-42" target="OXep2yuAuGdIZl1_ptaH-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-42" target="OXep2yuAuGdIZl1_ptaH-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-42" value="AllDispatcher.received()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="950" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-54" value="ExchangeHandlerAdapter&lt;br&gt;handleRequest(exchangeChannel, request);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="1240" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-56" value="调用链" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="960" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-57" target="OXep2yuAuGdIZl1_ptaH-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-57" value="doOpen();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2720" y="330" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-59" target="OXep2yuAuGdIZl1_ptaH-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-59" value="通过netty创建socket连接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2920" y="325" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;dashed=1;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-61" target="OXep2yuAuGdIZl1_ptaH-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-61" value=".addLast(&quot;handler&quot;, nettyServerHandler);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3200" y="330" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-63" target="OXep2yuAuGdIZl1_ptaH-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-63" target="OXep2yuAuGdIZl1_ptaH-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-63" value="当有数据发送过来的时候&lt;br&gt;channelRead(ChannelHandlerContext ctx, Object msg)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="585" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fontColor=#000000;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-65" target="OXep2yuAuGdIZl1_ptaH-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-65" value="连接建立好后，当有数据发送过来的时候，会调用NettyServerHandler.java的channelRead方法" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="3550" y="385" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-67" value="接收到数据&lt;br&gt;NettyChannel channel = NettyChannel.getOrAddChannel(ctx.channel(), url, handler);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="582.5" width="470" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-69" target="OXep2yuAuGdIZl1_ptaH-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-69" value="调用下一个handler&lt;br&gt;handler.received(channel, msg);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="680" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-73" target="OXep2yuAuGdIZl1_ptaH-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-73" value="handleRequest(exchangeChannel, request);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="1140" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;dashed=1;" edge="1" parent="1" source="OXep2yuAuGdIZl1_ptaH-74" target="OXep2yuAuGdIZl1_ptaH-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-74" value="CompletionStage&amp;lt;Object&amp;gt; future = handler.reply(channel, msg);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="1140" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-79" value="对请求编解码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="1040" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-81" value="交给线程池去处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="950" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-83" value="判断是不是心跳" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="860" width="230" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
