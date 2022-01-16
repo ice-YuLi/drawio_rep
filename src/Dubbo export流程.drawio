@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T03:19:33.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="EmBbTCUAXRLG7rJPk66a" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-16T07:02:56.880Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="p4mgtZCKyA-nX83_c4ag" version="16.2.7" type="github">
   <diagram id="xXIiwV4dRq0vxeCP2KqJ" name="第 1 页">
     <mxGraphModel dx="2605" dy="2138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -228,13 +228,13 @@
         <mxCell id="22falqz4Or-8pj2Nucx1-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;dashed=1;curved=1;" parent="1" source="22falqz4Or-8pj2Nucx1-61" target="22falqz4Or-8pj2Nucx1-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="22falqz4Or-8pj2Nucx1-61" value="&lt;div&gt;获取全局配置：如果是zookeeper，获取的就是/dubbo/config/dubbo/dubbo.properties节点中的内容&lt;/div&gt;&lt;div&gt;String configContent = dynamicConfiguration.getProperties(configCenter.getConfigFile(), configCenter.getGroup());&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="22falqz4Or-8pj2Nucx1-61" value="&lt;div&gt;获取全局配置：如果是zookeeper，获取的就是&lt;font color=&quot;#7ea6e0&quot;&gt;/dubbo/config/dubbo/dubbo.properties&lt;/font&gt;节点中的内容&lt;/div&gt;&lt;div&gt;String configContent = dynamicConfiguration.getProperties(configCenter.getConfigFile(), configCenter.getGroup());&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="2150" y="940" width="630" height="65" as="geometry" />
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-70" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontColor=#FF6666;" parent="1" source="22falqz4Or-8pj2Nucx1-62" target="22falqz4Or-8pj2Nucx1-66" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="22falqz4Or-8pj2Nucx1-62" value="&lt;div&gt;获取当前应用的配置：获取的就是/dubbo/config/dubbo-demo-consumer-application/dubbo.properties节点中的内容&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; appConfigContent = dynamicConfiguration.getProperties&lt;span&gt;(StringUtils.isNotEmpty(configCenter.getAppConfigFile()) ? configCenter.getAppConfigFile() : configCenter.getConfigFile(),&lt;/span&gt;&lt;span&gt;appGroup&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="22falqz4Or-8pj2Nucx1-62" value="&lt;div&gt;获取当前应用的配置：获取的就是&lt;font color=&quot;#7ea6e0&quot;&gt;/dubbo/config/dubbo-demo-consumer-application/dubbo.properties&lt;/font&gt;节点中的内容&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; appConfigContent = dynamicConfiguration.getProperties&lt;span&gt;(StringUtils.isNotEmpty(configCenter.getAppConfigFile()) ? configCenter.getAppConfigFile() : configCenter.getConfigFile(),&lt;/span&gt;&lt;span&gt;appGroup&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="2150" y="1040" width="625" height="65" as="geometry" />
         </mxCell>
         <mxCell id="22falqz4Or-8pj2Nucx1-65" value="存入 ExternalConfigurationMap 全局配置项&lt;br&gt;Environment.getInstance().updateExternalConfigurationMap(parseProperties(configContent));" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -665,7 +665,7 @@
         <mxCell id="14DJCqyX7DSxiKLRsMho-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="14DJCqyX7DSxiKLRsMho-113" target="14DJCqyX7DSxiKLRsMho-117" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="14DJCqyX7DSxiKLRsMho-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" parent="1" source="14DJCqyX7DSxiKLRsMho-113" target="14DJCqyX7DSxiKLRsMho-119" edge="1">
+        <mxCell id="14DJCqyX7DSxiKLRsMho-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="14DJCqyX7DSxiKLRsMho-113" target="14DJCqyX7DSxiKLRsMho-119" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="14DJCqyX7DSxiKLRsMho-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" parent="1" source="14DJCqyX7DSxiKLRsMho-113" target="14DJCqyX7DSxiKLRsMho-142" edge="1">
@@ -683,6 +683,9 @@
         <mxCell id="14DJCqyX7DSxiKLRsMho-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6666;" parent="1" source="14DJCqyX7DSxiKLRsMho-113" target="14DJCqyX7DSxiKLRsMho-160" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Tw0gy_nr8mXzEnZLdOoG-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="14DJCqyX7DSxiKLRsMho-113" target="Tw0gy_nr8mXzEnZLdOoG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="14DJCqyX7DSxiKLRsMho-113" value="RegistryProtocol.java&lt;br&gt;export(final Invoker&amp;lt;T&amp;gt; originInvoker)" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="4890" y="2520" width="240" height="50" as="geometry" />
         </mxCell>
@@ -695,14 +698,14 @@
         <mxCell id="14DJCqyX7DSxiKLRsMho-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="14DJCqyX7DSxiKLRsMho-119" target="14DJCqyX7DSxiKLRsMho-121" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="14DJCqyX7DSxiKLRsMho-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" parent="1" source="14DJCqyX7DSxiKLRsMho-119" target="14DJCqyX7DSxiKLRsMho-122" edge="1">
+        <mxCell id="14DJCqyX7DSxiKLRsMho-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="14DJCqyX7DSxiKLRsMho-119" target="14DJCqyX7DSxiKLRsMho-122" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="14DJCqyX7DSxiKLRsMho-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="14DJCqyX7DSxiKLRsMho-119" target="14DJCqyX7DSxiKLRsMho-125" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="14DJCqyX7DSxiKLRsMho-119" value="RegistryProtocol.java&lt;br&gt;providerUrl = overrideUrlWithConfig(providerUrl, overrideSubscribeListener);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="5240" y="2540" width="440" height="50" as="geometry" />
+          <mxGeometry x="5240" y="2712" width="440" height="50" as="geometry" />
         </mxCell>
         <mxCell id="14DJCqyX7DSxiKLRsMho-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="14DJCqyX7DSxiKLRsMho-121" target="14DJCqyX7DSxiKLRsMho-127" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -721,7 +724,7 @@
         <mxCell id="14DJCqyX7DSxiKLRsMho-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;dashed=1;" parent="1" source="14DJCqyX7DSxiKLRsMho-122" target="14DJCqyX7DSxiKLRsMho-140" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="14DJCqyX7DSxiKLRsMho-122" value="服务配置，new ServiceConfigurationListener的时候会初始化，ServiceConfigurationListener会监听配置中心的服务信息配置信息变动&lt;br&gt;当控制台中动态修改了服务的某个配置之后，会调用 ServiceConfigurationListener 的 &lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;notifyOverrides &lt;/b&gt;&lt;/font&gt;方法&lt;br&gt;ServiceConfigurationListener serviceConfigurationListener = new ServiceConfigurationListener(providerUrl, listener);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+        <mxCell id="14DJCqyX7DSxiKLRsMho-122" value="服务配置，new ServiceConfigurationListener的时候会初始化，ServiceConfigurationListener会监听配置中心的服务信息配置信息变动&lt;br&gt;当控制台中动态修改了服务的某个配置之后，会调用 ServiceConfigurationListener 的 &lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;notifyOverrides &lt;/b&gt;&lt;/font&gt;方法&lt;br&gt;ServiceConfigurationListener serviceConfigurationListener = new ServiceConfigurationListener(providerUrl, listener);&lt;br&gt;监听&lt;font color=&quot;#ff6666&quot;&gt;/dubbo/config/dubbo/org.apache.dubbo.demo.DemoService:1.0.1:tulings.configurators&lt;/font&gt;路径" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="5750" y="2550" width="750" height="60" as="geometry" />
         </mxCell>
         <mxCell id="14DJCqyX7DSxiKLRsMho-125" value="return serviceConfigurationListener.overrideUrl(providerUrl);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
@@ -794,7 +797,7 @@
           <mxGeometry x="6310" y="3015" width="270" height="57" as="geometry" />
         </mxCell>
         <mxCell id="14DJCqyX7DSxiKLRsMho-157" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 在这个方法里会利用providerConfigurationListener和serviceConfigurationListener去重写providerUrl&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // providerConfigurationListener表示应用级别的动态配置监听器，providerConfigurationListener是RegistryProtocol的一个属性&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // serviceConfigurationListener表示服务级别的动态配置监听器，serviceConfigurationListener是在每暴露一个服务时就会生成一个&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 这两个监听器都是新版本中的监听器&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 新版本监听的zk路径是：&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 服务： /dubbo/config/dubbo/org.apache.dubbo.demo.DemoService.configurators节点的内容&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 应用： /dubbo/config/dubbo/dubbo-demo-provider-application.configurators节点的内容&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 注意，要喝配置中心的路径区分开来，配置中心的路径是：&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 应用：/dubbo/config/dubbo/org.apache.dubbo.demo.DemoService/dubbo.properties节点的内容&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 全局：/dubbo/config/dubbo/dubbo.properties节点的内容" style="text;whiteSpace=wrap;html=1;fontColor=#FF6666;" parent="1" vertex="1">
-          <mxGeometry x="5210" y="2600" width="550" height="230" as="geometry" />
+          <mxGeometry x="5190" y="2520" width="550" height="230" as="geometry" />
         </mxCell>
         <mxCell id="14DJCqyX7DSxiKLRsMho-158" value="对应老版本监听&lt;br&gt;registry.subscribe(overrideSubscribeUrl, overrideSubscribeListener);" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="5240" y="3110" width="430" height="47" as="geometry" />
@@ -1583,6 +1586,29 @@
         </mxCell>
         <mxCell id="Tw0gy_nr8mXzEnZLdOoG-7" value="如果配置文件中显示的配置了注册中心" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1677" y="380" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Tw0gy_nr8mXzEnZLdOoG-11" value="在构造方法中会监听&lt;font color=&quot;#ff6666&quot;&gt;/dubbo/config/dubbo/dubbo-demo-provider1-application.configurators&lt;/font&gt;路径，并拉取配置保存到本地" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="5240" y="2260" width="410" height="74.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Tw0gy_nr8mXzEnZLdOoG-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.07;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#7EA6E0;" edge="1" parent="1" source="Tw0gy_nr8mXzEnZLdOoG-14" target="22falqz4Or-8pj2Nucx1-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tw0gy_nr8mXzEnZLdOoG-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.07;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#7EA6E0;" edge="1" parent="1" source="Tw0gy_nr8mXzEnZLdOoG-14" target="22falqz4Or-8pj2Nucx1-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tw0gy_nr8mXzEnZLdOoG-14" value="配置中心" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="2955" y="980" width="265" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Tw0gy_nr8mXzEnZLdOoG-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#7EA6E0;exitX=0.16;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Tw0gy_nr8mXzEnZLdOoG-17" target="Tw0gy_nr8mXzEnZLdOoG-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5856" y="2000" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tw0gy_nr8mXzEnZLdOoG-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#7EA6E0;" edge="1" parent="1" source="Tw0gy_nr8mXzEnZLdOoG-17" target="14DJCqyX7DSxiKLRsMho-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tw0gy_nr8mXzEnZLdOoG-17" value="动态配置" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="5750" y="2132.5" width="265" height="105" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
