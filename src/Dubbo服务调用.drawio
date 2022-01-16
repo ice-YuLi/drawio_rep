@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T15:05:49.286Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="R3nN8DBDe5ozm1BEuDxP" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-16T15:21:15.302Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="NEwLswzT8neete6ALYRR" version="16.2.7" type="github">
   <diagram id="N_SzV05Sl-xpzJkPLOpi" name="第 1 页">
-    <mxGraphModel dx="1422" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2031" dy="1199" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -293,6 +293,18 @@
         </mxCell>
         <mxCell id="OXep2yuAuGdIZl1_ptaH-132" value="Object value = doInvoke(proxy, invocation.getMethodName(), invocation.getParameterTypes(), invocation.getArguments());" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3860" y="700" width="460" height="58.75" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-134" value="HeaderExchangeServer.java" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="830" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-135" value="HeaderExchangeClient.java" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="830" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OXep2yuAuGdIZl1_ptaH-136" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontColor=#FF6666;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="460" y="854.29" as="sourcePoint" />
+            <mxPoint x="580" y="854.29" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
