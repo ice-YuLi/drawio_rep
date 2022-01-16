@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T03:20:01.283Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="Z-s6342pPZnpKySwxKz_" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-16T06:23:39.817Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="gXCPhcT-fKdba-7aHQ4o" version="16.2.7" type="github">
   <diagram id="X9GWFMycw5CkecgqAMtU" name="第 1 页">
     <mxGraphModel dx="2249" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,13 +8,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zEMwbz32WlnbUP1lw_Iq-1" value="1. 如果配置了注册中心，连接zookeeper，并抓取上面的配置信息，包括全局配置信息，和针对具体应用的配置信息&lt;br&gt;2.如果没有显示的指明配置信息，就将注册中心作为配置中心" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="710" y="130" width="340" height="80" as="geometry" />
+          <mxGeometry x="710" y="40" width="340" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zEMwbz32WlnbUP1lw_Iq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zEMwbz32WlnbUP1lw_Iq-2" target="zEMwbz32WlnbUP1lw_Iq-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zEMwbz32WlnbUP1lw_Iq-2" target="zEMwbz32WlnbUP1lw_Iq-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="290" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="zEMwbz32WlnbUP1lw_Iq-2" value="根据配置优先级刷新本地的XxxConfig文件中的属性值" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="270" width="320" height="60" as="geometry" />
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-2" value="根据配置优先级刷新本地的configConfig文件中的属性值" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="180" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zEMwbz32WlnbUP1lw_Iq-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zEMwbz32WlnbUP1lw_Iq-4" target="zEMwbz32WlnbUP1lw_Iq-6">
           <mxGeometry relative="1" as="geometry" />
@@ -22,7 +24,7 @@
         <mxCell id="zEMwbz32WlnbUP1lw_Iq-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zEMwbz32WlnbUP1lw_Iq-4" target="zEMwbz32WlnbUP1lw_Iq-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zEMwbz32WlnbUP1lw_Iq-4" value="根据配置优先级刷新本地的XxxConfig文件中的属性值" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-4" value="根据配置优先级刷新本地其他的XxxConfig文件中的属性值" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="720" y="380" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zEMwbz32WlnbUP1lw_Iq-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zEMwbz32WlnbUP1lw_Iq-6" target="zEMwbz32WlnbUP1lw_Iq-12">
@@ -58,6 +60,9 @@
         <mxCell id="zEMwbz32WlnbUP1lw_Iq-16" value="如果有配置了多个protocol和registry，会&lt;br&gt;产生笛卡尔积个invoker" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="540" width="323" height="170" as="geometry" />
         </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zEMwbz32WlnbUP1lw_Iq-17" target="zEMwbz32WlnbUP1lw_Iq-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zEMwbz32WlnbUP1lw_Iq-17" value="导出服务" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="625" y="880" width="210" height="60" as="geometry" />
         </mxCell>
@@ -88,8 +93,50 @@
         <mxCell id="zEMwbz32WlnbUP1lw_Iq-27" value="&lt;span&gt;通过invoker创建代理对象&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="940" y="880" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zEMwbz32WlnbUP1lw_Iq-29" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="900" width="120" height="60" as="geometry" />
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zEMwbz32WlnbUP1lw_Iq-29" target="zEMwbz32WlnbUP1lw_Iq-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-29" value="根据服务提供者的URL提取元素组成一个zookeeper上的“服务配置”路径，并进行监听" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="980" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zEMwbz32WlnbUP1lw_Iq-31" target="zEMwbz32WlnbUP1lw_Iq-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-31" value="注册完事后，会主动调用一次监听的响应事件，抓取zookeeper上数据，重写服务提供者的URL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1109" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zEMwbz32WlnbUP1lw_Iq-33" target="zEMwbz32WlnbUP1lw_Iq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-33" value="从配置中心获取配置" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="280" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zEMwbz32WlnbUP1lw_Iq-35" target="zEMwbz32WlnbUP1lw_Iq-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-35" value="根据协议启动&lt;span&gt;对应的网络服务器（netty、tomcat、jetty等），用来接收网络请求&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1220" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zEMwbz32WlnbUP1lw_Iq-38" target="zEMwbz32WlnbUP1lw_Iq-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-38" value="获取注册中心的地址" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1330" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zEMwbz32WlnbUP1lw_Iq-39" target="zEMwbz32WlnbUP1lw_Iq-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-39" value="简化服务提供者的URL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1430" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-42" value="注册服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1530" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-44" value="给来的动态配置节点注册监听" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1620" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-45" value="&lt;ul&gt;&#xa;  &lt;li&gt;0 = &quot;/dubbo/org.apache.dubbo.demo.DemoService/configurators&quot;&lt;/li&gt;&#xa;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1610" width="410" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
