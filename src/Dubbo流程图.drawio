@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T06:23:39.817Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="gXCPhcT-fKdba-7aHQ4o" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-16T07:02:10.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="6ODuhVDiVOVRbaTvoY7u" version="16.2.7" type="github">
   <diagram id="X9GWFMycw5CkecgqAMtU" name="第 1 页">
     <mxGraphModel dx="2249" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -84,14 +84,14 @@
         <mxCell id="zEMwbz32WlnbUP1lw_Iq-24" value="refer -&gt; application%3Ddubbo-demo-consumer-application%26dubbo%3D2.0.2%26group%3Dtulings%26interface%3Dorg.apache.dubbo.demo.DemoService%26lazy%3Dfalse%26methods%3DsayHello%26mock%3Dfail%253A%2Breturn%2B123%26pid%3D15924%26register.ip%3D169.254.177.154%26release%3D2.7.0%26revision%3D1.0.1%26side%3Dconsumer%26sticky%3Dfalse%26timestamp%3D1642302336987%26version%3D1.0.1" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="645" width="550" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="zEMwbz32WlnbUP1lw_Iq-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zEMwbz32WlnbUP1lw_Iq-25" target="zEMwbz32WlnbUP1lw_Iq-27">
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zEMwbz32WlnbUP1lw_Iq-25" target="zEMwbz32WlnbUP1lw_Iq-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zEMwbz32WlnbUP1lw_Iq-25" value="&lt;span&gt;通过注册中心的URL生成invoker，用来调用服务提供者&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="940" y="770" width="190" height="60" as="geometry" />
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-25" value="创建服务目录" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="940" y="760" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zEMwbz32WlnbUP1lw_Iq-27" value="&lt;span&gt;通过invoker创建代理对象&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="940" y="880" width="190" height="60" as="geometry" />
+          <mxGeometry x="940" y="1430" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zEMwbz32WlnbUP1lw_Iq-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zEMwbz32WlnbUP1lw_Iq-29" target="zEMwbz32WlnbUP1lw_Iq-31">
           <mxGeometry relative="1" as="geometry" />
@@ -137,6 +137,39 @@
         </mxCell>
         <mxCell id="zEMwbz32WlnbUP1lw_Iq-45" value="&lt;ul&gt;&#xa;  &lt;li&gt;0 = &quot;/dubbo/org.apache.dubbo.demo.DemoService/configurators&quot;&lt;/li&gt;&#xa;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="1610" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zEMwbz32WlnbUP1lw_Iq-47" target="zEMwbz32WlnbUP1lw_Iq-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-47" value="简化服务消费者的URL" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="940" y="880" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zEMwbz32WlnbUP1lw_Iq-49" target="zEMwbz32WlnbUP1lw_Iq-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-49" value="将服务消费者的URL，注册到注册中心上" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="940" y="980" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zEMwbz32WlnbUP1lw_Iq-51" target="zEMwbz32WlnbUP1lw_Iq-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-51" value="构建路由链" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1109" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-53" value="&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;// 0 = {MockRouterFactory@2880}&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;// 1 = {TagRouterFactory@2881}&amp;nbsp; &amp;nbsp; &amp;nbsp; // 标签路由&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt; &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;// 2 = {AppRouterFactory@2882}&amp;nbsp; &amp;nbsp; &amp;nbsp; // 应用条件路由&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;// 3 = {ServiceRouterFactory@2883}&amp;nbsp; // 服务条件路由&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="920" width="370" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zEMwbz32WlnbUP1lw_Iq-54" target="zEMwbz32WlnbUP1lw_Iq-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-54" value="配置动态配置路径的监听" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1220" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zEMwbz32WlnbUP1lw_Iq-57" target="zEMwbz32WlnbUP1lw_Iq-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zEMwbz32WlnbUP1lw_Iq-57" value="创建invoker" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1330" width="190" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
