@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-22T07:27:52.243Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="Ww-u8eeHCM85EssWjM1o" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-22T07:30:24.991Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="Kx4YFLRdC9cedDySSkyb" version="16.2.7" type="github">
   <diagram id="9Jib3zGNq0ts4SGHkbJN" name="第 1 页">
     <mxGraphModel dx="1673" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -136,6 +136,9 @@
         <mxCell id="RgtNuZpuRyTk0q1dO5W1-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-44" target="RgtNuZpuRyTk0q1dO5W1-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-44" target="RgtNuZpuRyTk0q1dO5W1-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RgtNuZpuRyTk0q1dO5W1-44" value="DistroConsistencyServiceImpl.java" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2880" y="607.5" width="350" height="50" as="geometry" />
         </mxCell>
@@ -177,6 +180,12 @@
         </mxCell>
         <mxCell id="RgtNuZpuRyTk0q1dO5W1-60" value="updateIPs(value.getInstanceList(), KeyBuilder.matchEphemeralInstanceListKey(key));" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="4300" y="825" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-62" target="RgtNuZpuRyTk0q1dO5W1-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-62" value="在DistroConsistencyServiceImpl中通过@PostConstruct注解执行任务&lt;br&gt;GlobalExecutor.submitDistroNotifyTask(notifier);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2880" y="855" width="350" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
