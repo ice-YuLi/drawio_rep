@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-22T06:19:38.403Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="09cyfbSF4DQz5pIT-Fl1" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-22T07:27:52.243Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="Ww-u8eeHCM85EssWjM1o" version="16.2.7" type="github">
   <diagram id="9Jib3zGNq0ts4SGHkbJN" name="第 1 页">
-    <mxGraphModel dx="1422" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,6 +11,12 @@
           <mxGeometry x="180" y="150" width="400" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RgtNuZpuRyTk0q1dO5W1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-2" target="RgtNuZpuRyTk0q1dO5W1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-2" target="RgtNuZpuRyTk0q1dO5W1-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-2" target="RgtNuZpuRyTk0q1dO5W1-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RgtNuZpuRyTk0q1dO5W1-2" value="serviceManager.registerInstance(namespaceId, serviceName, instance);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -37,11 +43,17 @@
         <mxCell id="RgtNuZpuRyTk0q1dO5W1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-8" target="RgtNuZpuRyTk0q1dO5W1-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-8" target="RgtNuZpuRyTk0q1dO5W1-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RgtNuZpuRyTk0q1dO5W1-8" value="putServiceAndInit(service);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1690" y="150" width="410" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-10" target="RgtNuZpuRyTk0q1dO5W1-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RgtNuZpuRyTk0q1dO5W1-10" value="只将 service 放到 serviceMap 中 serviceMap.put(group::serviceName, Service)，此时的 service 中的 cluster 还是 null&lt;br&gt;putServiceAndInit(service);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2230" y="70" width="410" height="50" as="geometry" />
+          <mxGeometry x="2230" y="20" width="410" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RgtNuZpuRyTk0q1dO5W1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-12" target="RgtNuZpuRyTk0q1dO5W1-16">
           <mxGeometry relative="1" as="geometry" />
@@ -58,8 +70,113 @@
         <mxCell id="RgtNuZpuRyTk0q1dO5W1-16" value="DelegateConsistencyServiceImpl.java&lt;br&gt;mapConsistencyService(key).listen(key, listener);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2890" y="220" width="290" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="RgtNuZpuRyTk0q1dO5W1-18" value="DelegateConsistencyServiceImpl.java&lt;br&gt;mapConsistencyService(key).listen(key, listener);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3308" y="220" width="290" height="50" as="geometry" />
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-18" value="DistroConsistencyServiceImpl.java&lt;br&gt;存到 listeners 集合中&lt;br&gt;listeners.put(key, new ConcurrentLinkedQueue&amp;lt;&amp;gt;())&lt;br&gt;&amp;nbsp;listeners.get(key).add(listener);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3290" y="205" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-20" value="心跳&lt;br&gt;service.init();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="110" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;dashed=1;curved=1;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-22" target="RgtNuZpuRyTk0q1dO5W1-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-22" value="把刚放进去的 service 又取出来了&lt;br&gt;Service service = getService(namespaceId, serviceName);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="270" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-24" value="serviceMap.put(service.getNamespaceId(), new ConcurrentSkipListMap&amp;lt;&amp;gt;());" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2740" y="20" width="470" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-27" target="RgtNuZpuRyTk0q1dO5W1-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-27" value="addInstance(namespaceId, serviceName, instance.isEphemeral(), instance);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="550" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;curved=1;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-29" target="RgtNuZpuRyTk0q1dO5W1-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-29" target="RgtNuZpuRyTk0q1dO5W1-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-29" value="把刚放进去的 service 又取出来了&lt;br&gt;Service service = getService(namespaceId, serviceName);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="550" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-32" target="RgtNuZpuRyTk0q1dO5W1-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-32" target="RgtNuZpuRyTk0q1dO5W1-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-32" value="给具体的servcei加锁&lt;br&gt;synchronized (service)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="542.5" width="180" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-34" target="RgtNuZpuRyTk0q1dO5W1-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-34" value="List&amp;lt;Instance&amp;gt; instanceList = addIpAddresses(service, ephemeral, ips);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2410" y="492.5" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-36" value="获取实例" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2840" y="492.5" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-38" target="RgtNuZpuRyTk0q1dO5W1-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-38" value="consistencyService.put(key, instances);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2410" y="620" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-40" value="放到dataStore属性中，在其他地方开启异步线程处理里面的数据&lt;br&gt;dataStore.put(key, datum); // value 是&amp;nbsp;instances" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3300" y="557.5" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-43" value="数据一致性协议" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2420" y="560" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-44" target="RgtNuZpuRyTk0q1dO5W1-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-44" target="RgtNuZpuRyTk0q1dO5W1-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-44" value="DistroConsistencyServiceImpl.java" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2880" y="607.5" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-46" target="RgtNuZpuRyTk0q1dO5W1-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-46" target="RgtNuZpuRyTk0q1dO5W1-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-46" value="notifier.addTask(key, DataOperation.CHANGE);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3300" y="657.5" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-48" value="入队&lt;br&gt;tasks.offer(Pair.with(datumKey, action));" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3730" y="600" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-50" target="RgtNuZpuRyTk0q1dO5W1-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-50" target="RgtNuZpuRyTk0q1dO5W1-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-50" value="run方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3740" y="790" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-53" target="RgtNuZpuRyTk0q1dO5W1-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-53" value="&lt;div&gt;if (!listeners.containsKey(datumKey)) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="3950" y="720" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;curved=1;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-56" target="RgtNuZpuRyTk0q1dO5W1-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-56" target="RgtNuZpuRyTk0q1dO5W1-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-56" value="这里的listener就是前文的service&lt;br&gt;listener.onChange(datumKey, dataStore.get(datumKey).value);" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="3950" y="830" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-60" value="updateIPs(value.getInstanceList(), KeyBuilder.matchEphemeralInstanceListKey(key));" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="4300" y="825" width="320" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
