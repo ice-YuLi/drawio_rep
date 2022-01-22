@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2022-01-22T06:06:49.364Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" version="16.2.7" etag="4RGHmXNq-7krOd9xB05P" type="github"><diagram id="9Jib3zGNq0ts4SGHkbJN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-22T06:19:38.403Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="09cyfbSF4DQz5pIT-Fl1" version="16.2.7" type="github">
+  <diagram id="9Jib3zGNq0ts4SGHkbJN" name="第 1 页">
+    <mxGraphModel dx="1422" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-1" target="RgtNuZpuRyTk0q1dO5W1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-1" value="服务注册&lt;br&gt;com.alibaba.nacos.naming.controllers.InstanceController#register" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="150" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-2" target="RgtNuZpuRyTk0q1dO5W1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-2" value="serviceManager.registerInstance(namespaceId, serviceName, instance);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="155" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-4" target="RgtNuZpuRyTk0q1dO5W1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-4" target="RgtNuZpuRyTk0q1dO5W1-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-4" value="创建service，并放到serviceMap中&lt;br&gt;createEmptyService(namespaceId, serviceName, instance.isEphemeral());" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="100" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-6" value="用于心跳的超时检测&lt;br&gt;service.setLastModifiedMillis(System.currentTimeMillis());" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="20" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-8" target="RgtNuZpuRyTk0q1dO5W1-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-8" target="RgtNuZpuRyTk0q1dO5W1-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-8" target="RgtNuZpuRyTk0q1dO5W1-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-8" value="putServiceAndInit(service);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="150" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-10" value="只将 service 放到 serviceMap 中 serviceMap.put(group::serviceName, Service)，此时的 service 中的 cluster 还是 null&lt;br&gt;putServiceAndInit(service);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="70" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-12" target="RgtNuZpuRyTk0q1dO5W1-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-12" value="&lt;div&gt;临时实例&lt;/div&gt;&lt;div&gt;consistencyService&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .listen(KeyBuilder.buildInstanceListKey(service.getNamespaceId(), service.getName(), true), service);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="210" width="580" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-14" value="&lt;div&gt;持久实例&lt;/div&gt;&lt;div&gt;consistencyService&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .listen(KeyBuilder.buildInstanceListKey(service.getNamespaceId(), service.getName(), true), service);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="340" width="580" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RgtNuZpuRyTk0q1dO5W1-16" target="RgtNuZpuRyTk0q1dO5W1-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-16" value="DelegateConsistencyServiceImpl.java&lt;br&gt;mapConsistencyService(key).listen(key, listener);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2890" y="220" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RgtNuZpuRyTk0q1dO5W1-18" value="DelegateConsistencyServiceImpl.java&lt;br&gt;mapConsistencyService(key).listen(key, listener);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3308" y="220" width="290" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
