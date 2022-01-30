@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2022-01-30T13:04:34.401Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" version="16.4.3" etag="VL3KNgvg68PmUxCWiPe_" type="github"><diagram id="88hHA2nksdQzYd1kQ8YI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-30T13:19:11.193Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="ujMT6tcEvniAbLYiFOJI" version="16.4.3" type="github">
+  <diagram id="88hHA2nksdQzYd1kQ8YI" name="第 1 页">
+    <mxGraphModel dx="946" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r_lbyEYdGfCqy8FVjehA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="r_lbyEYdGfCqy8FVjehA-1" target="r_lbyEYdGfCqy8FVjehA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r_lbyEYdGfCqy8FVjehA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="r_lbyEYdGfCqy8FVjehA-1" target="r_lbyEYdGfCqy8FVjehA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r_lbyEYdGfCqy8FVjehA-1" value="SentinelAutoConfiguration.class&lt;br&gt;注册&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;SentinelResourceAspect切面bean&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="110" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r_lbyEYdGfCqy8FVjehA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="r_lbyEYdGfCqy8FVjehA-2" target="r_lbyEYdGfCqy8FVjehA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r_lbyEYdGfCqy8FVjehA-2" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#080808&quot; face=&quot;jetbrains mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;进行资源校验&lt;br/&gt;entry = SphU.entry();&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;jetbrains mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="230" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r_lbyEYdGfCqy8FVjehA-4" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;pre&gt;&lt;font color=&quot;#080808&quot; face=&quot;jetbrains mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;进行异常处理&lt;br/&gt;handleBlockException&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="340" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r_lbyEYdGfCqy8FVjehA-6" value="在beanpostprocesso的postProcessMergedBeanDefinition中处理SentinelRestTemplate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="110" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r_lbyEYdGfCqy8FVjehA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="r_lbyEYdGfCqy8FVjehA-8" target="r_lbyEYdGfCqy8FVjehA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r_lbyEYdGfCqy8FVjehA-8" value="SentinelWebAutoConfiguration.class" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="110" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r_lbyEYdGfCqy8FVjehA-10" value="注册&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;SentinelWebInterceptor拦截器，该拦截器是实现&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;AbstractSentinelInterceptor&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="250" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="r_lbyEYdGfCqy8FVjehA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="r_lbyEYdGfCqy8FVjehA-12" target="r_lbyEYdGfCqy8FVjehA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r_lbyEYdGfCqy8FVjehA-12" value="在springmvc的获取handlermapping之前会调用prehandler方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="252.5" width="200" height="85" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
