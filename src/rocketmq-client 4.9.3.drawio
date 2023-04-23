@@ -1,37 +1,99 @@
-<mxfile host="app.diagrams.net" modified="2023-04-23T12:00:09.339Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.139 Safari/537.36" etag="jnR17E2e9hhgKkoWIJ1_" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-23T12:30:21.122Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.139 Safari/537.36" etag="QGTbu6fjuZA8RilO4sPz" version="21.2.1" type="github">
   <diagram name="第 1 页" id="IU7aOQ9VipTSvC4_DZ-x">
-    <mxGraphModel dx="2849" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="u1e75DGR59H8cyzuvioA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u1e75DGR59H8cyzuvioA-2" target="u1e75DGR59H8cyzuvioA-14">
+        <mxCell id="u1e75DGR59H8cyzuvioA-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u1e75DGR59H8cyzuvioA-2" target="u1e75DGR59H8cyzuvioA-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1e75DGR59H8cyzuvioA-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u1e75DGR59H8cyzuvioA-2" target="u1e75DGR59H8cyzuvioA-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u1e75DGR59H8cyzuvioA-2" value="PushConsumer" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="160" y="80" width="100" height="40" as="geometry" />
+          <mxGeometry x="-160" y="265" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u1e75DGR59H8cyzuvioA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u1e75DGR59H8cyzuvioA-7" target="u1e75DGR59H8cyzuvioA-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u1e75DGR59H8cyzuvioA-7" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre&gt;consumer.start();&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="135" y="280" width="150" height="40" as="geometry" />
+          <mxGeometry x="52.5" y="320" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u1e75DGR59H8cyzuvioA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=#000000;dashed=1;" edge="1" parent="1" source="u1e75DGR59H8cyzuvioA-14" target="u1e75DGR59H8cyzuvioA-16">
+        <mxCell id="u1e75DGR59H8cyzuvioA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=#000000;dashed=1;" edge="1" parent="1" source="u1e75DGR59H8cyzuvioA-14" target="u1e75DGR59H8cyzuvioA-16">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="210" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="u1e75DGR59H8cyzuvioA-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="u1e75DGR59H8cyzuvioA-14" target="u1e75DGR59H8cyzuvioA-7">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u1e75DGR59H8cyzuvioA-14" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre&gt;consumer.registerMessageListener()&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="52.5" y="180" width="315" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u1e75DGR59H8cyzuvioA-16" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre&gt;new MessageListenerConcurrently() {&lt;br&gt;&lt;br&gt;    &lt;span style=&quot;&quot;&gt;@Override&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;&quot;&gt;public &lt;/span&gt;ConsumeConcurrentlyStatus &lt;span style=&quot;&quot;&gt;consumeMessage&lt;/span&gt;(List&amp;lt;MessageExt&amp;gt; msgs&lt;span style=&quot;&quot;&gt;, &lt;/span&gt;ConsumeConcurrentlyContext context) {&lt;br&gt;        System.&lt;span style=&quot;font-style: italic;&quot;&gt;out&lt;/span&gt;.printf(&lt;span style=&quot;&quot;&gt;&quot;%s Receive New Messages: %s %n&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;, &lt;/span&gt;Thread.&lt;span style=&quot;font-style:italic;&quot;&gt;currentThread&lt;/span&gt;().getName()&lt;span style=&quot;&quot;&gt;, &lt;/span&gt;msgs)&lt;span style=&quot;&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;        return &lt;/span&gt;ConsumeConcurrentlyStatus.&lt;span style=&quot;font-style: italic;&quot;&gt;RECONSUME_LATER&lt;/span&gt;&lt;span style=&quot;&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;    &lt;/span&gt;}&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;fontColor=#000000;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-870" y="140" width="880" height="120" as="geometry" />
+          <mxGeometry x="450" y="90" width="880" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="u1e75DGR59H8cyzuvioA-21" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre&gt;DefaultMQPushConsumer.java&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="510" y="270" width="220" height="60" as="geometry" />
+        <mxCell id="u1e75DGR59H8cyzuvioA-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="u1e75DGR59H8cyzuvioA-21" target="u1e75DGR59H8cyzuvioA-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1e75DGR59H8cyzuvioA-21" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;DefaultMQPushConsumer.java#start()&lt;br/&gt;this.defaultMQPushConsumerImpl.start();&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="307.5" width="300" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="u1e75DGR59H8cyzuvioA-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="u1e75DGR59H8cyzuvioA-28" target="u1e75DGR59H8cyzuvioA-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1e75DGR59H8cyzuvioA-28" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;配置检查&lt;br/&gt;this.checkConfig();&lt;/font&gt;&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="750" y="317.5" width="170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="u1e75DGR59H8cyzuvioA-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u1e75DGR59H8cyzuvioA-30" target="u1e75DGR59H8cyzuvioA-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1e75DGR59H8cyzuvioA-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u1e75DGR59H8cyzuvioA-30" target="u1e75DGR59H8cyzuvioA-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1e75DGR59H8cyzuvioA-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u1e75DGR59H8cyzuvioA-30" target="u1e75DGR59H8cyzuvioA-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="834.6956521739135" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u1e75DGR59H8cyzuvioA-30" value="&lt;div&gt;this.defaultMQPushConsumer.getMessageModel()&lt;/div&gt;&lt;div&gt;等于 BROADCASTING 还是等于 CLUSTERING&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="440" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u1e75DGR59H8cyzuvioA-32" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;从本地磁盘文件读取 offset&lt;br&gt;this.offsetStore = new LocalFileOffsetStore()&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="360" width="340" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="u1e75DGR59H8cyzuvioA-34" value="BROADCASTING" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="960" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u1e75DGR59H8cyzuvioA-35" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;从 broker 读取 offset&lt;br&gt;this.offsetStore = new RemoteBrokerOffsetStore()&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="510" width="370" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="u1e75DGR59H8cyzuvioA-37" value="CLUSTERING" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="970" y="498" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u1e75DGR59H8cyzuvioA-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="u1e75DGR59H8cyzuvioA-43" target="u1e75DGR59H8cyzuvioA-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1e75DGR59H8cyzuvioA-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u1e75DGR59H8cyzuvioA-43" target="u1e75DGR59H8cyzuvioA-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1e75DGR59H8cyzuvioA-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="u1e75DGR59H8cyzuvioA-43" target="u1e75DGR59H8cyzuvioA-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1e75DGR59H8cyzuvioA-43" value="判断是是否位顺序消费&lt;br&gt;this.getMessageListenerInner() instanceof MessageListenerOrderly" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="660" width="390" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u1e75DGR59H8cyzuvioA-44" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;创建一个顺序消费的service&lt;br/&gt;this.consumeMessageService = new ConsumeMessageOrderlyService()&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="620" width="480" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="u1e75DGR59H8cyzuvioA-46" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;创建一个并发消费的service&lt;br/&gt;this.consumeMessageService = new ConsumeMessageConcurrentlyService()&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="720" width="490" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="u1e75DGR59H8cyzuvioA-48" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="648" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u1e75DGR59H8cyzuvioA-49" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="720" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u1e75DGR59H8cyzuvioA-50" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;真正的去启动消费者，拉取消息并消费&lt;br/&gt;mQClientFactory.start();&lt;/font&gt;&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="720" y="860" width="230" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
