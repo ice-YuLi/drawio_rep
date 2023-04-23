@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-23T13:56:28.408Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.139 Safari/537.36" etag="VzQgYSep_Tjf0ZKwAXJ3" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-23T14:15:52.291Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.139 Safari/537.36" etag="IepHTM5cjVyWdaFGI9Ng" version="21.2.1" type="github">
   <diagram name="第 1 页" id="IU7aOQ9VipTSvC4_DZ-x">
     <mxGraphModel dx="2193" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -159,9 +159,6 @@
         <mxCell id="X7Jx9eTg-U3O_y43wXAH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u1e75DGR59H8cyzuvioA-56" target="X7Jx9eTg-U3O_y43wXAH-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7Jx9eTg-U3O_y43wXAH-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u1e75DGR59H8cyzuvioA-56" target="X7Jx9eTg-U3O_y43wXAH-39">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="u1e75DGR59H8cyzuvioA-56" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;拉取消息&lt;br/&gt;this.pullMessageService.start();&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1130" y="1100" width="260" height="40" as="geometry" />
         </mxCell>
@@ -232,6 +229,14 @@
         </mxCell>
         <mxCell id="X7Jx9eTg-U3O_y43wXAH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X7Jx9eTg-U3O_y43wXAH-12" target="X7Jx9eTg-U3O_y43wXAH-25">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X7Jx9eTg-U3O_y43wXAH-12" target="X7Jx9eTg-U3O_y43wXAH-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2840" y="1318" />
+              <mxPoint x="2840" y="1522" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="X7Jx9eTg-U3O_y43wXAH-12" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;impl.pullMessage(pullRequest);&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2260" y="1296.5" width="280" height="43.5" as="geometry" />
@@ -304,8 +309,81 @@
         <mxCell id="X7Jx9eTg-U3O_y43wXAH-37" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="3220" y="1388" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X7Jx9eTg-U3O_y43wXAH-39" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;拉取消息&lt;br/&gt;this.pullMessage(pullRequest);&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1670" y="1430" width="260" height="40" as="geometry" />
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="X7Jx9eTg-U3O_y43wXAH-41" target="X7Jx9eTg-U3O_y43wXAH-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-41" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;拉取消息&lt;br/&gt;this.pullAPIWrapper.pullKernelImpl()&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="1500" width="280" height="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="X7Jx9eTg-U3O_y43wXAH-43" target="X7Jx9eTg-U3O_y43wXAH-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3790" y="1522" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X7Jx9eTg-U3O_y43wXAH-43" target="X7Jx9eTg-U3O_y43wXAH-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-43" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;获取 message queue 对应的 broker 的 addr&lt;br/&gt;this.mQClientFactory.findBrokerAddressInSubscribe(）&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3308" y="1476.75" width="432" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X7Jx9eTg-U3O_y43wXAH-47" target="X7Jx9eTg-U3O_y43wXAH-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4090" y="1460" />
+              <mxPoint x="3524" y="1460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-47" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;重新查询 nameSrv 获取 topic queue 和 broker 的映射关系&lt;br/&gt;this.mQClientFactory.updateTopicRouteInfoFromNameServer(mq.getTopic());&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3830" y="1495" width="520" height="53.5" as="geometry" />
+        </mxCell>
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-48" value="为 null" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3740" y="1498" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X7Jx9eTg-U3O_y43wXAH-50" target="X7Jx9eTg-U3O_y43wXAH-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4530" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-50" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;组装请求体，向指定的 broker 发送请求，拉取消息&lt;br&gt;this.mQClientFactory.getMQClientAPIImpl().pullMessage()&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3830" y="1620" width="430" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-52" value="拿到 broker addr" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3660" y="1620" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-56" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;case ONEWAY: 没有实现&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="4900" y="1531.75" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-57" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;同步请求&lt;br/&gt;case SYNC:&lt;br/&gt;return this.pullMessageSync(addr, request, timeoutMillis);&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="4900" y="1714" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-58" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;异步请求&lt;br&gt;case ASYNC:&lt;br&gt;this.pullMessageAsync(addr, request, timeoutMillis, pullCallback);&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="4900" y="1617.5" width="501" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X7Jx9eTg-U3O_y43wXAH-59" target="X7Jx9eTg-U3O_y43wXAH-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4700" y="1645" />
+              <mxPoint x="4700" y="1549" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X7Jx9eTg-U3O_y43wXAH-59" target="X7Jx9eTg-U3O_y43wXAH-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4700" y="1645" />
+              <mxPoint x="4700" y="1742" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X7Jx9eTg-U3O_y43wXAH-59" target="X7Jx9eTg-U3O_y43wXAH-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-59" value="请求方式&lt;br&gt;switch (communicationMode)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4350" y="1605" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-63" value="拉取消息-采用异步方式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4725" y="1617.5" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
