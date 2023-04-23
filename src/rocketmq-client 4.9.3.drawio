@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-23T14:15:52.291Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.139 Safari/537.36" etag="IepHTM5cjVyWdaFGI9Ng" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-23T14:19:12.967Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.139 Safari/537.36" etag="U3tCTmffRzu32RHfZwdW" version="21.2.1" type="github">
   <diagram name="第 1 页" id="IU7aOQ9VipTSvC4_DZ-x">
     <mxGraphModel dx="2193" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -323,7 +323,7 @@
         <mxCell id="X7Jx9eTg-U3O_y43wXAH-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X7Jx9eTg-U3O_y43wXAH-43" target="X7Jx9eTg-U3O_y43wXAH-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7Jx9eTg-U3O_y43wXAH-43" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;获取 message queue 对应的 broker 的 addr&lt;br/&gt;this.mQClientFactory.findBrokerAddressInSubscribe(）&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-43" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;获取 message queue 对应的 broker 的 addr&lt;br/&gt;PullAPIWrapper.java#pullKernelImpl()&lt;br/&gt;this.mQClientFactory.findBrokerAddressInSubscribe(）&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3308" y="1476.75" width="432" height="90" as="geometry" />
         </mxCell>
         <mxCell id="X7Jx9eTg-U3O_y43wXAH-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X7Jx9eTg-U3O_y43wXAH-47" target="X7Jx9eTg-U3O_y43wXAH-43">
@@ -353,6 +353,9 @@
         </mxCell>
         <mxCell id="X7Jx9eTg-U3O_y43wXAH-56" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;case ONEWAY: 没有实现&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="4900" y="1531.75" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="X7Jx9eTg-U3O_y43wXAH-57" target="X7Jx9eTg-U3O_y43wXAH-65">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="X7Jx9eTg-U3O_y43wXAH-57" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;同步请求&lt;br/&gt;case SYNC:&lt;br/&gt;return this.pullMessageSync(addr, request, timeoutMillis);&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="4900" y="1714" width="500" height="56" as="geometry" />
@@ -384,6 +387,9 @@
         </mxCell>
         <mxCell id="X7Jx9eTg-U3O_y43wXAH-63" value="拉取消息-采用异步方式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="4725" y="1617.5" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-65" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;MQClientAPIImpl.java#pullMessageAsync()&lt;br&gt;this.remotingClient.invokeAsync(..., new InvokeCallback() {})&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="5540" y="1719" width="450" height="46" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
