@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-23T14:24:53.746Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.139 Safari/537.36" etag="CUrajYZ25giCDNANtrFF" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T03:15:56.851Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.139 Safari/537.36" etag="Wt7XyB7qJUqfnDU6gf-j" version="21.2.1" type="github">
   <diagram name="第 1 页" id="IU7aOQ9VipTSvC4_DZ-x">
-    <mxGraphModel dx="2620" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2154" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -351,16 +351,16 @@
         <mxCell id="X7Jx9eTg-U3O_y43wXAH-52" value="拿到 broker addr" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="3660" y="1620" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X7Jx9eTg-U3O_y43wXAH-56" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;case ONEWAY: 没有实现&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-56" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;case ONEWAY: 没有实现&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="4900" y="1531.75" width="200" height="35" as="geometry" />
         </mxCell>
         <mxCell id="X7Jx9eTg-U3O_y43wXAH-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="X7Jx9eTg-U3O_y43wXAH-57" target="X7Jx9eTg-U3O_y43wXAH-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7Jx9eTg-U3O_y43wXAH-57" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;同步请求&lt;br/&gt;case SYNC:&lt;br/&gt;return this.pullMessageSync(addr, request, timeoutMillis);&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-57" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;同步请求&lt;br/&gt;case SYNC:&lt;br/&gt;return this.pullMessageSync(addr, request, timeoutMillis);&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="4900" y="1714" width="500" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="X7Jx9eTg-U3O_y43wXAH-58" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;异步请求&lt;br&gt;case ASYNC:&lt;br&gt;this.pullMessageAsync(addr, request, timeoutMillis, pullCallback);&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="X7Jx9eTg-U3O_y43wXAH-58" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;异步请求&lt;br&gt;case ASYNC:&lt;br&gt;this.pullMessageAsync(addr, request, timeoutMillis, pullCallback);&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="4900" y="1617.5" width="501" height="55" as="geometry" />
         </mxCell>
         <mxCell id="X7Jx9eTg-U3O_y43wXAH-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="X7Jx9eTg-U3O_y43wXAH-59" target="X7Jx9eTg-U3O_y43wXAH-56" edge="1">
@@ -406,7 +406,7 @@
         <mxCell id="fxxyixMKkO5f7XMiJ5xZ-1" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;this.invokeAsyncImpl(..., invokeCallback);&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="6120" y="1716.5" width="330" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="fxxyixMKkO5f7XMiJ5xZ-3" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;封装请求的 future 对象&lt;br&gt;final ResponseFuture responseFuture = new ResponseFuture(...);&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="fxxyixMKkO5f7XMiJ5xZ-3" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;封装请求的 future 对象&lt;br&gt;final ResponseFuture responseFuture = new ResponseFuture(...);&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="6616" y="1626.5" width="470" height="46" as="geometry" />
         </mxCell>
         <mxCell id="fxxyixMKkO5f7XMiJ5xZ-4" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;发送消息给 broker &lt;br/&gt;channel.writeAndFlush(request).addListener(&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
