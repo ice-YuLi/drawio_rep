@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T08:47:00.873Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.139 Safari/537.36" etag="l7oTqbXO2G_Dl-PaLGaH" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T08:59:42.000Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.139 Safari/537.36" etag="3_qPtZfOevrlgt4F0v3o" version="21.2.1" type="github">
   <diagram name="第 1 页" id="IU7aOQ9VipTSvC4_DZ-x">
-    <mxGraphModel dx="1671" dy="1589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2193" dy="1849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -466,7 +466,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GV2LIbkS6AeLCdov7jw_-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GV2LIbkS6AeLCdov7jw_-31" target="GV2LIbkS6AeLCdov7jw_-37">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3360" y="890" />
+              <mxPoint x="3360" y="1391" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="GV2LIbkS6AeLCdov7jw_-31" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;判断请求类型：是新的请求，还是自身请求的响应&lt;/pre&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;switch (cmd.getType()&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3020" y="852.5" width="280" height="75" as="geometry" />
@@ -474,8 +479,62 @@
         <mxCell id="GV2LIbkS6AeLCdov7jw_-35" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;新的请求&lt;br/&gt;case REQUEST_COMMAND&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="3420" y="790" width="200" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="GV2LIbkS6AeLCdov7jw_-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GV2LIbkS6AeLCdov7jw_-37" target="GV2LIbkS6AeLCdov7jw_-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GV2LIbkS6AeLCdov7jw_-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GV2LIbkS6AeLCdov7jw_-37" target="GV2LIbkS6AeLCdov7jw_-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GV2LIbkS6AeLCdov7jw_-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GV2LIbkS6AeLCdov7jw_-37" target="GV2LIbkS6AeLCdov7jw_-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GV2LIbkS6AeLCdov7jw_-37" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;自身请求的响应&lt;br/&gt;case RESPONSE_COMMAND&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="3420" y="927.5" width="200" height="42.5" as="geometry" />
+          <mxGeometry x="3420" y="1370" width="200" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GV2LIbkS6AeLCdov7jw_-39" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;从集合中获取请求时缓存的 future 对象&lt;br/&gt;ResponseFuture responseFuture = responseTable.get(opaque);&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3707" y="1260" width="428" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GV2LIbkS6AeLCdov7jw_-41" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;设置 response 数据&lt;br/&gt;responseFuture.setResponseCommand(cmd);&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="4080" y="1327.5" width="290" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GV2LIbkS6AeLCdov7jw_-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GV2LIbkS6AeLCdov7jw_-42" target="GV2LIbkS6AeLCdov7jw_-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GV2LIbkS6AeLCdov7jw_-42" value="responseFuture != null" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3707" y="1402.5" width="190" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="GV2LIbkS6AeLCdov7jw_-47" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;设置完请求的响应数据后，将请求对象的缓存移除&lt;br/&gt;responseTable.remove(opaque);&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="4080" y="1415" width="290" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GV2LIbkS6AeLCdov7jw_-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GV2LIbkS6AeLCdov7jw_-50" target="GV2LIbkS6AeLCdov7jw_-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GV2LIbkS6AeLCdov7jw_-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GV2LIbkS6AeLCdov7jw_-50" target="GV2LIbkS6AeLCdov7jw_-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GV2LIbkS6AeLCdov7jw_-50" value="true" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3960" y="1407.5" width="40" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="GV2LIbkS6AeLCdov7jw_-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GV2LIbkS6AeLCdov7jw_-54" target="GV2LIbkS6AeLCdov7jw_-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GV2LIbkS6AeLCdov7jw_-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GV2LIbkS6AeLCdov7jw_-54" target="GV2LIbkS6AeLCdov7jw_-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GV2LIbkS6AeLCdov7jw_-54" value="&lt;div&gt;是否设置了回调方法&lt;/div&gt;&lt;div&gt;responseFuture.getInvokeCallback()&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3707" y="1530" width="190" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="GV2LIbkS6AeLCdov7jw_-56" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;执行 callback 方法&lt;br/&gt;executeInvokeCallback(responseFuture)&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="4080" y="1500" width="290" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GV2LIbkS6AeLCdov7jw_-58" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;&lt;pre style=&quot;line-height: 100%;&quot;&gt;设置相映结果，释放 countDownlatch 以及 semaphore&lt;br/&gt;responseFuture.putResponse(cmd);&lt;br/&gt;responseFuture.release();&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="4080" y="1577.5" width="340" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GV2LIbkS6AeLCdov7jw_-60" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3950" y="1525" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GV2LIbkS6AeLCdov7jw_-63" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3945" y="1568" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
